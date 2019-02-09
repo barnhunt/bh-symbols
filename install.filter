@@ -1,0 +1,4 @@
+hide *~
+risk bh-*
+risk *~
+protect *
