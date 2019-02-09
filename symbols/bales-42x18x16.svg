@@ -22,32 +22,20 @@
   <defs
      id="defs2">
     <symbol
-       id="bale-1-42x18x16">
-      <title
-         id="title3">Bale, level 1, 42x18x16</title>
-      <rect
-         height="36"
-         width="84"
-         style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98170734"
-         x="0"
-         y="0"
-         id="rect5" />
-    </symbol>
-    <symbol
        id="bale-1-edge-42x18x16">
       <title
          id="title8">Bale on edge 42x18x16</title>
       <rect
          height="32"
          width="84"
-         style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
          x="0"
          y="0"
          id="rect10" />
       <rect
          height="32"
          width="84"
-         style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:url(#pattern10961);fill-opacity:0.8;stroke:none"
          x="0"
          y="0"
          id="rect12" />
@@ -82,7 +70,7 @@
       <rect
          y="0"
          x="0"
-         style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98170734"
+         style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
          width="84"
          height="36"
          id="rect26" />
@@ -101,7 +89,7 @@
       <rect
          y="0"
          x="0"
-         style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:url(#pattern10961);fill-opacity:0.8;stroke:none"
          width="84"
          height="32"
          id="rect33" />
@@ -136,7 +124,7 @@
       <rect
          height="36"
          width="84"
-         style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98170734"
+         style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
          x="0"
          y="0"
          id="rect47" />
@@ -155,7 +143,7 @@
       <rect
          height="32"
          width="84"
-         style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:url(#pattern10961);fill-opacity:0.8;stroke:none"
          x="0"
          y="0"
          id="rect54" />
@@ -527,7 +515,7 @@
          id="rect30420"
          y="0"
          x="0"
-         style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:url(#pattern10961);fill-opacity:0.8;stroke:none"
          width="84"
          height="32" />
     </symbol>
@@ -539,9 +527,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="421.91178"
-     inkscape:cy="847.55823"
+     inkscape:zoom="3.959798"
+     inkscape:cx="395.0784"
+     inkscape:cy="906.37664"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
@@ -626,14 +614,19 @@
        id="tspan8673"
        x="410.5625"
        y="72">Two-string Bales, 42x18x16</tspan></text>
-  <use
+  <g
      id="use13432"
-     xlink:href="#bale-1-42x18x16"
-     x="0"
-     y="0"
-     width="100%"
-     height="100%"
-     transform="translate(270,96)" />
+     transform="translate(270,96)">
+    <title
+       id="title10374">Bale, level 1, 42x18x16</title>
+    <rect
+       id="rect10376"
+       y="0"
+       x="0"
+       style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
+       width="84"
+       height="36" />
+  </g>
   <use
      xlink:href="#bale-1-edge-42x18x16"
      id="use13478"

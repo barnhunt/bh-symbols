@@ -28,7 +28,7 @@
       <rect
          height="48"
          width="96"
-         style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98170734"
+         style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
          x="0"
          y="0"
          id="rect5" />
@@ -47,7 +47,7 @@
       <rect
          height="36"
          width="96"
-         style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:url(#pattern10961);fill-opacity:0.8;stroke:none"
          x="0"
          y="0"
          id="rect12" />
@@ -82,7 +82,7 @@
       <rect
          y="0"
          x="0"
-         style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98170734"
+         style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
          width="96"
          height="48"
          id="rect26" />
@@ -101,7 +101,7 @@
       <rect
          y="0"
          x="0"
-         style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:url(#pattern10961);fill-opacity:0.8;stroke:none"
          width="96"
          height="36"
          id="rect33" />
@@ -136,7 +136,7 @@
       <rect
          height="48"
          width="96"
-         style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98170734"
+         style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
          x="0"
          y="0"
          id="rect47" />
@@ -155,7 +155,7 @@
       <rect
          height="36"
          width="96"
-         style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:url(#pattern10961);fill-opacity:0.8;stroke:none"
          x="0"
          y="0"
          id="rect54" />
@@ -210,7 +210,7 @@
          id="rect9822"
          y="0"
          x="0"
-         style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:url(#pattern10961);fill-opacity:0.8;stroke:none"
          width="96"
          height="36" />
     </symbol>
@@ -575,7 +575,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="412.56699"
+     inkscape:cx="294.37914"
      inkscape:cy="814.992"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
