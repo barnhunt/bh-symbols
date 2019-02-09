@@ -16,15 +16,15 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="bales-42x18x15.svg">
+   sodipodi:docname="bales-42x18x16.svg">
   <title
-     id="title8793">Two-string Bales, 42x18x15</title>
+     id="title8793">Two-string Bales, 42x18x16</title>
   <defs
      id="defs2">
     <symbol
-       id="bale-1-42x18x15">
+       id="bale-1-42x18x16">
       <title
-         id="title3">Bale, level 1, 42x18x15</title>
+         id="title3">Bale, level 1, 42x18x16</title>
       <rect
          height="36"
          width="84"
@@ -34,18 +34,18 @@
          id="rect5" />
     </symbol>
     <symbol
-       id="bale-1-edge-42x18x15">
+       id="bale-1-edge-42x18x16">
       <title
-         id="title8">Bale on edge 42x18x15</title>
+         id="title8">Bale on edge 42x18x16</title>
       <rect
-         height="30"
+         height="32"
          width="84"
          style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          x="0"
          y="0"
          id="rect10" />
       <rect
-         height="30"
+         height="32"
          width="84"
          style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          x="0"
@@ -53,9 +53,9 @@
          id="rect12" />
     </symbol>
     <symbol
-       id="bale-1-leaner-42x18x15">
+       id="bale-1-leaner-42x18x16">
       <title
-         id="title15">Bale, leaner, 42x18x15</title>
+         id="title15">Bale, leaner, 42x18x16</title>
       <rect
          style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          width="90"
@@ -76,9 +76,9 @@
          id="path21" />
     </symbol>
     <symbol
-       id="bale-2-42x18x15">
+       id="bale-2-42x18x16">
       <title
-         id="title24">Bale, level 2, 42x18x15</title>
+         id="title24">Bale, level 2, 42x18x16</title>
       <rect
          y="0"
          x="0"
@@ -88,28 +88,28 @@
          id="rect26" />
     </symbol>
     <symbol
-       id="bale-2-edge-42x18x15">
+       id="bale-2-edge-42x18x16">
       <title
-         id="title29">Bale. 2nd level, on edge 42x18x15</title>
+         id="title29">Bale. 2nd level, on edge 42x18x16</title>
       <rect
          y="0"
          x="0"
          style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          width="84"
-         height="30"
+         height="32"
          id="rect31" />
       <rect
          y="0"
          x="0"
          style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          width="84"
-         height="30"
+         height="32"
          id="rect33" />
     </symbol>
     <symbol
-       id="bale-2-leaner-42x18x15">
+       id="bale-2-leaner-42x18x16">
       <title
-         id="title36">Bale, 2nd level, leaner, 42x18x15</title>
+         id="title36">Bale, 2nd level, leaner, 42x18x16</title>
       <rect
          y="0"
          x="0"
@@ -130,9 +130,9 @@
          id="path42" />
     </symbol>
     <symbol
-       id="bale-3-42x18x15">
+       id="bale-3-42x18x16">
       <title
-         id="title45">Bale, level 3, 42x18x15</title>
+         id="title45">Bale, level 3, 42x18x16</title>
       <rect
          height="36"
          width="84"
@@ -142,18 +142,18 @@
          id="rect47" />
     </symbol>
     <symbol
-       id="bale-3-edge-42x18x15">
+       id="bale-3-edge-42x18x16">
       <title
-         id="title50">Bale. 23rd level, on edge 42x18x15</title>
+         id="title50">Bale. 23rd level, on edge 42x18x16</title>
       <rect
-         height="30"
+         height="32"
          width="84"
          style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          x="0"
          y="0"
          id="rect52" />
       <rect
-         height="30"
+         height="32"
          width="84"
          style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          x="0"
@@ -161,9 +161,9 @@
          id="rect54" />
     </symbol>
     <symbol
-       id="bale-3-leaner-42x18x15">
+       id="bale-3-leaner-42x18x16">
       <title
-         id="title57">Bale, 3rd level, leaner, 42x18x15</title>
+         id="title57">Bale, 3rd level, leaner, 42x18x16</title>
       <rect
          style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          width="90"
@@ -509,17 +509,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="269.68569"
+     inkscape:cx="271.11426"
      inkscape:cy="795.6813"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
      units="in"
-     inkscape:window-width="896"
-     inkscape:window-height="433"
-     inkscape:window-x="2463"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1161"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      scale-x="1">
     <inkscape:grid
        type="xygrid"
@@ -559,7 +559,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Two-string Bales, 42x18x15</dc:title>
+        <dc:title>Two-string Bales, 42x18x16</dc:title>
         <dc:creator>
           <cc:Agent>
             <dc:title>Jeff Dairiki &lt;dairiki@dairiki.org&gt;</dc:title>
@@ -587,14 +587,14 @@
   </metadata>
   <use
      id="use13432"
-     xlink:href="#bale-1-42x18x15"
+     xlink:href="#bale-1-42x18x16"
      x="0"
      y="0"
      width="100%"
      height="100%"
      transform="translate(267,96)" />
   <use
-     xlink:href="#bale-1-edge-42x18x15"
+     xlink:href="#bale-1-edge-42x18x16"
      id="use13478"
      transform="translate(465,96)"
      x="0"
@@ -603,14 +603,14 @@
      height="100%" />
   <use
      id="use14248"
-     xlink:href="#bale-1-leaner-42x18x15"
+     xlink:href="#bale-1-leaner-42x18x16"
      x="0"
      y="0"
      width="100%"
      height="100%"
      transform="translate(363,96)" />
   <use
-     xlink:href="#bale-2-42x18x15"
+     xlink:href="#bale-2-42x18x16"
      id="use16370"
      transform="translate(267,144)"
      x="0"
@@ -618,7 +618,7 @@
      width="100%"
      height="100%" />
   <use
-     xlink:href="#bale-2-edge-42x18x15"
+     xlink:href="#bale-2-edge-42x18x16"
      id="use16453"
      transform="translate(465,144)"
      x="0"
@@ -626,7 +626,7 @@
      width="100%"
      height="100%" />
   <use
-     xlink:href="#bale-2-leaner-42x18x15"
+     xlink:href="#bale-2-leaner-42x18x16"
      id="use16542"
      transform="translate(363,144)"
      x="0"
@@ -634,7 +634,7 @@
      width="100%"
      height="100%" />
   <use
-     xlink:href="#bale-3-42x18x15"
+     xlink:href="#bale-3-42x18x16"
      id="use18029"
      transform="translate(267,192)"
      x="0"
@@ -642,7 +642,7 @@
      width="100%"
      height="100%" />
   <use
-     xlink:href="#bale-3-leaner-42x18x15"
+     xlink:href="#bale-3-leaner-42x18x16"
      id="use18142"
      transform="translate(363,192)"
      x="0"
@@ -650,7 +650,7 @@
      width="100%"
      height="100%" />
   <use
-     xlink:href="#bale-3-edge-42x18x15"
+     xlink:href="#bale-3-edge-42x18x16"
      id="use18269"
      transform="translate(465,192)"
      x="0"
@@ -666,5 +666,5 @@
        sodipodi:role="line"
        id="tspan8673"
        x="410.5625"
-       y="72">Two-string Bales, 42x18x15</tspan></text>
+       y="72">Two-string Bales, 42x18x16</tspan></text>
 </svg>
