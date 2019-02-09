@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="8.5in"
+   height="11in"
+   viewBox="0 0 816 1056"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="bh-rings.svg"
+   enable-background="new">
+  <title
+     id="title9094">Ring Outlines and Wall</title>
+  <defs
+     id="defs2">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_5"
+       id="pattern10257"
+       patternTransform="matrix(1.6117667,2.3954706,-0.25554634,0.1719416,0,0)" />
+    <pattern
+       inkscape:stockid="Stripes 1:5"
+       id="Strips1_5"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect9563"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8682">
+      <use
+         height="100%"
+         width="100%"
+         id="use8684"
+         xlink:href="#course-outline"
+         y="0"
+         x="0"
+         style="display:inline"
+         transform="translate(-263.99999,-144.00001)" />
+    </clipPath>
+    <symbol
+       id="back-wall-24">
+      <title
+         id="title15540">Back Wall, 24'</title>
+      <rect
+         y="60"
+         x="144"
+         height="12"
+         width="576"
+         id="rect8815"
+         style="opacity:1;fill:url(#pattern10257);fill-opacity:1;stroke:none;stroke-width:2.13333344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </symbol>
+    <symbol
+       id="course-24x28">
+      <title
+         id="title15131">Course outline, 24x28</title>
+      <rect
+         y="72"
+         x="144"
+         height="672"
+         width="576"
+         id="course-outline"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <g
+         transform="translate(263.99999,144.00001)"
+         clip-path="url(#clipPath8682)"
+         inkscape:label="#grid"
+         id="grid"
+         style="display:inline">
+        <g
+           id="horizontal-grid"
+           inkscape:label="#horizontal-grid">
+          <g
+             transform="translate(-47.99999,-72.00001)"
+             id="g10644">
+            <path
+               inkscape:connector-curvature="0"
+               id="path10429"
+               d="M -72,96 H 792"
+               style="display:inline;stroke:#bbbbbb;stroke-width:1.06666672;stroke-linecap:butt;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path10431"
+               d="M -72,120 H 792"
+               style="display:inline;stroke:#bbbbbb;stroke-width:2.13333344;stroke-linecap:butt;stroke-opacity:1" />
+            <use
+               x="0"
+               y="0"
+               xlink:href="#path10429"
+               id="use10633"
+               transform="translate(0,-24)"
+               width="100%"
+               height="100%" />
+            <use
+               x="0"
+               y="0"
+               xlink:href="#path10429"
+               id="use10635"
+               transform="translate(0,-48)"
+               width="100%"
+               height="100%" />
+            <use
+               x="0"
+               y="0"
+               xlink:href="#path10429"
+               id="use10637"
+               transform="translate(0,-72)"
+               width="100%"
+               height="100%" />
+          </g>
+          <use
+             height="100%"
+             width="100%"
+             transform="translate(0,120)"
+             id="use10648"
+             xlink:href="#g10644"
+             y="0"
+             x="0" />
+          <use
+             height="100%"
+             width="100%"
+             transform="translate(0,240)"
+             id="use10652"
+             xlink:href="#g10644"
+             y="0"
+             x="0" />
+          <use
+             height="100%"
+             width="100%"
+             transform="translate(0,360)"
+             id="use10654"
+             xlink:href="#g10644"
+             y="0"
+             x="0" />
+          <use
+             height="100%"
+             width="100%"
+             transform="translate(0,480)"
+             id="use10656"
+             xlink:href="#g10644"
+             y="0"
+             x="0" />
+          <use
+             height="100%"
+             width="100%"
+             transform="translate(0,600)"
+             id="use10718"
+             xlink:href="#g10644"
+             y="0"
+             x="0" />
+          <use
+             height="100%"
+             width="100%"
+             transform="translate(0,720)"
+             id="use10716"
+             xlink:href="#g10644"
+             y="0"
+             x="0" />
+          <use
+             height="100%"
+             width="100%"
+             transform="translate(0,840)"
+             id="use10724"
+             xlink:href="#g10644"
+             y="0"
+             x="0" />
+        </g>
+        <g
+           style="display:inline"
+           id="vertical-grid"
+           inkscape:label="#vertical-grid">
+          <g
+             inkscape:tile-y0="-24"
+             inkscape:tile-x0="-48.533333"
+             inkscape:tile-h="1104"
+             inkscape:tile-w="97.066667"
+             inkscape:tile-cy="528"
+             inkscape:tile-cx="0"
+             transform="translate(-888,-24)"
+             id="g10513">
+            <path
+               inkscape:connector-curvature="0"
+               id="path10305"
+               d="M 864,-48 V 936"
+               style="display:inline;stroke:#bbbbbb;stroke-width:1.06666672;stroke-linecap:butt;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path10307"
+               d="M 888,-48 V 936"
+               style="display:inline;stroke:#bbbbbb;stroke-width:2.13333344;stroke-linecap:butt;stroke-opacity:1" />
+            <use
+               x="0"
+               y="0"
+               xlink:href="#path10305"
+               id="use10465"
+               transform="translate(-24)"
+               width="100%"
+               height="100%" />
+            <use
+               x="0"
+               y="0"
+               xlink:href="#path10305"
+               id="use10504"
+               transform="translate(-48)"
+               width="100%"
+               height="100%" />
+            <use
+               x="0"
+               y="0"
+               xlink:href="#path10305"
+               id="use10506"
+               transform="translate(-72)"
+               width="100%"
+               height="100%" />
+          </g>
+          <use
+             height="100%"
+             width="100%"
+             id="use10621"
+             transform="translate(120)"
+             xlink:href="#g10513"
+             inkscape:tiled-clone-of="#g10513"
+             y="0"
+             x="0" />
+          <use
+             height="100%"
+             width="100%"
+             id="use10623"
+             transform="translate(240)"
+             xlink:href="#g10513"
+             inkscape:tiled-clone-of="#g10513"
+             y="0"
+             x="0" />
+          <use
+             height="100%"
+             width="100%"
+             id="use10625"
+             transform="translate(360)"
+             xlink:href="#g10513"
+             inkscape:tiled-clone-of="#g10513"
+             y="0"
+             x="0" />
+          <use
+             height="100%"
+             width="100%"
+             id="use10627"
+             transform="translate(480)"
+             xlink:href="#g10513"
+             inkscape:tiled-clone-of="#g10513"
+             y="0"
+             x="0" />
+          <use
+             height="100%"
+             width="100%"
+             id="use10629"
+             transform="translate(600)"
+             xlink:href="#g10513"
+             inkscape:tiled-clone-of="#g10513"
+             y="0"
+             x="0" />
+          <use
+             height="100%"
+             width="100%"
+             id="use10631"
+             transform="translate(720)"
+             xlink:href="#g10513"
+             inkscape:tiled-clone-of="#g10513"
+             y="0"
+             x="0" />
+        </g>
+      </g>
+    </symbol>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="223.92442"
+     inkscape:cy="650.47062"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg8"
+     showgrid="true"
+     units="in"
+     inkscape:window-width="1920"
+     inkscape:window-height="1134"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     scale-x="1"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid:one-foot"
+       units="px"
+       spacingx="24"
+       spacingy="24"
+       snapvisiblegridlinesonly="false"
+       originy="96"
+       color="#00e0ff"
+       opacity="0.1254902"
+       empcolor="#0000ff"
+       empopacity="1" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid:one-inch"
+       units="px"
+       spacingx="2"
+       spacingy="2"
+       empspacing="12"
+       color="#00baff"
+       opacity="0.1254902" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid:three-inch"
+       units="px"
+       spacingx="6"
+       spacingy="6"
+       empspacing="4"
+       snapvisiblegridlinesonly="false"
+       color="#00e0ff"
+       opacity="0.1254902"
+       enabled="true"
+       empcolor="#0060ff"
+       empopacity="0.25098039" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Ring Outlines and Wall</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jeff Dairiki &lt;dairiki@dairiki.org&gt;</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <use
+     xlink:href="#course-24x28"
+     id="use15165" />
+  <use
+     xlink:href="#back-wall-24"
+     id="use15546" />
+</svg>
