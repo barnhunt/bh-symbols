@@ -23,8 +23,7 @@
   <defs
      id="defs2">
     <linearGradient
-       id="linearGradient13554"
-       osb:paint="solid">
+       id="linearGradient13554">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
          offset="0"
@@ -142,17 +141,7 @@
          inkscape:connector-curvature="0" />
     </marker>
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#start-box"
-       id="linearGradient25299"
-       x1="-408.58667"
-       y1="522.51965"
-       x2="-311.41333"
-       y2="522.51965"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       id="start-box"
-       osb:paint="solid">
+       id="linearGradient19244">
       <stop
          style="stop-color:#c0f7b1;stop-opacity:1;"
          offset="0"
@@ -274,49 +263,90 @@
          sodipodi:nodetypes="cc" />
     </symbol>
     <symbol
+       id="start-box"
+       style="display:inline">
+      <title>Start Box</title>
+      <rect
+         rx="3.2"
+         ry="3.2"
+         height="96"
+         width="96"
+         style="fill:#c0f7b1;fill-opacity:1;stroke:#60a04f;stroke-width:1.17333329;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="0"
+         y="0" />
+      <text
+         y="42"
+         x="48"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         xml:space="preserve"><tspan
+           y="42"
+           x="48"
+           sodipodi:role="line"
+           style="font-size:21.33333397px;line-height:1.14999998;font-family:sans-serif;stroke-width:1.06666672">Start</tspan><tspan
+           y="66.533333"
+           x="48"
+           sodipodi:role="line"
+           style="font-size:21.33333397px;line-height:1.14999998;font-family:sans-serif;stroke-width:1.06666672">Box</tspan></text>
+    </symbol>
+    <symbol
        id="board-48x36">
       <title>Board, 48x36</title>
-      <path
-         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 96,6 v 60 c 0,4 -2,6 -6,6 H 6 C 2,72 0,70 0,66 V 6 C 0,2 2,0 6,0 h 84 c 4,0 6,2 6,6 z"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccccc" />
+      <rect
+         width="96"
+         height="72"
+         x="0"
+         y="0"
+         rx="6"
+         ry="6"
+         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1" />
     </symbol>
     <symbol
        id="board-36x36">
       <title>Board, 36x36</title>
-      <path
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         d="m 72,6 v 60 c 0,4 -2,6 -6,6 H 6 C 2,72 0,70 0,66 V 6 C 0,2 2,0 6,0 h 60 c 4,0 6,2 6,6 z"
-         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1"
+         ry="6"
+         rx="6"
+         y="0"
+         x="0"
+         height="72"
+         width="72" />
     </symbol>
     <symbol
        id="board-72x36">
       <title>Board, 72x36</title>
-      <path
-         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 144,6 v 60 c 0,4 -2,6 -6,6 H 6 C 2,72 0,70 0,66 V 6 C 0,2 2,0 6,0 h 132 c 4,0 6,2 6,6 z"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccccc" />
+      <rect
+         width="144"
+         height="72"
+         x="0"
+         y="0"
+         rx="6"
+         ry="6"
+         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1" />
     </symbol>
     <symbol
        id="board-48x33">
       <title>Board, 48x33</title>
-      <path
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         d="m 96,6 v 54 c 0,4 -2,6 -6,6 H 6 C 2,66 0,64 0,60 V 6 C 0,2 2,0 6,0 h 84 c 4,0 6,2 6,6 z"
-         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         width="96"
+         height="66"
+         x="0"
+         y="0"
+         rx="6"
+         ry="6"
+         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1" />
     </symbol>
     <symbol
        id="board-48x24">
       <title>Board, 48x24</title>
-      <path
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         d="m 96,6 v 36 c 0,4 -2,6 -6,6 H 6 C 2,48 0,46 0,42 V 6 C 0,2 2,0 6,0 h 84 c 4,0 6,2 6,6 z"
-         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1"
+         ry="6"
+         rx="6"
+         y="0"
+         x="0"
+         height="48"
+         width="96" />
     </symbol>
   </defs>
   <sodipodi:namedview
@@ -326,9 +356,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="256.50958"
-     inkscape:cy="830.15046"
+     inkscape:zoom="3.959798"
+     inkscape:cx="272.62646"
+     inkscape:cy="904.1463"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
@@ -413,36 +443,6 @@
        id="tspan8673"
        x="408.97916"
        y="66.949242">Barn Hunt Bits</tspan></text>
-  <g
-     style="display:inline"
-     id="g8790"
-     transform="translate(528,-138.51965)">
-    <rect
-       rx="3.2"
-       ry="3.2"
-       y="474.51965"
-       x="-408"
-       height="96"
-       width="96"
-       id="rect8782"
-       style="fill:url(#linearGradient25299);fill-opacity:1;stroke:#135a00;stroke-width:1.17333341;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5534884" />
-    <text
-       id="text8784"
-       y="516.51965"
-       x="-360"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
-       xml:space="preserve"><tspan
-         y="516.51965"
-         x="-360"
-         id="tspan8786"
-         sodipodi:role="line"
-         style="font-size:21.33333397px;line-height:1.14999998;font-family:sans-serif;stroke-width:1.06666672">Start</tspan><tspan
-         id="tspan8788"
-         y="541.05298"
-         x="-360"
-         sodipodi:role="line"
-         style="font-size:21.33333397px;line-height:1.14999998;font-family:sans-serif;stroke-width:1.06666672">Box</tspan></text>
-  </g>
   <circle
      style="display:inline;fill:url(#linearGradient25311);fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path7497"
@@ -757,4 +757,12 @@
      width="100%"
      height="100%"
      transform="translate(312,180)" />
+  <use
+     xlink:href="#start-box"
+     id="use20002"
+     transform="translate(120,204)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
 </svg>
