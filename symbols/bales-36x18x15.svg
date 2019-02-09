@@ -500,6 +500,37 @@
          cx="3.047"
          style="fill:black;stroke:none" />
     </pattern>
+    <symbol
+       id="bale-1-anchor-36x18x15">
+      <title
+         id="title17331">Anchor Bale, 36x18x15</title>
+      <rect
+         id="rect17333"
+         y="0"
+         x="0"
+         style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         width="72"
+         height="36" />
+    </symbol>
+    <symbol
+       id="bale-1-anchor-edge-36x18x15">
+      <title
+         id="title17337">Anchor Bale, on edge, 36x18x15</title>
+      <rect
+         id="rect17339"
+         y="0"
+         x="0"
+         style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         width="72"
+         height="30" />
+      <rect
+         id="rect17341"
+         y="0"
+         x="0"
+         style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         width="72"
+         height="30" />
+    </symbol>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -508,17 +539,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="-43.297464"
-     inkscape:cy="797.0181"
+     inkscape:zoom="2.8"
+     inkscape:cx="436.16865"
+     inkscape:cy="855.7701"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
      units="in"
      inkscape:window-width="1920"
-     inkscape:window-height="1134"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="1161"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      scale-x="1">
     <inkscape:grid
@@ -585,6 +616,16 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="410.5625"
+     y="72"
+     id="text8675"><tspan
+       sodipodi:role="line"
+       id="tspan8673"
+       x="410.5625"
+       y="72">Two-string Bales, 36x18x15</tspan></text>
   <use
      id="use13432"
      xlink:href="#bale-1-36x18x15"
@@ -592,11 +633,11 @@
      y="0"
      width="100%"
      height="100%"
-     transform="translate(285,96)" />
+     transform="translate(288,96)" />
   <use
      xlink:href="#bale-1-edge-36x18x15"
      id="use13478"
-     transform="translate(459,96)"
+     transform="translate(372,96)"
      x="0"
      y="0"
      width="100%"
@@ -608,11 +649,11 @@
      y="0"
      width="100%"
      height="100%"
-     transform="translate(369,96)" />
+     transform="translate(456,96)" />
   <use
      xlink:href="#bale-2-36x18x15"
      id="use16370"
-     transform="translate(285,144)"
+     transform="translate(288,144)"
      x="0"
      y="0"
      width="100%"
@@ -620,7 +661,7 @@
   <use
      xlink:href="#bale-2-edge-36x18x15"
      id="use16453"
-     transform="translate(459,144)"
+     transform="translate(372,144)"
      x="0"
      y="0"
      width="100%"
@@ -628,7 +669,7 @@
   <use
      xlink:href="#bale-2-leaner-36x18x15"
      id="use16542"
-     transform="translate(369,144)"
+     transform="translate(456,144)"
      x="0"
      y="0"
      width="100%"
@@ -636,7 +677,7 @@
   <use
      xlink:href="#bale-3-36x18x15"
      id="use18029"
-     transform="translate(285,192)"
+     transform="translate(288,192)"
      x="0"
      y="0"
      width="100%"
@@ -644,7 +685,7 @@
   <use
      xlink:href="#bale-3-leaner-36x18x15"
      id="use18142"
-     transform="translate(369,192)"
+     transform="translate(456,192)"
      x="0"
      y="0"
      width="100%"
@@ -652,19 +693,17 @@
   <use
      xlink:href="#bale-3-edge-36x18x15"
      id="use18269"
-     transform="translate(459,192)"
+     transform="translate(372,192)"
      x="0"
      y="0"
      width="100%"
      height="100%" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="410.5625"
-     y="72"
-     id="text8675"><tspan
-       sodipodi:role="line"
-       id="tspan8673"
-       x="410.5625"
-       y="72">Two-string Bales, 36x18x15</tspan></text>
+  <use
+     xlink:href="#bale-1-anchor-36x18x15"
+     id="use23200"
+     transform="translate(288,240)" />
+  <use
+     xlink:href="#bale-1-anchor-edge-36x18x15"
+     id="use23324"
+     transform="translate(372,240)" />
 </svg>

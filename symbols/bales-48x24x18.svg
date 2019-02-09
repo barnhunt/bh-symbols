@@ -38,14 +38,14 @@
       <title
          id="title8">Bale on edge 48x24x18</title>
       <rect
-         height="48"
+         height="36"
          width="96"
          style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          x="0"
          y="0"
          id="rect10" />
       <rect
-         height="48"
+         height="36"
          width="96"
          style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          x="0"
@@ -182,6 +182,72 @@
          d="M 12,0 V 48"
          inkscape:connector-curvature="0"
          id="path63" />
+    </symbol>
+    <symbol
+       id="bale-1-anchor-48x24x18">
+      <title
+         id="title9812">Anchor Bale, 48x24x18</title>
+      <rect
+         id="rect9814"
+         y="0"
+         x="0"
+         style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         width="96"
+         height="48" />
+    </symbol>
+    <symbol
+       id="bale-1-anchor-edge-48x24x18">
+      <title
+         id="title9818">Anchor Bale, on edge, 48x24x18</title>
+      <rect
+         id="rect9820"
+         y="0"
+         x="0"
+         style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         width="96"
+         height="36" />
+      <rect
+         id="rect9822"
+         y="0"
+         x="0"
+         style="opacity:1;fill:url(#pattern10961);fill-opacity:1;stroke:none;stroke-width:0.28222221;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         width="96"
+         height="36" />
+    </symbol>
+    <symbol
+       id="bale-1-with-strings-48x24x18"
+       style="display:inline">
+      <g
+         transform="matrix(0,3.7795276,-3.7795276,0,263.99999,23.999996)"
+         id="bale-1-with-strings-48x24x18_transform">
+        <title
+           id="title9340">Three-string bale with strings</title>
+        <rect
+           transform="rotate(90)"
+           ry="1.0803818e-07"
+           style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:0.28231039;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect16602-3-4"
+           width="25.4"
+           height="12.7"
+           x="-19.049999"
+           y="-82.550003"
+           rx="1.0803818e-07" />
+        <path
+           style="opacity:0.56999966;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#838383;stroke-width:0.21166667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 76.199999,-19.05 V 6.3499981"
+           id="path16604-6-4"
+           inkscape:connector-curvature="0" />
+        <path
+           style="display:inline;opacity:0.56999966;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#838383;stroke-width:0.21166667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 80.433334,-19.049999 V 6.3499983"
+           id="path16606-4-3"
+           inkscape:connector-curvature="0" />
+        <path
+           style="display:inline;opacity:0.56999966;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#838383;stroke-width:0.21166667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 71.966667,-19.049999 V 6.3499983"
+           id="path16608-0-9"
+           inkscape:connector-curvature="0" />
+      </g>
     </symbol>
     <marker
        style="overflow:visible"
@@ -508,9 +574,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="354.85025"
-     inkscape:cy="808.68103"
+     inkscape:zoom="1.979899"
+     inkscape:cx="412.56699"
+     inkscape:cy="814.992"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
@@ -592,11 +658,11 @@
      y="0"
      width="100%"
      height="100%"
-     transform="translate(249,96)" />
+     transform="translate(252,96)" />
   <use
      xlink:href="#bale-1-edge-48x24x18"
      id="use13478"
-     transform="translate(471,96)"
+     transform="translate(360,96)"
      x="0"
      y="0"
      width="100%"
@@ -608,11 +674,11 @@
      y="0"
      width="100%"
      height="100%"
-     transform="translate(357,96)" />
+     transform="translate(468,96)" />
   <use
      xlink:href="#bale-2-48x24x18"
      id="use16370"
-     transform="translate(249,156)"
+     transform="translate(252,156)"
      x="0"
      y="0"
      width="100%"
@@ -620,7 +686,7 @@
   <use
      xlink:href="#bale-2-edge-48x24x18"
      id="use16453"
-     transform="translate(471,156)"
+     transform="translate(360,156)"
      x="0"
      y="0"
      width="100%"
@@ -628,7 +694,7 @@
   <use
      xlink:href="#bale-2-leaner-48x24x18"
      id="use16542"
-     transform="translate(357,156)"
+     transform="translate(468,156)"
      x="0"
      y="0"
      width="100%"
@@ -636,7 +702,7 @@
   <use
      xlink:href="#bale-3-48x24x18"
      id="use18029"
-     transform="translate(249,216)"
+     transform="translate(252,216)"
      x="0"
      y="0"
      width="100%"
@@ -644,7 +710,7 @@
   <use
      xlink:href="#bale-3-leaner-48x24x18"
      id="use18142"
-     transform="translate(357,216)"
+     transform="translate(468,216)"
      x="0"
      y="0"
      width="100%"
@@ -652,7 +718,7 @@
   <use
      xlink:href="#bale-3-edge-48x24x18"
      id="use18269"
-     transform="translate(471,216)"
+     transform="translate(360,216)"
      x="0"
      y="0"
      width="100%"
@@ -667,4 +733,28 @@
        id="tspan8673"
        x="408.97916"
        y="66.949242">Three-String Bales,  48x24x18</tspan></text>
+  <use
+     xlink:href="#bale-1-with-strings-48x24x18"
+     id="use9350"
+     transform="translate(228.00001,-12.00002)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#bale-1-anchor-48x24x18"
+     id="use11205"
+     transform="translate(252,276)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#bale-1-anchor-edge-48x24x18"
+     id="use11350"
+     transform="translate(360,276)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
 </svg>
