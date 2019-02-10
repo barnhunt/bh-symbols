@@ -16,11 +16,23 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="bales-42x18x16.svg">
+   sodipodi:docname="bh-bales-42x18x16.svg">
   <title
      id="title8793">Two-string Bales, 42x18x16</title>
   <defs
      id="defs2">
+    <symbol
+       id="bale-1-42x18x16">
+      <title
+         id="title10374">Bale, level 1, 42x18x16</title>
+      <rect
+         id="rect10376"
+         y="0"
+         x="0"
+         style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
+         width="84"
+         height="36" />
+    </symbol>
     <symbol
        id="bale-1-edge-42x18x16">
       <title
@@ -528,16 +540,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="395.0784"
-     inkscape:cy="906.37664"
+     inkscape:cx="336.99463"
+     inkscape:cy="905.36649"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
      units="in"
      inkscape:window-width="1920"
-     inkscape:window-height="1161"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-height="1134"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      scale-x="1">
     <inkscape:grid
@@ -614,19 +626,6 @@
        id="tspan8673"
        x="410.5625"
        y="72">Two-string Bales, 42x18x16</tspan></text>
-  <g
-     id="use13432"
-     transform="translate(270,96)">
-    <title
-       id="title10374">Bale, level 1, 42x18x16</title>
-    <rect
-       id="rect10376"
-       y="0"
-       x="0"
-       style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
-       width="84"
-       height="36" />
-  </g>
   <use
      xlink:href="#bale-1-edge-42x18x16"
      id="use13478"
@@ -699,4 +698,8 @@
      xlink:href="#bale-1-anchor-edge-42x18x16"
      id="use30884"
      transform="translate(366,240)" />
+  <use
+     xlink:href="#bale-1-42x18x16"
+     id="use9140"
+     transform="translate(270,96)" />
 </svg>
