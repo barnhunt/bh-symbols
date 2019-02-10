@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="barn-hunt-bits.svg">
+   sodipodi:docname="bh-bits.svg">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,22 +24,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="341.06035"
-     inkscape:cy="857.23305"
+     inkscape:zoom="3.959798"
+     inkscape:cx="148.48982"
+     inkscape:cy="950.20416"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
      units="in"
      inkscape:window-width="1920"
-     inkscape:window-height="1161"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-height="1134"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      scale-x="1"
      inkscape:snap-to-guides="false"
      inkscape:snap-bbox="true"
-     inkscape:snap-bbox-midpoints="true">
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-global="true">
     <inkscape:grid
        opacity="0.1254902"
        color="#00e0ff"
@@ -75,8 +76,8 @@
   <defs
      id="defs2">
     <symbol
-       style="display:inline"
-       id="ramp-48x24">
+       id="ramp-48x24"
+       style="display:inline">
       <title
          id="title26">Ramp, 48x24</title>
       <rect
@@ -87,7 +88,7 @@
          x="0"
          style="fill:#ffdbdb;fill-opacity:1;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          width="96"
-         height="47.999996" />
+         height="48" />
       <text
          id="text32"
          xml:space="preserve"
@@ -99,126 +100,183 @@
            sodipodi:role="line"
            x="48"
            y="30">Ramp</tspan></text>
-      <path
-         id="path34"
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         d="M 84,42 H 12"
-         style="fill:none;stroke:#000000;stroke-width:0.85333335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#EmptyTriangleOutL)" />
-      <path
-         id="path36"
-         sodipodi:nodetypes="cc"
-         style="fill:none;stroke:#000000;stroke-width:0.85333335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#EmptyTriangleOutL)"
-         d="M 84,6 H 12"
-         inkscape:connector-curvature="0" />
+      <g
+         id="g9567">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.85299999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none"
+           d="M 84,6 H 18"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           id="path34" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#f2e8e8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.93333334;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 12.136087,6 6.466427,3.737819 V 2.262182 Z"
+           id="path9356" />
+      </g>
+      <g
+         id="use9569"
+         transform="translate(0,36)">
+        <path
+           id="path9376"
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           d="M 84,6 H 18"
+           style="fill:none;stroke:#000000;stroke-width:0.85299999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none" />
+        <path
+           id="path9378"
+           d="m 12.136087,6 6.466427,3.737819 V 2.262182 Z"
+           style="fill:#f2e8e8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.93333334;stroke-miterlimit:4;stroke-dasharray:none"
+           inkscape:connector-curvature="0" />
+      </g>
     </symbol>
     <symbol
-       id="ramp-36x24"
-       style="display:inline">
+       id="ramp-36x24">
       <title
-         id="title39">Ramp, 36x24</title>
+         id="title9520">Ramp, 36x24</title>
       <rect
-         ry="4"
-         rx="4"
-         id="rect41"
          height="48"
          width="72"
          style="fill:#ffdbdb;fill-opacity:1;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          x="0"
-         y="0" />
+         y="0"
+         id="rect9522"
+         rx="4"
+         ry="4" />
       <text
-         id="text45"
          y="30"
          x="36"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
-         xml:space="preserve"><tspan
-           id="tspan43"
+         xml:space="preserve"
+         id="text9526"><tspan
            y="30"
            x="36"
            sodipodi:role="line"
-           style="font-size:17.06666756px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672">Ramp</tspan></text>
-      <path
-         id="path47"
-         style="fill:none;stroke:#000000;stroke-width:0.85333335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#EmptyTriangleOutL)"
-         d="M 60,42 H 12"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         id="path49"
-         inkscape:connector-curvature="0"
-         d="M 60,6 H 12"
-         style="fill:none;stroke:#000000;stroke-width:0.85333335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#EmptyTriangleOutL)"
-         sodipodi:nodetypes="cc" />
+           style="font-size:17.06666756px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
+           id="tspan9524">Ramp</tspan></text>
+      <g
+         id="g9532">
+        <path
+           id="path9528"
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           d="M 60,6 H 18"
+           style="fill:none;stroke:#000000;stroke-width:0.85299999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none" />
+        <path
+           id="path9530"
+           d="m 12.136087,6 6.466427,3.737819 V 2.262182 Z"
+           style="fill:#f2e8e8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.93333334;stroke-miterlimit:4;stroke-dasharray:none"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="use9534"
+         transform="translate(0,36)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.85299999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none"
+           d="M 60,6 H 18"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           id="path9766" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#f2e8e8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.93333334;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 12.136087,6 6.466427,3.737819 V 2.262182 Z"
+           id="path9768" />
+      </g>
     </symbol>
     <symbol
-       id="ramp-48x18"
-       style="display:inline">
+       id="ramp-48x18">
       <title
-         id="title52">Ramp, 48x18</title>
+         id="title13053">Ramp, 48x18</title>
       <rect
-         ry="4"
-         rx="4"
-         id="rect54"
          height="36"
          width="96"
          style="fill:#ffdbdb;fill-opacity:1;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          x="0"
-         y="0" />
+         y="0"
+         id="rect13055"
+         rx="4"
+         ry="4" />
       <text
-         id="text58"
-         y="24"
+         y="23.5"
          x="48"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
-         xml:space="preserve"><tspan
-           id="tspan56"
-           y="24"
+         xml:space="preserve"
+         id="text13059"><tspan
+           y="23.5"
            x="48"
            sodipodi:role="line"
-           style="font-size:17.06666756px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672">Ramp</tspan></text>
-      <path
-         id="path60"
-         style="fill:none;stroke:#000000;stroke-width:0.85333335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#EmptyTriangleOutL)"
-         d="M 84,30 H 12"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         id="path62"
-         inkscape:connector-curvature="0"
-         d="M 84,6 H 12"
-         style="fill:none;stroke:#000000;stroke-width:0.85333335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#EmptyTriangleOutL)"
-         sodipodi:nodetypes="cc" />
+           style="font-size:17.06666756px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
+           id="tspan13057">Ramp</tspan></text>
+      <g
+         id="g13065">
+        <path
+           id="path13061"
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           d="M 84,6 H 18"
+           style="fill:none;stroke:#000000;stroke-width:0.85299999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none" />
+        <path
+           id="path13063"
+           d="m 12.136087,6 6.466427,3.737819 V 2.262182 Z"
+           style="fill:#f2e8e8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.93333334;stroke-miterlimit:4;stroke-dasharray:none"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         transform="translate(0,24)"
+         id="g13071">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.85299999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none"
+           d="M 84,6 H 18"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           id="path13067" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#f2e8e8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.93333334;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 12.136087,6 6.466427,3.737819 V 2.262182 Z"
+           id="path13069" />
+      </g>
     </symbol>
     <symbol
-       style="display:inline"
        id="ramp-36x18">
       <title
-         id="title65">Ramp, 36x18</title>
+         id="title10667">Ramp, 36x18</title>
       <rect
          ry="4"
          rx="4"
-         id="rect67"
+         id="rect10669"
          y="0"
          x="0"
          style="fill:#ffdbdb;fill-opacity:1;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          width="72"
          height="36" />
       <text
-         id="text71"
+         id="text10673"
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
          x="36"
-         y="18"><tspan
-           id="tspan69"
+         y="19"><tspan
+           id="tspan10671"
            style="font-size:17.06666756px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
            sodipodi:role="line"
            x="36"
-           y="18">Ramp</tspan></text>
-      <path
-         id="path73"
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         d="M 60,30 H 12"
-         style="fill:none;stroke:#000000;stroke-width:0.85333335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#EmptyTriangleOutL)" />
+           y="19">Ramp</tspan></text>
+      <g
+         id="g10685"
+         transform="translate(0,24)">
+        <path
+           id="path10681"
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           d="M 60,6 H 18"
+           style="fill:none;stroke:#000000;stroke-width:0.85299999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none" />
+        <path
+           id="path10683"
+           d="m 12.136087,6 6.466427,3.737819 V 2.262182 Z"
+           style="fill:#f2e8e8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.93333334;stroke-miterlimit:4;stroke-dasharray:none"
+           inkscape:connector-curvature="0" />
+      </g>
     </symbol>
     <symbol
        style="display:inline"
@@ -603,19 +661,6 @@
            inkscape:connector-curvature="0" />
       </g>
     </symbol>
-    <marker
-       style="overflow:visible"
-       id="EmptyTriangleOutL"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="EmptyTriangleOutL">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.85333335pt"
-         d="M -0.19626667,0 -7.5776,4.2666667 v -8.5333334 z"
-         id="path5924" />
-    </marker>
   </defs>
   <metadata
      id="metadata5">
@@ -662,37 +707,13 @@
        id="tspan8673"
        sodipodi:role="line">Barn Hunt Bits</tspan></text>
   <use
-     height="100%"
-     width="100%"
-     y="0"
-     x="0"
-     transform="translate(143.74107,96)"
-     id="use10518"
-     xlink:href="#ramp-48x24" />
-  <use
-     transform="translate(251.74107,96)"
+     transform="translate(252,96)"
      height="100%"
      width="100%"
      y="0"
      x="0"
      xlink:href="#ramp-36x24"
      id="use10811" />
-  <use
-     transform="translate(143.74107,156)"
-     height="100%"
-     width="100%"
-     y="0"
-     x="0"
-     xlink:href="#ramp-48x18"
-     id="use11321" />
-  <use
-     transform="translate(251.74107,156)"
-     height="100%"
-     width="100%"
-     y="0"
-     x="0"
-     xlink:href="#ramp-36x18"
-     id="use12971" />
   <use
      transform="translate(335.74107,96)"
      height="100%"
@@ -849,6 +870,38 @@
      xlink:href="#no-dix-sign"
      id="use14737"
      transform="translate(287.74107,324)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#use9398"
+     id="use9653"
+     transform="translate(252,96)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#ramp-48x24"
+     id="use9394"
+     transform="translate(144,96)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#ramp-36x18"
+     id="use11560"
+     transform="translate(252,156)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#ramp-48x18"
+     id="use13765"
+     transform="translate(144,156)"
      x="0"
      y="0"
      width="100%"
