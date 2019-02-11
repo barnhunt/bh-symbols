@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<svg xmlns:bale="http://dairiki.org/barnhunt/bale-scaling" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="8.5in" height="11in" viewBox="0 0 816 1056" version="1.1" inkscape:version="0.92.1 r15371" sodipodi:docname="junk.svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" width="8.5in" height="11in" viewBox="0 0 816 1056" version="1.1" inkscape:version="0.92.1 r15371" sodipodi:docname="junk.svg" id="svg219">
   <title>Three-string Bales, 48x24x18</title>
   <defs>
     <pattern inkscape:collect="always" xlink:href="#Polkadots-med" id="bh-edge-bale-stipple" patternTransform="scale(3.4)"/>
@@ -51,64 +51,64 @@
     </pattern>
     <symbol id="bale-1-48x24x18">
       <title>Bale, level 1, 48x24x18</title>
-      <rect bale:height="2 * $bale-width" bale:width="2 * $bale-length" height="48" width="96" style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" x="0" y="0"/>
+      <rect height="48" width="96" style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" x="0" y="0"/>
     </symbol>
     <symbol id="bale-1-edge-48x24x18">
       <title>Bale on edge 48x24x18</title>
-      <rect bale:height="2 * $bale-height" bale:width="2 * $bale-length" height="36" width="96" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="0" y="0"/>
-      <rect style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none" bale:height="2 * $bale-height" bale:width="2 * $bale-length" width="96" height="36" x="0" y="0"/>
+      <rect height="36" width="96" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="0" y="0"/>
+      <rect style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none" width="96" height="36" x="0" y="0"/>
     </symbol>
     <symbol id="bale-1-leaner-48x24x18">
       <title>Bale, leaner, 48x24x18</title>
-      <rect style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" bale:height="2 * $bale-width" bale:width="2 * $bale-length + 6" width="102" height="48" x="0" y="0"/>
-      <path style="fill:none;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:0.55294118" bale:d="concat('M 12,0 V ', 2 * $bale-width)" d="M 12,0 V 48" inkscape:connector-curvature="0"/>
-      <path inkscape:connector-curvature="0" bale:d="concat(                  'M ', 2 * $bale-length - 6, ',', $bale-width,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', $bale-width)" d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24" style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"/>
+      <rect style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" width="102" height="48" x="0" y="0"/>
+      <path style="fill:none;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:0.55294118" d="M 12,0 V 48" inkscape:connector-curvature="0"/>
+      <path inkscape:connector-curvature="0" d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24" style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"/>
     </symbol>
     <symbol id="bale-2-48x24x18">
       <title>Bale, level 2, 48x24x18</title>
-      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" bale:height="2 * $bale-width" bale:width="2 * $bale-length" width="96" height="48"/>
+      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" width="96" height="48"/>
     </symbol>
     <symbol id="bale-2-edge-48x24x18">
       <title>Bale. 2nd level, on edge 48x24x18</title>
-      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" bale:height="2 * $bale-height" bale:width="2 * $bale-length" width="96" height="36"/>
-      <rect bale:height="2 * $bale-height" bale:width="2 * $bale-length" width="96" height="36" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
+      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="96" height="36"/>
+      <rect width="96" height="36" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
     <symbol id="bale-2-leaner-48x24x18">
       <title>Bale, 2nd level, leaner, 48x24x18</title>
-      <rect y="0" x="0" bale:height="2 * $bale-width" bale:width="2 * $bale-length + 6" height="48" width="102" style="fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
-      <path inkscape:connector-curvature="0" bale:d="concat('M 12,0 V ', 2 * $bale-width)" d="M 12,0 V 48" style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118"/>
-      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" bale:d="concat(                  'M ', 2 * $bale-length - 6, ',', $bale-width,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', $bale-width)" d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24" inkscape:connector-curvature="0"/>
+      <rect y="0" x="0" height="48" width="102" style="fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+      <path inkscape:connector-curvature="0" d="M 12,0 V 48" style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118"/>
+      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24" inkscape:connector-curvature="0"/>
     </symbol>
     <symbol id="bale-3-48x24x18">
       <title>Bale, level 3, 48x24x18</title>
-      <rect bale:height="2 * $bale-width" bale:width="2 * $bale-length" height="48" width="96" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" x="0" y="0"/>
+      <rect height="48" width="96" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" x="0" y="0"/>
     </symbol>
     <symbol id="bale-3-edge-48x24x18">
       <title>Bale. 23rd level, on edge 48x24x18</title>
-      <rect bale:height="2 * $bale-height" bale:width="2 * $bale-length" height="36" width="96" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="0" y="0"/>
-      <rect bale:height="2 * $bale-height" bale:width="2 * $bale-length" width="96" height="36" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
+      <rect height="36" width="96" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="0" y="0"/>
+      <rect width="96" height="36" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
     <symbol id="bale-3-leaner-48x24x18">
       <title>Bale, 3rd level, leaner, 48x24x18</title>
-      <rect style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" bale:height="2 * $bale-width" bale:width="2 * $bale-length + 6" width="102" height="48" x="0" y="0"/>
-      <path style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118" bale:d="concat('M 12,0 V ', 2 * $bale-width)" d="M 12,0 V 48" inkscape:connector-curvature="0"/>
-      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" bale:d="concat(                  'M ', 2 * $bale-length - 6, ',', $bale-width,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', $bale-width)" d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24" inkscape:connector-curvature="0"/>
+      <rect style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="102" height="48" x="0" y="0"/>
+      <path style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118" d="M 12,0 V 48" inkscape:connector-curvature="0"/>
+      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24" inkscape:connector-curvature="0"/>
     </symbol>
     <symbol id="bale-1-anchor-48x24x18">
       <title>Anchor Bale, 48x24x18</title>
-      <rect y="0" x="0" style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" bale:height="2 * $bale-width" bale:width="2 * $bale-length" width="96" height="48"/>
+      <rect y="0" x="0" style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="96" height="48"/>
     </symbol>
     <symbol id="bale-1-anchor-edge-48x24x18">
       <title>Anchor Bale, on edge, 48x24x18</title>
-      <rect y="0" x="0" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" bale:height="2 * $bale-height" bale:width="2 * $bale-length" width="96" height="36"/>
-      <rect bale:height="2 * $bale-height" bale:width="2 * $bale-length" width="96" height="36" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
+      <rect y="0" x="0" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="96" height="36"/>
+      <rect width="96" height="36" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
     <symbol id="bale-1-with-strings-48x24x18" style="display:inline">
       <title>Three-string bale with strings, 48x24x18</title>
-      <rect style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" bale:height="2 * $bale-width" bale:width="2 * $bale-length" width="96" height="48" x="0" y="0"/>
-      <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4" bale:d="concat('M 0,8 H ', 2 * $bale-length)" d="M 0,8 H 96" id="string-48x24x18" inkscape:connector-curvature="0"/>
-      <use x="0" y="0" xlink:href="#string-48x24x18" bale:condition="$bale-strings &gt; 2" bale:transform="concat('translate(0,', $bale-width - 8,')')" transform="translate(0,16)" width="100%" height="100%"/>
-      <use x="0" y="0" xlink:href="#string-48x24x18" bale:transform="concat('translate(0,', 2 * ($bale-width - 8),')')" transform="translate(0,32)" width="100%" height="100%"/>
+      <rect style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" width="96" height="48" x="0" y="0"/>
+      <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4" d="M 0,8 H 96" id="string-48x24x18" inkscape:connector-curvature="0"/>
+      <use x="0" y="0" xlink:href="#string-48x24x18" transform="translate(0,16)" width="100%" height="100%"/>
+      <use x="0" y="0" xlink:href="#string-48x24x18" transform="translate(0,32)" width="100%" height="100%"/>
     </symbol>
   </defs>
   <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="1.979899" inkscape:cx="360.51523" inkscape:cy="774.78607" inkscape:document-units="px" inkscape:current-layer="svg219" showgrid="true" units="in" inkscape:window-width="1920" inkscape:window-height="1134" inkscape:window-x="0" inkscape:window-y="27" inkscape:window-maximized="1" scale-x="1" inkscape:snap-global="true">

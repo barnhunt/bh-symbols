@@ -82,6 +82,19 @@
     <xsl:copy />
   </xsl:template>
 
+  <!-- Strip out @bale:* attributes -->
+  <xsl:template match="@*[namespace-uri() = 'http://dairiki.org/barnhunt/bale-scaling']" />
+
+  <!-- Strip out the xmlns:bale namespace declaration -->
+  <xsl:template match="/*">
+    <xsl:element name="{name(.)}" namespace="{namespace-uri(.)}">
+      <!-- <xsl:copy-of select="namespace::*[name(.) != 'bale']"/> -->
+      <xsl:copy-of select="namespace::*[. != 'http://dairiki.org/barnhunt/bale-scaling']"/>
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+
   <xsl:template match="@id" />
 
   <xsl:template match="svg:defs/*/@id
