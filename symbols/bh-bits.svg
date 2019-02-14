@@ -82,6 +82,7 @@
       <title
          id="title26">Ramp, 48x24</title>
       <rect
+	 bh:rat-placement="exclude"
          ry="4"
          rx="4"
          id="rect28"
@@ -136,6 +137,7 @@
       <title
          id="title9520">Ramp, 36x24</title>
       <rect
+	 bh:rat-placement="exclude"
          height="48"
          width="72"
          style="fill:#ffdbdb;fill-opacity:1;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -190,6 +192,7 @@
       <title
          id="title13053">Ramp, 48x18</title>
       <rect
+	 bh:rat-placement="exclude"
          height="36"
          width="96"
          style="fill:#ffdbdb;fill-opacity:1;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -244,6 +247,7 @@
       <title
          id="title10667">Ramp, 36x18</title>
       <rect
+	 bh:rat-placement="exclude"
          ry="4"
          rx="4"
          id="rect10669"
