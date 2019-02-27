@@ -6,6 +6,7 @@
                xmlns:dyn="http://exslt.org/dynamic"
                xmlns:str="http://exslt.org/strings"
                xmlns:bale="http://dairiki.org/barnhunt/bale-scaling"
+               xmlns:bh="http://dairiki.org/barnhunt/inkscape-extensions"
                extension-element-prefixes="dyn str">
 
   <xsl:param name="bale-length">36</xsl:param>
@@ -99,7 +100,8 @@
 
   <xsl:template match="svg:defs/*/@id
                        | @id[//@xlink:href = concat('#', .)]
-                       | @xlink:href">
+                       | @xlink:href
+                       | @bh:count-as[parent::svg:symbol]">
     <xsl:attribute name="{name()}">
       <xsl:call-template name="fixup-text"/>
     </xsl:attribute>

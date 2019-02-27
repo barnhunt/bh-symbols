@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" width="8.5in" height="11in" viewBox="0 0 816 1056" version="1.1" inkscape:version="0.92.1 r15371" sodipodi:docname="junk.svg" id="svg219">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:bh="http://dairiki.org/barnhunt/inkscape-extensions" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" width="8.5in" height="11in" viewBox="0 0 816 1056" version="1.1" inkscape:version="0.92.1 r15371" sodipodi:docname="junk.svg" id="svg219">
   <title>Two-string Bales, 42x18x16</title>
   <defs>
     <pattern inkscape:collect="always" xlink:href="#Polkadots-med" id="bh-edge-bale-stipple" patternTransform="scale(3.4)"/>
@@ -49,61 +49,61 @@
       <circle r="0.15" cy="4.451" cx="1.302" style="fill:black;stroke:none"/>
       <circle r="0.15" cy="3.763" cx="3.047" style="fill:black;stroke:none"/>
     </pattern>
-    <symbol id="bale-1-42x18x16">
+    <symbol id="bale-1-42x18x16" bh:count-as="bale-42x18x16">
       <title>Bale, level 1, 42x18x16</title>
       <rect height="36" width="84" style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" x="0" y="0"/>
     </symbol>
-    <symbol id="bale-1-edge-42x18x16">
-      <title>Bale on edge 42x18x16</title>
+    <symbol id="bale-1-edge-42x18x16" bh:count-as="bale-42x18x16">
+    <title>Bale on edge 42x18x16</title>
       <rect height="32" width="84" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="0" y="0"/>
       <rect style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none" width="84" height="32" x="0" y="0"/>
     </symbol>
-    <symbol id="bale-1-leaner-42x18x16">
+    <symbol id="bale-1-leaner-42x18x16" bh:count-as="bale-42x18x16">
       <title>Bale, leaner, 42x18x16</title>
       <rect style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" width="90" height="36" x="0" y="0"/>
       <path style="fill:none;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:0.55294118" d="M 12,0 V 36" inkscape:connector-curvature="0"/>
       <path inkscape:connector-curvature="0" d="M 78,18 H 28 v -3.3 l -6,3.3 6,3.3 V 18" style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"/>
     </symbol>
-    <symbol id="bale-2-42x18x16">
+    <symbol id="bale-2-42x18x16" bh:count-as="bale-42x18x16">
       <title>Bale, level 2, 42x18x16</title>
       <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" width="84" height="36"/>
     </symbol>
-    <symbol id="bale-2-edge-42x18x16">
+    <symbol id="bale-2-edge-42x18x16" bh:count-as="bale-42x18x16">
       <title>Bale. 2nd level, on edge 42x18x16</title>
       <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="84" height="32"/>
       <rect width="84" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
-    <symbol id="bale-2-leaner-42x18x16">
+    <symbol id="bale-2-leaner-42x18x16" bh:count-as="bale-42x18x16">
       <title>Bale, 2nd level, leaner, 42x18x16</title>
       <rect y="0" x="0" height="36" width="90" style="fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
       <path inkscape:connector-curvature="0" d="M 12,0 V 36" style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118"/>
       <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 78,18 H 28 v -3.3 l -6,3.3 6,3.3 V 18" inkscape:connector-curvature="0"/>
     </symbol>
-    <symbol id="bale-3-42x18x16">
+    <symbol id="bale-3-42x18x16" bh:count-as="bale-42x18x16">
       <title>Bale, level 3, 42x18x16</title>
       <rect height="36" width="84" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" x="0" y="0"/>
     </symbol>
-    <symbol id="bale-3-edge-42x18x16">
+    <symbol id="bale-3-edge-42x18x16" bh:count-as="bale-42x18x16">
       <title>Bale. 23rd level, on edge 42x18x16</title>
       <rect height="32" width="84" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="0" y="0"/>
       <rect width="84" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
-    <symbol id="bale-3-leaner-42x18x16">
+    <symbol id="bale-3-leaner-42x18x16" bh:count-as="bale-42x18x16">
       <title>Bale, 3rd level, leaner, 42x18x16</title>
       <rect style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="90" height="36" x="0" y="0"/>
       <path style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118" d="M 12,0 V 36" inkscape:connector-curvature="0"/>
       <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 78,18 H 28 v -3.3 l -6,3.3 6,3.3 V 18" inkscape:connector-curvature="0"/>
     </symbol>
-    <symbol id="bale-1-anchor-42x18x16">
+    <symbol id="bale-1-anchor-42x18x16" bh:count-as="bale-42x18x16">
       <title>Anchor Bale, 42x18x16</title>
       <rect y="0" x="0" style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="84" height="36"/>
     </symbol>
-    <symbol id="bale-1-anchor-edge-42x18x16">
+    <symbol id="bale-1-anchor-edge-42x18x16" bh:count-as="bale-42x18x16">
       <title>Anchor Bale, on edge, 42x18x16</title>
       <rect y="0" x="0" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="84" height="32"/>
       <rect width="84" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
-    <symbol id="bale-1-with-strings-42x18x16" style="display:inline">
+    <symbol id="bale-1-with-strings-42x18x16" bh:count-as="bale-42x18x16">
       <title>Two-string bale with strings, 42x18x16</title>
       <rect style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" width="84" height="36" x="0" y="0"/>
       <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4" d="M 0,8 H 84" id="string-42x18x16" inkscape:connector-curvature="0"/>

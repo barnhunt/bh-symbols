@@ -9,6 +9,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:bh="http://dairiki.org/barnhunt/inkscape-extensions"
    width="8.5in"
    height="11in"
    viewBox="0 0 816 1056"
@@ -300,7 +301,8 @@
          id="circle91" />
     </pattern>
     <symbol
-       id="bale-1-LLxWWxHH">
+       id="bale-1-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title94">Bale, level 1, LLxWWxHH</title>
       <rect
@@ -314,8 +316,9 @@
          id="rect96" />
     </symbol>
     <symbol
-       id="bale-1-edge-LLxWWxHH">
-      <title
+       id="bale-1-edge-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+    <title
          id="title99">Bale on edge LLxWWxHH</title>
       <rect
          bale:height="2 * $bale-height"
@@ -337,7 +340,8 @@
          id="rect103" />
     </symbol>
     <symbol
-       id="bale-1-leaner-LLxWWxHH">
+       id="bale-1-leaner-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title170">Bale, leaner, LLxWWxHH</title>
       <rect
@@ -363,7 +367,8 @@
          id="path176" />
     </symbol>
     <symbol
-       id="bale-2-LLxWWxHH">
+       id="bale-2-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title106">Bale, level 2, LLxWWxHH</title>
       <rect
@@ -377,7 +382,8 @@
          id="rect108" />
     </symbol>
     <symbol
-       id="bale-2-edge-LLxWWxHH">
+       id="bale-2-edge-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title111">Bale. 2nd level, on edge LLxWWxHH</title>
       <rect
@@ -400,7 +406,8 @@
          id="rect115" />
     </symbol>
     <symbol
-       id="bale-2-leaner-LLxWWxHH">
+       id="bale-2-leaner-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title118">Bale, 2nd level, leaner, LLxWWxHH</title>
       <rect
@@ -426,7 +433,8 @@
          id="path124" />
     </symbol>
     <symbol
-       id="bale-3-LLxWWxHH">
+       id="bale-3-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title127">Bale, level 3, LLxWWxHH</title>
       <rect
@@ -440,7 +448,8 @@
          id="rect129" />
     </symbol>
     <symbol
-       id="bale-3-edge-LLxWWxHH">
+       id="bale-3-edge-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title132">Bale. 23rd level, on edge LLxWWxHH</title>
       <rect
@@ -463,7 +472,8 @@
          id="rect136" />
     </symbol>
     <symbol
-       id="bale-3-leaner-LLxWWxHH">
+       id="bale-3-leaner-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title139">Bale, 3rd level, leaner, LLxWWxHH</title>
       <rect
@@ -489,7 +499,8 @@
          id="path145" />
     </symbol>
     <symbol
-       id="bale-1-anchor-LLxWWxHH">
+       id="bale-1-anchor-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title148">Anchor Bale, LLxWWxHH</title>
       <rect
@@ -503,7 +514,8 @@
          id="rect150" />
     </symbol>
     <symbol
-       id="bale-1-anchor-edge-LLxWWxHH">
+       id="bale-1-anchor-edge-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title153">Anchor Bale, on edge, LLxWWxHH</title>
       <rect
@@ -527,7 +539,7 @@
     </symbol>
     <symbol
        id="bale-1-with-strings-LLxWWxHH"
-       style="display:inline">
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title160">NN-string bale with strings, LLxWWxHH</title>
       <rect
