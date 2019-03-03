@@ -11,10 +11,6 @@ install:
 	rsync -ai --delete-after --filter ". install.filter" \
 	    templates symbols extensions ${INKSCAPE_DIR}
 
-scrapbook.pdf: scrapbook.svg bind-scrapbook.sh
-	bash bind-scrapbook.sh > $@
-
-
 
 make_bales = xsltproc \
 	--param bale-length $(1) \
