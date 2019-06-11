@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="218.20655"
-     inkscape:cy="703.50696"
+     inkscape:zoom="1.4"
+     inkscape:cx="386.02845"
+     inkscape:cy="751.89396"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
@@ -288,6 +288,59 @@
            style="fill:#f2e8e8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.93333334;stroke-miterlimit:4;stroke-dasharray:none"
            inkscape:connector-curvature="0" />
       </g>
+    </symbol>
+    <symbol
+       id="step-18x12">
+      <title
+         id="title7010">Step, 18x12</title>
+      <rect
+         bh:rat-placement="exclude"
+         ry="2.2"
+         rx="2"
+         id="rect7012"
+         y="0"
+         x="0"
+         style="fill:#f1d4d4;fill-opacity:1;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         width="36"
+         height="24" />
+      <text
+         id="text7016"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         x="17.904167"
+         y="16.558334"><tspan
+           id="tspan7014"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:-0.72511792px;writing-mode:lr-tb;text-anchor:middle;stroke-width:1.06666672"
+           sodipodi:role="line"
+           x="17.541609"
+           y="16.558334"
+           dx="0 -0.12626907 0 -0.37880722">Step</tspan></text>
+    </symbol>
+    <symbol
+       id="step-24x18">
+      <title
+         id="title5549">Step, 24x18</title>
+      <rect
+         height="36"
+         width="48"
+         style="fill:#f1d4d4;fill-opacity:1;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="0"
+         y="0"
+         id="rect5551"
+         rx="2"
+         ry="2.2"
+         bh:rat-placement="exclude" />
+      <text
+         y="22.558334"
+         x="23.904167"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         xml:space="preserve"
+         id="text5555"><tspan
+           y="22.558334"
+           x="23.904167"
+           sodipodi:role="line"
+           style="font-size:17.06666756px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
+           id="tspan5553">Step</tspan></text>
     </symbol>
     <symbol
        style="display:inline"
@@ -952,7 +1005,7 @@
      width="100%"
      y="0"
      x="0"
-     transform="translate(252.3125,205)"
+     transform="translate(330,318)"
      id="use10359"
      xlink:href="#rat-wrangler" />
   <use
@@ -968,7 +1021,7 @@
      width="100%"
      y="0"
      x="0"
-     transform="translate(253.74107,240)"
+     transform="translate(264,280)"
      id="use11733"
      xlink:href="#duff-36x18" />
   <use
@@ -1054,7 +1107,7 @@
   <use
      xlink:href="#no-dix-sign"
      id="use14737"
-     transform="translate(294.00004,323.99996)"
+     transform="translate(414,330)"
      x="0"
      y="0"
      width="100%"
@@ -1095,6 +1148,22 @@
      xlink:href="#bh-instinct-cradle"
      id="use9854"
      transform="translate(144,322)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#step-24x18"
+     id="use6674"
+     transform="translate(252,234)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#step-18x12"
+     id="use7180"
+     transform="translate(252,204)"
      x="0"
      y="0"
      width="100%"
