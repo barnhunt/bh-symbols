@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="386.02845"
-     inkscape:cy="751.89396"
+     inkscape:cx="250.75941"
+     inkscape:cy="720.20792"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
@@ -382,6 +382,20 @@
            y="66.533333">Box</tspan></text>
     </symbol>
     <symbol
+       id="board-48x48">
+      <title
+         id="title10058">Board, 48x48</title>
+      <rect
+         width="96"
+         height="96"
+         x="0"
+         y="0"
+         rx="6"
+         ry="6"
+         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1"
+         id="rect10060" />
+    </symbol>
+    <symbol
        id="board-48x36">
       <title
          id="title87">Board, 48x36</title>
@@ -394,34 +408,6 @@
          x="0"
          height="72"
          width="96" />
-    </symbol>
-    <symbol
-       id="board-36x36">
-      <title
-         id="title92">Board, 36x36</title>
-      <rect
-         id="rect94"
-         width="72"
-         height="72"
-         x="0"
-         y="0"
-         rx="6"
-         ry="6"
-         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1" />
-    </symbol>
-    <symbol
-       id="board-72x36">
-      <title
-         id="title97">Board, 72x36</title>
-      <rect
-         id="rect99"
-         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1"
-         ry="6"
-         rx="6"
-         y="0"
-         x="0"
-         height="72"
-         width="144" />
     </symbol>
     <symbol
        id="board-48x33">
@@ -450,6 +436,62 @@
          rx="6"
          ry="6"
          style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1" />
+    </symbol>
+    <symbol
+       id="board-36x36">
+      <title
+         id="title92">Board, 36x36</title>
+      <rect
+         id="rect94"
+         width="72"
+         height="72"
+         x="0"
+         y="0"
+         rx="6"
+         ry="6"
+         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1" />
+    </symbol>
+    <symbol
+       id="board-36x30">
+      <title
+         id="title11382">Board, 36x30</title>
+      <rect
+         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1"
+         ry="6"
+         rx="6"
+         y="0"
+         x="0"
+         height="60"
+         width="72"
+         id="rect11384" />
+    </symbol>
+    <symbol
+       id="board-36x24">
+      <title
+         id="title13372">Board, 36x24</title>
+      <rect
+         id="rect13374"
+         width="72"
+         height="48"
+         x="0"
+         y="0"
+         rx="6"
+         ry="6"
+         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1" />
+    </symbol>
+    <symbol
+       id="board-72x36">
+      <title
+         id="title97">Board, 72x36</title>
+      <rect
+         id="rect99"
+         style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:1.06666672;stroke-miterlimit:4;stroke-opacity:1"
+         ry="6"
+         rx="6"
+         y="0"
+         x="0"
+         height="72"
+         width="144" />
     </symbol>
     <symbol
        inkscape:label=""
@@ -953,7 +995,7 @@
      xlink:href="#ramp-36x24"
      id="use10811" />
   <use
-     transform="translate(335.74107,96)"
+     transform="translate(335.74107,201)"
      height="100%"
      width="100%"
      y="0"
@@ -961,7 +1003,7 @@
      id="use14281"
      xlink:href="#board-48x36" />
   <use
-     transform="translate(443.74107,180)"
+     transform="translate(336,360)"
      height="100%"
      width="100%"
      y="0"
@@ -985,7 +1027,7 @@
      xlink:href="#board-72x36"
      id="use17234" />
   <use
-     transform="translate(335.74107,180)"
+     transform="translate(335.74107,285)"
      height="100%"
      width="100%"
      y="0"
@@ -1005,7 +1047,7 @@
      width="100%"
      y="0"
      x="0"
-     transform="translate(330,318)"
+     transform="translate(208.25893,416)"
      id="use10359"
      xlink:href="#rat-wrangler" />
   <use
@@ -1021,7 +1063,7 @@
      width="100%"
      y="0"
      x="0"
-     transform="translate(264,280)"
+     transform="translate(142.25893,378)"
      id="use11733"
      xlink:href="#duff-36x18" />
   <use
@@ -1029,7 +1071,7 @@
      width="100%"
      y="0"
      x="0"
-     transform="translate(343.74107,260)"
+     transform="translate(222,358)"
      id="use12524"
      xlink:href="#duff-48x24" />
   <use
@@ -1037,11 +1079,11 @@
      width="100%"
      y="0"
      x="0"
-     transform="translate(611.74107,288)"
+     transform="translate(612,324)"
      id="use14474"
      xlink:href="#rat-tube-5" />
   <use
-     transform="translate(581.74107,288)"
+     transform="translate(582,324)"
      height="100%"
      width="100%"
      y="0"
@@ -1049,7 +1091,7 @@
      xlink:href="#rat-tube-4"
      id="use15045" />
   <use
-     transform="translate(551.74107,288)"
+     transform="translate(552,324)"
      height="100%"
      width="100%"
      y="0"
@@ -1057,7 +1099,7 @@
      xlink:href="#rat-tube-3"
      id="use8904" />
   <use
-     transform="translate(521.74107,288)"
+     transform="translate(522,324)"
      height="100%"
      width="100%"
      y="0"
@@ -1065,7 +1107,7 @@
      xlink:href="#rat-tube-2"
      id="use9131" />
   <use
-     transform="translate(491.74107,288)"
+     transform="translate(492,324)"
      height="100%"
      width="100%"
      y="0"
@@ -1073,7 +1115,7 @@
      xlink:href="#rat-tube-1"
      id="use9352" />
   <use
-     transform="translate(455.74107,288)"
+     transform="translate(456,324)"
      height="100%"
      width="100%"
      y="0"
@@ -1085,11 +1127,11 @@
      width="100%"
      y="0"
      x="0"
-     transform="translate(491.74107,318)"
+     transform="translate(492,354)"
      id="use11941"
      xlink:href="#dummy-tube-empty" />
   <use
-     transform="translate(521.74107,318)"
+     transform="translate(522,354)"
      height="100%"
      width="100%"
      y="0"
@@ -1097,7 +1139,7 @@
      xlink:href="#dummy-tube-litter"
      id="use12671" />
   <use
-     transform="translate(455.74107,318)"
+     transform="translate(456,354)"
      height="100%"
      width="100%"
      y="0"
@@ -1107,7 +1149,7 @@
   <use
      xlink:href="#no-dix-sign"
      id="use14737"
-     transform="translate(414,330)"
+     transform="translate(292.25893,428)"
      x="0"
      y="0"
      width="100%"
@@ -1164,6 +1206,30 @@
      xlink:href="#step-18x12"
      id="use7180"
      transform="translate(252,204)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#board-48x48"
+     id="use10548"
+     transform="translate(336,96)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#board-36x30"
+     id="use12042"
+     transform="translate(444,180)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#board-36x24"
+     id="use13712"
+     transform="translate(444,252)"
      x="0"
      y="0"
      width="100%"
