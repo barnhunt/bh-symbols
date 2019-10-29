@@ -804,6 +804,163 @@
          id="rect10961"
          style="opacity:0.68699999;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </symbol>
+    <symbol
+       id="bale-1-edge-alt-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+      <title
+         id="title15480">Bale on edge (alt) LLxWWxHH</title>
+      <rect
+         id="rect15482"
+         y="0"
+         x="0"
+         style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
+         width="96"
+         height="36"
+         bale:width="2 * $bale-length"
+         bale:height="2 * $bale-height" />
+      <rect
+         id="rect15484"
+         y="0"
+         x="0"
+         height="36"
+         width="96"
+         bale:width="2 * $bale-length"
+         bale:height="2 * $bale-height"
+         style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none" />
+    </symbol>
+    <symbol
+       id="legend-1-alt-LLxWWxHH">
+      <title
+         id="title18519">Base-layer legend (alt) LLxWWxHH</title>
+      <g
+         id="g18539">
+        <use
+           transform="translate(12,30)"
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           xlink:href="#bale-1-with-strings-alt-LLxWWxHH"
+           id="use18521" />
+        <use
+           transform="translate(120,36)"
+           bale:transform="concat('translate(', 24 + 2 * $bale-length, ',', 30 + ($bale-width - $bale-height), ')')"
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           xlink:href="#bale-1-edge-alt-LLxWWxHH"
+           id="use18523" />
+        <text
+           id="text18529"
+           y="94.545685"
+           x="58.839844"
+           bale:transform="concat('translate(', $bale-length - 48, ',', 2 * ($bale-width - 24), ')')"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             y="94.545685"
+             x="58.839844"
+             id="tspan18527"
+             sodipodi:role="line">Flat</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="167.27669"
+           y="94.545685"
+           bale:transform="concat('translate(', 3 * ($bale-length - 48), ',', 2 * ($bale-width - 24), ')')"
+           id="text18533"><tspan
+             sodipodi:role="line"
+             id="tspan18531"
+             x="167.27669"
+             y="94.545685">On Edge</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="111.14974"
+         y="20.020302"
+         bale:transform="concat('translate(', 2 * ($bale-length - 48), ', 0)')"
+         id="text18543"><tspan
+           sodipodi:role="line"
+           id="tspan18541"
+           x="111.14974"
+           y="20.020302">NN-string Bales</tspan></text>
+      <rect
+         style="opacity:0.68699999;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect18545"
+         width="228"
+         height="102"
+         bale:width="36 + 4 * $bale-length"
+         bale:height="54 + 2 * $bale-width"
+         x="0"
+         y="0"
+         rx="12"
+         ry="12" />
+    </symbol>
+    <symbol
+       id="bale-1-anchor-edge-alt-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+      <title
+         id="title12661">Anchor Bale, on edge (alt), LLxWWxHH</title>
+      <rect
+         id="rect12663"
+         height="36"
+         width="96"
+         bale:width="2 * $bale-length"
+         bale:height="2 * $bale-height"
+         style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
+         x="0"
+         y="0" />
+      <rect
+         id="rect12665"
+         style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"
+         y="0"
+         x="0"
+         height="36"
+         width="96"
+         bale:width="2 * $bale-length"
+         bale:height="2 * $bale-height" />
+    </symbol>
+    <symbol
+       id="bale-1-with-strings-alt-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+      <title
+         id="title10969">NN-string bale with strings (alt), LLxWWxHH</title>
+      <rect
+         id="rect10971"
+         y="0"
+         x="0"
+         height="48"
+         width="96"
+         bale:width="2 * $bale-length"
+         bale:height="2 * $bale-width"
+         style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="string-alt-LLxWWxHH"
+         d="M 0,8 H 96"
+         bale:d="concat('M 0,8 H ', 2 * $bale-length)"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4" />
+      <use
+         id="use10975"
+         height="100%"
+         width="100%"
+         transform="translate(0,16)"
+         bale:transform="concat('translate(0,', $bale-width - 8,')')"
+         bale:condition="$bale-strings &gt; 2"
+         xlink:href="#string-alt-LLxWWxHH"
+         y="0"
+         x="0" />
+      <use
+         id="use10977"
+         height="100%"
+         width="100%"
+         transform="translate(0,32)"
+         bale:transform="concat('translate(0,', 2 * ($bale-width - 8),')')"
+         xlink:href="#string-alt-LLxWWxHH"
+         y="0"
+         x="0" />
+    </symbol>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -812,8 +969,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="531.35571"
-     inkscape:cy="688.6315"
+     inkscape:cx="223.12305"
+     inkscape:cy="601.27331"
      inkscape:document-units="px"
      inkscape:current-layer="svg219"
      showgrid="true"
@@ -924,7 +1081,8 @@
      y="0"
      width="100%"
      height="100%"
-     id="use197" />
+     id="use197"
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
   <use
      xlink:href="#bale-1-leaner-LLxWWxHH"
      x="0"
@@ -1008,7 +1166,7 @@
   <use
      xlink:href="#legend-1-LLxWWxHH"
      id="use12086"
-     transform="translate(240,336)"
+     transform="translate(240,360)"
      x="0"
      y="0"
      width="100%"
@@ -1016,7 +1174,7 @@
   <use
      xlink:href="#legend-2-LLxWWxHH"
      id="use10443"
-     transform="translate(240,450)"
+     transform="translate(240,474)"
      x="0"
      y="0"
      width="100%"
@@ -1024,7 +1182,39 @@
   <use
      xlink:href="#legend-3-LLxWWxHH"
      id="use11254"
-     transform="translate(240,564)"
+     transform="translate(240,588)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#bale-1-edge-alt-LLxWWxHH"
+     id="use16755"
+     transform="translate(486,762)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#legend-1-alt-LLxWWxHH"
+     id="use19162"
+     transform="translate(240,708)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#bale-1-anchor-edge-alt-LLxWWxHH"
+     id="use13298"
+     transform="translate(486,720)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#bale-1-with-strings-alt-LLxWWxHH"
+     id="use11636"
+     transform="translate(594,720)"
      x="0"
      y="0"
      width="100%"
