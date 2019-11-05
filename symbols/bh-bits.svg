@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="250.75941"
-     inkscape:cy="720.20792"
+     inkscape:zoom="2.8"
+     inkscape:cx="103.57627"
+     inkscape:cy="899.31541"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
@@ -941,6 +941,31 @@
          id="rect12267-2-7-0-9-3"
          style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </symbol>
+    <symbol
+       id="dc-mat-24x12">
+      <title
+         id="title10618">DC Mat 24x12</title>
+      <rect
+         rx="3.2"
+         ry="3.2"
+         height="24"
+         width="48"
+         style="fill:#fcdfd2;fill-opacity:1;stroke:#ff9802;stroke-width:1.17333329;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="0"
+         y="0"
+         id="rect10620" />
+      <text
+         y="17.71875"
+         x="23.410156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         xml:space="preserve"
+         id="text10628"><tspan
+           y="17.71875"
+           x="23.410156"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.14999998;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:1.06666672"
+           id="tspan10626">Mat</tspan></text>
+    </symbol>
   </defs>
   <metadata
      id="metadata5">
@@ -1230,6 +1255,14 @@
      xlink:href="#board-36x24"
      id="use13712"
      transform="translate(444,252)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#dc-mat-24x12"
+     id="use11144"
+     transform="translate(252,282)"
      x="0"
      y="0"
      width="100%"
