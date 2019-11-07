@@ -23,6 +23,27 @@
      id="defs179">
     <pattern
        inkscape:collect="always"
+       xlink:href="#Strips1_5"
+       id="bh-end-bale-stipple"
+       patternTransform="matrix(0.60940591,0.6668921,-22.161511,20.251186,0,0)" />
+    <pattern
+       inkscape:stockid="Stripes 1:5"
+       id="Strips1_5"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect1752"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
        xlink:href="#Polkadots-med"
        id="bh-edge-bale-stipple"
        patternTransform="scale(3.4)" />
@@ -961,6 +982,29 @@
          y="0"
          x="0" />
     </symbol>
+    <symbol
+       id="bale-1-end-LLxWWxHH">
+      <title
+         id="title193">Bale on end LLxWWxHH</title>
+      <rect
+         id="rect195"
+         y="0"
+         x="0"
+         style="opacity:1;fill:#f6ec94;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         width="48"
+         height="36"
+         bale:width="2 * $bale-width"
+         bale:height="2 * $bale-height" />
+      <rect
+         id="rect197"
+         y="0"
+         x="0"
+         height="36"
+         width="48"
+         bale:width="2 * $bale-width"
+         bale:height="2 * $bale-height"
+         style="fill:url(#bh-end-bale-stipple);fill-opacity:1;stroke:none" />
+    </symbol>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -968,9 +1012,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="223.12305"
-     inkscape:cy="601.27331"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="27.722444"
+     inkscape:cy="692.80118"
      inkscape:document-units="px"
      inkscape:current-layer="svg219"
      showgrid="true"
@@ -1215,6 +1259,14 @@
      xlink:href="#bale-1-with-strings-alt-LLxWWxHH"
      id="use11636"
      transform="translate(594,720)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#bale-1-end-LLxWWxHH"
+     id="use8161"
+     transform="translate(582,96)"
      x="0"
      y="0"
      width="100%"
