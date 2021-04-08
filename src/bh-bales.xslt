@@ -13,6 +13,10 @@
   <xsl:param name="bale-width">18</xsl:param>
   <xsl:param name="bale-height">15</xsl:param>
   <xsl:param name="bale-strings">2</xsl:param>
+  <xsl:param name="bale-scale">48</xsl:param>
+  <xsl:param name="inches">
+    <xsl:value-of select="96 div $bale-scale"/>
+  </xsl:param>
 
   <xsl:output method="xml"
               indent="yes" />
@@ -35,10 +39,29 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template name="fixup-scale">
+    <xsl:param name="text" select="."/>
+    <xsl:choose>
+      <xsl:when test="$bale-scale = 48">
+        <xsl:value-of select="str:replace($text, ' (SCALE)', '')"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="str:replace(
+                              $text, ' (SCALE)',
+                              concat(' (', $bale-scale, ':1)')
+                              )"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
   <xsl:template name="fixup-text">
     <xsl:param name="text" select="."/>
-    <xsl:call-template name="fixup-number-of-strings">
-      <xsl:with-param name="text" select="str:replace(., 'LLxWWxHH', $bale-dims)"/>
+    <xsl:call-template name="fixup-scale">
+      <xsl:with-param name="text">
+        <xsl:call-template name="fixup-number-of-strings">
+          <xsl:with-param name="text" select="str:replace(., 'LLxWWxHH', $bale-dims)"/>
+        </xsl:call-template>
+      </xsl:with-param>
     </xsl:call-template>
   </xsl:template>
 
@@ -61,6 +84,16 @@
     <xsl:if test="@bale:transform">
       <xsl:attribute name="transform">
         <xsl:value-of select="dyn:evaluate(@bale:transform)"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:if test="@bale:x">
+      <xsl:attribute name="x">
+        <xsl:value-of select="dyn:evaluate(@bale:x)"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:if test="@bale:y">
+      <xsl:attribute name="y">
+        <xsl:value-of select="dyn:evaluate(@bale:y)"/>
       </xsl:attribute>
     </xsl:if>
   </xsl:template>

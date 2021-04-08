@@ -18,7 +18,7 @@
    sodipodi:docname="bh-bales.svg"
    id="svg219">
   <title
-     id="title2">NN-string Bales, LLxWWxHH</title>
+     id="title2">NN-string Bales, LLxWWxHH (SCALE)</title>
   <defs
      id="defs179">
     <pattern
@@ -327,8 +327,8 @@
       <title
          id="title94">Bale, level 1, LLxWWxHH</title>
       <rect
-         bale:height="2 * $bale-width"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-width * $inches"
+         bale:width="$bale-length * $inches"
          height="48"
          width="96"
          style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
@@ -342,8 +342,8 @@
       <title
          id="title99">Bale on edge LLxWWxHH</title>
       <rect
-         bale:height="2 * $bale-height"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
          height="36"
          width="96"
          style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -352,8 +352,8 @@
          id="rect101" />
       <rect
          style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"
-         bale:height="2 * $bale-height"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
          width="96"
          height="36"
          x="0"
@@ -367,8 +367,8 @@
          id="title170">Bale, leaner, LLxWWxHH</title>
       <rect
          style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
-         bale:height="2 * $bale-width"
-         bale:width="2 * $bale-length + 6"
+         bale:height="$bale-width * $inches"
+         bale:width="($bale-length + 3) * $inches"
          width="102"
          height="48"
          x="0"
@@ -376,13 +376,13 @@
          id="rect172" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:0.55294118"
-         bale:d="concat('M 12,0 V ', 2 * $bale-width)"
+         bale:d="concat('M 12,0 V ', $bale-width * $inches)"
          d="M 12,0 V 48"
          inkscape:connector-curvature="0"
          id="path174" />
       <path
          inkscape:connector-curvature="0"
-         bale:d="concat(                  'M ', 2 * $bale-length - 6, ',', $bale-width,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', $bale-width)"
+         bale:d="concat(                  'M ', ($bale-length - 3) * $inches, ',', 0.5 * $bale-width * $inches,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', 0.5 * $bale-width * $inches)"
          d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24"
          style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
          id="path176" />
@@ -396,8 +396,8 @@
          y="0"
          x="0"
          style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
-         bale:height="2 * $bale-width"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-width * $inches"
+         bale:width="$bale-length * $inches"
          width="96"
          height="48"
          id="rect108" />
@@ -411,14 +411,14 @@
          y="0"
          x="0"
          style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         bale:height="2 * $bale-height"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
          width="96"
          height="36"
          id="rect113" />
       <rect
-         bale:height="2 * $bale-height"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
          width="96"
          height="36"
          x="0"
@@ -434,21 +434,21 @@
       <rect
          y="0"
          x="0"
-         bale:height="2 * $bale-width"
-         bale:width="2 * $bale-length + 6"
+         bale:height="$bale-width * $inches"
+         bale:width="($bale-length + 3) * $inches"
          height="48"
          width="102"
          style="fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect120" />
       <path
          inkscape:connector-curvature="0"
-         bale:d="concat('M 12,0 V ', 2 * $bale-width)"
+         bale:d="concat('M 12,0 V ', $bale-width * $inches)"
          d="M 12,0 V 48"
          style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118"
          id="path122" />
       <path
          style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         bale:d="concat(                  'M ', 2 * $bale-length - 6, ',', $bale-width,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', $bale-width)"
+         bale:d="concat(                  'M ', ($bale-length - 3) * $inches, ',', 0.5 * $bale-width * $inches,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', 0.5 * $bale-width * $inches)"
          d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24"
          inkscape:connector-curvature="0"
          id="path124" />
@@ -459,8 +459,8 @@
       <title
          id="title127">Bale, level 3, LLxWWxHH</title>
       <rect
-         bale:height="2 * $bale-width"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-width * $inches"
+         bale:width="$bale-length * $inches"
          height="48"
          width="96"
          style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
@@ -474,8 +474,8 @@
       <title
          id="title132">Bale. 23rd level, on edge LLxWWxHH</title>
       <rect
-         bale:height="2 * $bale-height"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
          height="36"
          width="96"
          style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -483,8 +483,8 @@
          y="0"
          id="rect134" />
       <rect
-         bale:height="2 * $bale-height"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
          width="96"
          height="36"
          x="0"
@@ -499,8 +499,8 @@
          id="title139">Bale, 3rd level, leaner, LLxWWxHH</title>
       <rect
          style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         bale:height="2 * $bale-width"
-         bale:width="2 * $bale-length + 6"
+         bale:height="$bale-width * $inches"
+         bale:width="($bale-length + 3) * $inches"
          width="102"
          height="48"
          x="0"
@@ -508,13 +508,13 @@
          id="rect141" />
       <path
          style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118"
-         bale:d="concat('M 12,0 V ', 2 * $bale-width)"
+         bale:d="concat('M 12,0 V ', $bale-width * $inches)"
          d="M 12,0 V 48"
          inkscape:connector-curvature="0"
          id="path143" />
       <path
          style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         bale:d="concat(                  'M ', 2 * $bale-length - 6, ',', $bale-width,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', $bale-width)"
+         bale:d="concat(                  'M ', ($bale-length - 3) * $inches, ',', 0.5 * $bale-width * $inches,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', 0.5 * $bale-width * $inches)"
          d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24"
          inkscape:connector-curvature="0"
          id="path145" />
@@ -528,8 +528,8 @@
          y="0"
          x="0"
          style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         bale:height="2 * $bale-width"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-width * $inches"
+         bale:width="$bale-length * $inches"
          width="96"
          height="48"
          id="rect150" />
@@ -543,14 +543,14 @@
          y="0"
          x="0"
          style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         bale:height="2 * $bale-height"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
          width="96"
          height="36"
          id="rect155" />
       <rect
-         bale:height="2 * $bale-height"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
          width="96"
          height="36"
          x="0"
@@ -565,8 +565,8 @@
          id="title160">NN-string bale with strings, LLxWWxHH</title>
       <rect
          style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
-         bale:height="2 * $bale-width"
-         bale:width="2 * $bale-length"
+         bale:height="$bale-width * $inches"
+         bale:width="$bale-length * $inches"
          width="96"
          height="48"
          x="0"
@@ -574,7 +574,7 @@
          id="rect162" />
       <path
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4"
-         bale:d="concat('M 0,8 H ', 2 * $bale-length)"
+         bale:d="concat('M 0,8 H ', $bale-length * $inches)"
          d="M 0,8 H 96"
          id="string-LLxWWxHH"
          inkscape:connector-curvature="0" />
@@ -583,7 +583,7 @@
          y="0"
          xlink:href="#string-LLxWWxHH"
          bale:condition="$bale-strings &gt; 2"
-         bale:transform="concat('translate(0,', $bale-width - 8,')')"
+         bale:transform="concat('translate(0,', 0.5 * ($bale-width - 8) * $inches, ')')"
          transform="translate(0,16)"
          width="100%"
          height="100%"
@@ -592,7 +592,7 @@
          x="0"
          y="0"
          xlink:href="#string-LLxWWxHH"
-         bale:transform="concat('translate(0,', 2 * ($bale-width - 8),')')"
+         bale:transform="concat('translate(0,', ($bale-width - 8) * $inches,')')"
          transform="translate(0,32)"
          width="100%"
          height="100%"
@@ -607,33 +607,32 @@
         <use
            id="use9710"
            xlink:href="#bale-1-LLxWWxHH"
-           x="0"
-           y="0"
+           bale:x="6 * $inches"
+           x="12"
+           y="30"
            width="100%"
-           height="100%"
-           transform="translate(12,30)" />
+           height="100%" />
         <use
            id="use9880"
            xlink:href="#bale-1-edge-LLxWWxHH"
-           x="0"
-           y="0"
+           bale:x="(6 + $bale-length + 6) * $inches"
+           x="120"
+           y="30"
            width="100%"
-           height="100%"
-           bale:transform="concat('translate(', 24 + 2 * $bale-length, ',', 30 + ($bale-width - $bale-height), ')')"
-           transform="translate(120,36)" />
+           height="100%" />
         <use
            id="use10052"
            xlink:href="#bale-1-leaner-LLxWWxHH"
-           x="0"
-           y="0"
+           bale:x="(6 + $bale-length + 6 + $bale-length + 6) * $inches"
+           x="228"
+           y="30"
            width="100%"
-           height="100%"
-           bale:transform="concat('translate(', 36 + 4 * $bale-length, ', 30)')"
-           transform="translate(228,30)" />
+           height="100%" />
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           bale:transform="concat('translate(', $bale-length - 48, ',', 2 * ($bale-width - 24), ')')"
+           bale:x="(6 + 0.5 * $bale-length) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
            x="58.839844"
            y="94.545685"
            id="text10214"><tspan
@@ -643,7 +642,8 @@
              y="94.545685">Flat</tspan></text>
         <text
            id="text10365"
-           bale:transform="concat('translate(', 3 * ($bale-length - 48), ',', 2 * ($bale-width - 24), ')')"
+           bale:x="(1.5 * $bale-length + 12) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
            y="94.545685"
            x="167.27669"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -655,7 +655,8 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           bale:transform="concat('translate(', 5 * ($bale-length - 48), ',', 2 * ($bale-width - 24), ')')"
+           bale:x="(2 * $bale-length + 18 + 0.5 * ($bale-length + 3)) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
            x="277.98166"
            y="94.545685"
            id="text10516"><tspan
@@ -666,7 +667,7 @@
       </g>
       <text
          id="text10825"
-         bale:transform="concat('translate(', 3 * ($bale-length - 48), ', 0)')"
+         bale:x="(24 + 3 * $bale-length + 3) * 0.5 * $inches"
          y="20.020302"
          x="168.88307"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -680,8 +681,8 @@
          rx="12"
          y="0"
          x="0"
-         bale:height="54 + 2 * $bale-width"
-         bale:width="54 + 6 * $bale-length"
+         bale:height="54 + $bale-width * $inches"
+         bale:width="(27 + 3 * $bale-length) * $inches"
          height="102"
          width="342"
          id="rect10974"
@@ -695,9 +696,10 @@
          id="g9988">
         <text
            id="text9978"
+           bale:x="(6 + 0.5 * $bale-length) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
            y="94.545685"
            x="58.839844"
-           bale:transform="concat('translate(', $bale-length - 48, ',', 2 * ($bale-width - 24), ')')"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              y="94.545685"
@@ -706,9 +708,10 @@
              sodipodi:role="line">Flat</tspan></text>
         <text
            id="text9986"
+           bale:x="(12 + $bale-length + 0.5 * ($bale-length + 3)) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
            y="94.545685"
            x="169.98166"
-           bale:transform="concat('translate(', 3 * ($bale-length - 48), ',', 2 * ($bale-width - 24), ')')"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              y="94.545685"
@@ -718,27 +721,26 @@
         <use
            id="use10393"
            xlink:href="#bale-2-LLxWWxHH"
-           x="0"
-           y="0"
+           bale:x="6 * $inches"
+           x="12"
+           y="30"
            width="100%"
-           height="100%"
-           transform="translate(12,30)" />
+           height="100%" />
         <use
            id="use10417"
            xlink:href="#bale-2-leaner-LLxWWxHH"
-           x="0"
-           y="0"
+           bale:x="(6 + $bale-length + 6) * $inches"
+           x="120"
+           y="30"
            width="100%"
-           height="100%"
-           bale:transform="concat('translate(', 24 + 2 * $bale-length, ',30)')"
-           transform="translate(120,30)" />
+           height="100%" />
       </g>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         bale:x="(18 + 2 * $bale-length + 3) * 0.5 * $inches"
          x="115.39584"
          y="20.020302"
-         bale:transform="concat('translate(', 2 * ($bale-length - 48), ', 0)')"
          id="text9992"><tspan
            sodipodi:role="line"
            id="tspan9990"
@@ -749,8 +751,8 @@
          id="rect9994"
          width="234"
          height="102"
-         bale:width="42 + 4 * $bale-length"
-         bale:height="54 + 2 * $bale-width"
+         bale:width="(21 + 2 * $bale-length) * $inches"
+         bale:height="54 + $bale-width * $inches"
          x="0"
          y="0"
          rx="12"
@@ -765,7 +767,8 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           bale:transform="concat('translate(', $bale-length - 48, ',', 2 * ($bale-width - 24), ')')"
+           bale:x="(6 + 0.5 * $bale-length) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
            x="58.839844"
            y="94.545685"
            id="text10945"><tspan
@@ -776,7 +779,8 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           bale:transform="concat('translate(', 3 * ($bale-length - 48), ',', 2 * ($bale-width - 24), ')')"
+           bale:x="(12 + $bale-length + 0.5 * ($bale-length + 3)) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
            x="169.98166"
            y="94.545685"
            id="text10949"><tspan
@@ -787,26 +791,25 @@
         <use
            id="use11204"
            xlink:href="#bale-3-LLxWWxHH"
-           x="0"
-           y="0"
+           bale:x="6 * $inches"
+           x="12"
+           y="30"
            width="100%"
-           height="100%"
-           transform="translate(12,30)" />
+           height="100%" />
         <use
            id="use11228"
            xlink:href="#bale-3-leaner-LLxWWxHH"
-           x="0"
-           y="0"
+           bale:x="(12 + $bale-length) * $inches"
+           x="120"
+           y="30"
            width="100%"
-           height="100%"
-           bale:transform="concat('translate(', 24 + 2 * $bale-length, ',30)')"
-           transform="translate(120,30)" />
+           height="100%" />
       </g>
       <text
          id="text10959"
-         bale:transform="concat('translate(', 2 * ($bale-length - 48), ', 0)')"
-         y="20.020302"
+         bale:x="0.5 * (18 + 2 * $bale-length + 3) * $inches"
          x="115.39584"
+         y="20.020302"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="20.020302"
@@ -818,8 +821,8 @@
          rx="12"
          y="0"
          x="0"
-         bale:height="54 + 2 * $bale-width"
-         bale:width="42 + 4 * $bale-length"
+         bale:height="54 + $bale-width * $inches"
+         bale:width="(21 + 2 * $bale-length) * $inches"
          height="102"
          width="234"
          id="rect10961"
@@ -837,16 +840,16 @@
          style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
          width="96"
          height="36"
-         bale:width="2 * $bale-length"
-         bale:height="2 * $bale-height" />
+         bale:width="$bale-length * $inches"
+         bale:height="$bale-height * $inches" />
       <rect
          id="rect15484"
          y="0"
          x="0"
          height="36"
          width="96"
-         bale:width="2 * $bale-length"
-         bale:height="2 * $bale-height"
+         bale:width="$bale-length * $inches"
+         bale:height="$bale-height * $inches"
          style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none" />
     </symbol>
     <symbol
@@ -856,27 +859,28 @@
       <g
          id="g18539">
         <use
-           transform="translate(12,30)"
            height="100%"
            width="100%"
-           y="0"
-           x="0"
+           bale:x="6 * $inches"
+           x="12"
+           y="30"
            xlink:href="#bale-1-with-strings-alt-LLxWWxHH"
            id="use18521" />
         <use
-           transform="translate(120,36)"
-           bale:transform="concat('translate(', 24 + 2 * $bale-length, ',', 30 + ($bale-width - $bale-height), ')')"
            height="100%"
            width="100%"
-           y="0"
-           x="0"
+           bale:x="(12 + $bale-length) * $inches"
+           bale:y="30 + 0.5 * ($bale-width - $bale-height) * $inches"
+           x="120"
+           y="36"
            xlink:href="#bale-1-edge-alt-LLxWWxHH"
            id="use18523" />
         <text
            id="text18529"
+           bale:x="(6 + 0.5 * $bale-length) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
            y="94.545685"
            x="58.839844"
-           bale:transform="concat('translate(', $bale-length - 48, ',', 2 * ($bale-width - 24), ')')"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              y="94.545685"
@@ -886,9 +890,10 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           bale:x="(12 + 1.5 * $bale-length) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
            x="167.27669"
            y="94.545685"
-           bale:transform="concat('translate(', 3 * ($bale-length - 48), ',', 2 * ($bale-width - 24), ')')"
            id="text18533"><tspan
              sodipodi:role="line"
              id="tspan18531"
@@ -898,9 +903,9 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         bale:x="0.5 * (18 + 2 * $bale-length) * $inches"
          x="111.14974"
          y="20.020302"
-         bale:transform="concat('translate(', 2 * ($bale-length - 48), ', 0)')"
          id="text18543"><tspan
            sodipodi:role="line"
            id="tspan18541"
@@ -911,8 +916,8 @@
          id="rect18545"
          width="228"
          height="102"
-         bale:width="36 + 4 * $bale-length"
-         bale:height="54 + 2 * $bale-width"
+         bale:width="(18 + 2 * $bale-length) * $inches"
+         bale:height="54 + $bale-width * $inches"
          x="0"
          y="0"
          rx="12"
@@ -927,8 +932,8 @@
          id="rect12663"
          height="36"
          width="96"
-         bale:width="2 * $bale-length"
-         bale:height="2 * $bale-height"
+         bale:width="$bale-length * $inches"
+         bale:height="$bale-height * $inches"
          style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
          x="0"
          y="0" />
@@ -939,8 +944,8 @@
          x="0"
          height="36"
          width="96"
-         bale:width="2 * $bale-length"
-         bale:height="2 * $bale-height" />
+         bale:width="$bale-length * $inches"
+         bale:height="$bale-height * $inches" />
     </symbol>
     <symbol
        id="bale-1-with-strings-alt-LLxWWxHH"
@@ -953,21 +958,21 @@
          x="0"
          height="48"
          width="96"
-         bale:width="2 * $bale-length"
-         bale:height="2 * $bale-width"
+         bale:width="$bale-length * $inches"
+         bale:height="$bale-width * $inches"
          style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" />
       <path
          inkscape:connector-curvature="0"
          id="string-alt-LLxWWxHH"
          d="M 0,8 H 96"
-         bale:d="concat('M 0,8 H ', 2 * $bale-length)"
+         bale:d="concat('M 0,8 H ', $bale-length * $inches)"
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4" />
       <use
          id="use10975"
          height="100%"
          width="100%"
          transform="translate(0,16)"
-         bale:transform="concat('translate(0,', $bale-width - 8,')')"
+         bale:transform="concat('translate(0,', 0.5 * ($bale-width - 8) * $inches,')')"
          bale:condition="$bale-strings &gt; 2"
          xlink:href="#string-alt-LLxWWxHH"
          y="0"
@@ -977,7 +982,7 @@
          height="100%"
          width="100%"
          transform="translate(0,32)"
-         bale:transform="concat('translate(0,', 2 * ($bale-width - 8),')')"
+         bale:transform="concat('translate(0,', ($bale-width - 8) * $inches,')')"
          xlink:href="#string-alt-LLxWWxHH"
          y="0"
          x="0" />
@@ -993,16 +998,16 @@
          style="opacity:1;fill:#f6ec94;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          width="48"
          height="36"
-         bale:width="2 * $bale-width"
-         bale:height="2 * $bale-height" />
+         bale:width="$bale-width * $inches"
+         bale:height="$bale-height * $inches" />
       <rect
          id="rect197"
          y="0"
          x="0"
          height="36"
          width="48"
-         bale:width="2 * $bale-width"
-         bale:height="2 * $bale-height"
+         bale:width="$bale-width * $inches"
+         bale:height="$bale-height * $inches"
          style="fill:url(#bh-end-bale-stipple);fill-opacity:1;stroke:none" />
     </symbol>
   </defs>
