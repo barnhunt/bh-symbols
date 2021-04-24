@@ -14,7 +14,7 @@
    height="11in"
    viewBox="0 0 816 1056"
    version="1.1"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="bh-bales.svg"
    id="svg219">
   <title
@@ -988,6 +988,165 @@
          x="0" />
     </symbol>
     <symbol
+       id="bale-1-leaner-alt-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+      <title
+         id="title166">Bale, leaner (alt), LLxWWxHH</title>
+      <rect
+         style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
+         bale:height="$bale-width * $inches"
+         bale:width="($bale-length + 3) * $inches"
+         width="102"
+         height="48"
+         x="0"
+         y="0"
+         id="rect168" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:0.55294118"
+         bale:d="concat('M 12,0 V ', $bale-width * $inches)"
+         d="M 12,0 V 48"
+         inkscape:connector-curvature="0"
+         id="path170" />
+      <path
+         inkscape:connector-curvature="0"
+         bale:d="concat(                  'M ', ($bale-length - 3) * $inches, ',', 0.5 * $bale-width * $inches,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', 0.5 * $bale-width * $inches)"
+         d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24"
+         style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         id="path172" />
+    </symbol>
+    <symbol
+       id="bale-2-alt-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+      <title
+         id="title86943">Bale, level 2 (alt), LLxWWxHH</title>
+      <rect
+         y="0"
+         x="0"
+         style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
+         bale:height="$bale-width * $inches"
+         bale:width="$bale-length * $inches"
+         width="96"
+         height="48"
+         id="rect86945" />
+    </symbol>
+    <symbol
+       id="bale-2-edge-alt-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+      <title
+         id="title86948">Bale. 2nd level, on edge (alt), LLxWWxHH</title>
+      <rect
+         y="0"
+         x="0"
+         style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
+         width="96"
+         height="36"
+         id="rect86950" />
+      <rect
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
+         width="96"
+         height="36"
+         x="0"
+         y="0"
+         style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"
+         id="rect86952" />
+    </symbol>
+    <symbol
+       id="bale-2-leaner-alt-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+      <title
+         id="title86955">Bale, 2nd level, leaner (alt), LLxWWxHH</title>
+      <rect
+         y="0"
+         x="0"
+         bale:height="$bale-width * $inches"
+         bale:width="($bale-length + 3) * $inches"
+         height="48"
+         width="102"
+         style="fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
+         id="rect86957" />
+      <path
+         inkscape:connector-curvature="0"
+         bale:d="concat('M 12,0 V ', $bale-width * $inches)"
+         d="M 12,0 V 48"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118"
+         id="path86959" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         bale:d="concat(                  'M ', ($bale-length - 3) * $inches, ',', 0.5 * $bale-width * $inches,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', 0.5 * $bale-width * $inches)"
+         d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24"
+         inkscape:connector-curvature="0"
+         id="path86961" />
+    </symbol>
+    <symbol
+       id="bale-3-alt-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+      <title
+         id="title86964">Bale, level 3 (alt), LLxWWxHH</title>
+      <rect
+         bale:height="$bale-width * $inches"
+         bale:width="$bale-length * $inches"
+         height="48"
+         width="96"
+         style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
+         x="0"
+         y="0"
+         id="rect86966" />
+    </symbol>
+    <symbol
+       id="bale-3-edge-alt-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+      <title
+         id="title86969">Bale, 3rd level, on edge (alt), LLxWWxHH</title>
+      <rect
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
+         height="36"
+         width="96"
+         style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
+         x="0"
+         y="0"
+         id="rect86971" />
+      <rect
+         bale:height="$bale-height * $inches"
+         bale:width="$bale-length * $inches"
+         width="96"
+         height="36"
+         x="0"
+         y="0"
+         style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"
+         id="rect86973" />
+    </symbol>
+    <symbol
+       id="bale-3-leaner-alt-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+      <title
+         id="title86976">Bale, 3rd level, leaner (alt), LLxWWxHH</title>
+      <rect
+         style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
+         bale:height="$bale-width * $inches"
+         bale:width="($bale-length + 3) * $inches"
+         width="102"
+         height="48"
+         x="0"
+         y="0"
+         id="rect86978" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118"
+         bale:d="concat('M 12,0 V ', $bale-width * $inches)"
+         d="M 12,0 V 48"
+         inkscape:connector-curvature="0"
+         id="path86980" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         bale:d="concat(                  'M ', ($bale-length - 3) * $inches, ',', 0.5 * $bale-width * $inches,                  ' H 28 v -3.3 l -6,3.3 6,3.3 V ', 0.5 * $bale-width * $inches)"
+         d="M 90,24 H 28 v -3.3 l -6,3.3 6,3.3 V 24"
+         inkscape:connector-curvature="0"
+         id="path86982" />
+    </symbol>
+    <symbol
        id="bale-1-end-LLxWWxHH">
       <title
          id="title193">Bale on end LLxWWxHH</title>
@@ -1017,15 +1176,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="27.722444"
-     inkscape:cy="692.80118"
+     inkscape:zoom="2.8"
+     inkscape:cx="485.49779"
+     inkscape:cy="214.71028"
      inkscape:document-units="px"
      inkscape:current-layer="svg219"
      showgrid="true"
      units="in"
      inkscape:window-width="1920"
-     inkscape:window-height="1134"
+     inkscape:window-height="1145"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -1276,4 +1435,60 @@
      y="0"
      width="100%"
      height="100%" />
+  <use
+     id="use86392"
+     xlink:href="#bale-1-leaner-alt-LLxWWxHH"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(594,774)" />
+  <use
+     id="use87324"
+     xlink:href="#bale-2-alt-LLxWWxHH"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(486,846)" />
+  <use
+     id="use87347"
+     xlink:href="#bale-2-edge-alt-LLxWWxHH"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(486,804)" />
+  <use
+     id="use87372"
+     xlink:href="#bale-2-leaner-alt-LLxWWxHH"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(594,828)" />
+  <use
+     id="use87397"
+     xlink:href="#bale-3-edge-alt-LLxWWxHH"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(486,900)" />
+  <use
+     id="use87420"
+     xlink:href="#bale-3-alt-LLxWWxHH"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(486,942)" />
+  <use
+     id="use87444"
+     xlink:href="#bale-3-leaner-alt-LLxWWxHH"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(594,882)" />
 </svg>
