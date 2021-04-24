@@ -43,11 +43,11 @@
     <xsl:param name="text" select="."/>
     <xsl:choose>
       <xsl:when test="$bale-scale = 48">
-        <xsl:value-of select="str:replace($text, ' (SCALE)', '')"/>
+        <xsl:value-of select="str:replace($text, '{SCALE}', '')"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="str:replace(
-                              $text, ' (SCALE)',
+                              $text, '{SCALE}',
                               concat(' (', $bale-scale, ':1)')
                               )"/>
       </xsl:otherwise>
