@@ -42,7 +42,7 @@ symbols/bh-bales-48x24x18.svg: bh-bales.svg bh-bales.xslt
 
 symbols: symbols/bh-bales-45x22x16.svg
 symbols/bh-bales-45x22x16.svg: bh-bales.svg bh-bales.xslt
-	$(call make_bales, 44, 22, 16, 3) > $@
+	$(call make_bales, 45, 22, 16, 3) > $@
 
 
 # 42" 2-string bales at 60:1 (5 feet per inch) scale

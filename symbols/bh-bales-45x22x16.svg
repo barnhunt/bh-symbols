@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:bh="http://dairiki.org/barnhunt/inkscape-extensions" width="8.5in" height="11in" viewBox="0 0 816 1056" version="1.1" inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)" sodipodi:docname="bh-bales.svg" id="svg219">
-  <title>Three-string Bales, 44x22x16</title>
+  <title>Three-string Bales, 45x22x16</title>
   <defs>
     <pattern inkscape:collect="always" xlink:href="#Strips1_5" id="bh-end-bale-stipple" patternTransform="matrix(0.60940591,0.6668921,-22.161511,20.251186,0,0)"/>
     <pattern inkscape:stockid="Stripes 1:5" id="Strips1_5" patternTransform="translate(0,0) scale(10,10)" height="1" width="6" patternUnits="userSpaceOnUse" inkscape:collect="always">
@@ -53,168 +53,168 @@
       <circle r="0.15" cy="4.451" cx="1.302" style="fill:black;stroke:none"/>
       <circle r="0.15" cy="3.763" cx="3.047" style="fill:black;stroke:none"/>
     </pattern>
-    <symbol id="bale-1-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, level 1, 44x22x16</title>
-      <rect height="44" width="88" style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" x="0" y="0"/>
+    <symbol id="bale-1-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, level 1, 45x22x16</title>
+      <rect height="44" width="90" style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" x="0" y="0"/>
     </symbol>
-    <symbol id="bale-1-edge-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale on edge 44x22x16</title>
-      <rect height="32" width="88" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="0" y="0"/>
-      <rect style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none" width="88" height="32" x="0" y="0"/>
+    <symbol id="bale-1-edge-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale on edge 45x22x16</title>
+      <rect height="32" width="90" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="0" y="0"/>
+      <rect style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none" width="90" height="32" x="0" y="0"/>
     </symbol>
-    <symbol id="bale-1-leaner-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, leaner, 44x22x16</title>
-      <rect style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" width="94" height="44" x="0" y="0"/>
+    <symbol id="bale-1-leaner-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, leaner, 45x22x16</title>
+      <rect style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" width="96" height="44" x="0" y="0"/>
       <path style="fill:none;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:0.55294118" d="M 12,0 V 44" inkscape:connector-curvature="0"/>
-      <path inkscape:connector-curvature="0" d="M 82,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"/>
+      <path inkscape:connector-curvature="0" d="M 84,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"/>
     </symbol>
-    <symbol id="bale-2-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, level 2, 44x22x16</title>
-      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" width="88" height="44"/>
+    <symbol id="bale-2-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, level 2, 45x22x16</title>
+      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" width="90" height="44"/>
     </symbol>
-    <symbol id="bale-2-edge-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale. 2nd level, on edge 44x22x16</title>
-      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="88" height="32"/>
-      <rect width="88" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
+    <symbol id="bale-2-edge-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale. 2nd level, on edge 45x22x16</title>
+      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="90" height="32"/>
+      <rect width="90" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
-    <symbol id="bale-2-leaner-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, 2nd level, leaner, 44x22x16</title>
-      <rect y="0" x="0" height="44" width="94" style="fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+    <symbol id="bale-2-leaner-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, 2nd level, leaner, 45x22x16</title>
+      <rect y="0" x="0" height="44" width="96" style="fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
       <path inkscape:connector-curvature="0" d="M 12,0 V 44" style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118"/>
-      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 82,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" inkscape:connector-curvature="0"/>
+      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 84,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" inkscape:connector-curvature="0"/>
     </symbol>
-    <symbol id="bale-3-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, level 3, 44x22x16</title>
-      <rect height="44" width="88" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" x="0" y="0"/>
+    <symbol id="bale-3-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, level 3, 45x22x16</title>
+      <rect height="44" width="90" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4" x="0" y="0"/>
     </symbol>
-    <symbol id="bale-3-edge-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale. 23rd level, on edge 44x22x16</title>
-      <rect height="32" width="88" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="0" y="0"/>
-      <rect width="88" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
+    <symbol id="bale-3-edge-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale. 23rd level, on edge 45x22x16</title>
+      <rect height="32" width="90" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="0" y="0"/>
+      <rect width="90" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
-    <symbol id="bale-3-leaner-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, 3rd level, leaner, 44x22x16</title>
-      <rect style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="94" height="44" x="0" y="0"/>
+    <symbol id="bale-3-leaner-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, 3rd level, leaner, 45x22x16</title>
+      <rect style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="96" height="44" x="0" y="0"/>
       <path style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118" d="M 12,0 V 44" inkscape:connector-curvature="0"/>
-      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 82,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" inkscape:connector-curvature="0"/>
+      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 84,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" inkscape:connector-curvature="0"/>
     </symbol>
-    <symbol id="bale-1-anchor-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Anchor Bale, 44x22x16</title>
-      <rect y="0" x="0" style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="88" height="44"/>
+    <symbol id="bale-1-anchor-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Anchor Bale, 45x22x16</title>
+      <rect y="0" x="0" style="opacity:1;fill:#fffbb8;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="90" height="44"/>
     </symbol>
-    <symbol id="bale-1-anchor-edge-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Anchor Bale, on edge, 44x22x16</title>
-      <rect y="0" x="0" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="88" height="32"/>
-      <rect width="88" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
+    <symbol id="bale-1-anchor-edge-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Anchor Bale, on edge, 45x22x16</title>
+      <rect y="0" x="0" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="90" height="32"/>
+      <rect width="90" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
-    <symbol id="bale-1-with-strings-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Three-string bale with strings, 44x22x16</title>
-      <rect style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" width="88" height="44" x="0" y="0"/>
-      <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4" d="M 0,8 H 88" id="string-44x22x16" inkscape:connector-curvature="0"/>
-      <use x="0" y="0" xlink:href="#string-44x22x16" transform="translate(0,14)" width="100%" height="100%"/>
-      <use x="0" y="0" xlink:href="#string-44x22x16" transform="translate(0,28)" width="100%" height="100%"/>
+    <symbol id="bale-1-with-strings-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Three-string bale with strings, 45x22x16</title>
+      <rect style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" width="90" height="44" x="0" y="0"/>
+      <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4" d="M 0,8 H 90" id="string-45x22x16" inkscape:connector-curvature="0"/>
+      <use x="0" y="0" xlink:href="#string-45x22x16" transform="translate(0,14)" width="100%" height="100%"/>
+      <use x="0" y="0" xlink:href="#string-45x22x16" transform="translate(0,28)" width="100%" height="100%"/>
     </symbol>
-    <symbol id="legend-1-44x22x16">
-      <title>Base-layer legend 44x22x16</title>
+    <symbol id="legend-1-45x22x16">
+      <title>Base-layer legend 45x22x16</title>
       <g>
-        <use xlink:href="#bale-1-44x22x16" x="12" y="30" width="100%" height="100%"/>
-        <use xlink:href="#bale-1-edge-44x22x16" x="112" y="30" width="100%" height="100%"/>
-        <use xlink:href="#bale-1-leaner-44x22x16" x="212" y="30" width="100%" height="100%"/>
-        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="56" y="90.545685"><tspan sodipodi:role="line" x="58.839844" y="94.545685">Flat</tspan></text>
-        <text y="90.545685" x="156" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="94.545685" x="167.27669" sodipodi:role="line">On Edge</tspan></text>
-        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="259" y="90.545685"><tspan sodipodi:role="line" x="277.98166" y="94.545685">Leaner</tspan></text>
+        <use xlink:href="#bale-1-45x22x16" x="12" y="30" width="100%" height="100%"/>
+        <use xlink:href="#bale-1-edge-45x22x16" x="114" y="30" width="100%" height="100%"/>
+        <use xlink:href="#bale-1-leaner-45x22x16" x="216" y="30" width="100%" height="100%"/>
+        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="57" y="90.545685"><tspan sodipodi:role="line" x="58.839844" y="94.545685">Flat</tspan></text>
+        <text y="90.545685" x="159" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="94.545685" x="167.27669" sodipodi:role="line">On Edge</tspan></text>
+        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="264" y="90.545685"><tspan sodipodi:role="line" x="277.98166" y="94.545685">Leaner</tspan></text>
       </g>
-      <text y="20.020302" x="159" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="20.020302" x="168.88307" sodipodi:role="line">Base Layer</tspan></text>
-      <rect ry="12" rx="12" y="0" x="0" height="98" width="318" style="opacity:0.68699999;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+      <text y="20.020302" x="162" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="20.020302" x="168.88307" sodipodi:role="line">Base Layer</tspan></text>
+      <rect ry="12" rx="12" y="0" x="0" height="98" width="324" style="opacity:0.68699999;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
     </symbol>
-    <symbol id="legend-2-44x22x16">
-      <title>Second layer legend 44x22x16</title>
+    <symbol id="legend-2-45x22x16">
+      <title>Second layer legend 45x22x16</title>
       <g>
-        <text y="90.545685" x="56" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="94.545685" x="58.839844" sodipodi:role="line">Flat</tspan></text>
-        <text y="90.545685" x="159" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="94.545685" x="169.98166" sodipodi:role="line">Leaner</tspan></text>
-        <use xlink:href="#bale-2-44x22x16" x="12" y="30" width="100%" height="100%"/>
-        <use xlink:href="#bale-2-leaner-44x22x16" x="112" y="30" width="100%" height="100%"/>
+        <text y="90.545685" x="57" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="94.545685" x="58.839844" sodipodi:role="line">Flat</tspan></text>
+        <text y="90.545685" x="162" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="94.545685" x="169.98166" sodipodi:role="line">Leaner</tspan></text>
+        <use xlink:href="#bale-2-45x22x16" x="12" y="30" width="100%" height="100%"/>
+        <use xlink:href="#bale-2-leaner-45x22x16" x="114" y="30" width="100%" height="100%"/>
       </g>
-      <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="109" y="20.020302"><tspan sodipodi:role="line" x="115.39584" y="20.020302">Second Layer</tspan></text>
-      <rect style="opacity:0.68699999;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="218" height="98" x="0" y="0" rx="12" ry="12"/>
+      <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="111" y="20.020302"><tspan sodipodi:role="line" x="115.39584" y="20.020302">Second Layer</tspan></text>
+      <rect style="opacity:0.68699999;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="222" height="98" x="0" y="0" rx="12" ry="12"/>
     </symbol>
-    <symbol id="legend-3-44x22x16">
-      <title>Third layer legend 44x22x16</title>
+    <symbol id="legend-3-45x22x16">
+      <title>Third layer legend 45x22x16</title>
       <g>
-        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="56" y="90.545685"><tspan sodipodi:role="line" x="58.839844" y="94.545685">Flat</tspan></text>
-        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="159" y="90.545685"><tspan sodipodi:role="line" x="169.98166" y="94.545685">Leaner</tspan></text>
-        <use xlink:href="#bale-3-44x22x16" x="12" y="30" width="100%" height="100%"/>
-        <use xlink:href="#bale-3-leaner-44x22x16" x="112" y="30" width="100%" height="100%"/>
+        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="57" y="90.545685"><tspan sodipodi:role="line" x="58.839844" y="94.545685">Flat</tspan></text>
+        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="162" y="90.545685"><tspan sodipodi:role="line" x="169.98166" y="94.545685">Leaner</tspan></text>
+        <use xlink:href="#bale-3-45x22x16" x="12" y="30" width="100%" height="100%"/>
+        <use xlink:href="#bale-3-leaner-45x22x16" x="114" y="30" width="100%" height="100%"/>
       </g>
-      <text x="109" y="20.020302" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="20.020302" x="115.39584" sodipodi:role="line">Third Layer</tspan></text>
-      <rect ry="12" rx="12" y="0" x="0" height="98" width="218" style="opacity:0.68699999;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+      <text x="111" y="20.020302" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="20.020302" x="115.39584" sodipodi:role="line">Third Layer</tspan></text>
+      <rect ry="12" rx="12" y="0" x="0" height="98" width="222" style="opacity:0.68699999;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
     </symbol>
-    <symbol id="bale-1-edge-alt-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale on edge (alt) 44x22x16</title>
-      <rect y="0" x="0" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" width="88" height="32"/>
-      <rect y="0" x="0" height="32" width="88" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
+    <symbol id="bale-1-edge-alt-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale on edge (alt) 45x22x16</title>
+      <rect y="0" x="0" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" width="90" height="32"/>
+      <rect y="0" x="0" height="32" width="90" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
-    <symbol id="legend-1-alt-44x22x16">
-      <title>Base-layer legend (alt) 44x22x16</title>
+    <symbol id="legend-1-alt-45x22x16">
+      <title>Base-layer legend (alt) 45x22x16</title>
       <g>
-        <use height="100%" width="100%" x="12" y="30" xlink:href="#bale-1-with-strings-alt-44x22x16"/>
-        <use height="100%" width="100%" x="112" y="36" xlink:href="#bale-1-edge-alt-44x22x16"/>
-        <text y="90.545685" x="56" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="94.545685" x="58.839844" sodipodi:role="line">Flat</tspan></text>
-        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="156" y="90.545685"><tspan sodipodi:role="line" x="167.27669" y="94.545685">On Edge</tspan></text>
+        <use height="100%" width="100%" x="12" y="30" xlink:href="#bale-1-with-strings-alt-45x22x16"/>
+        <use height="100%" width="100%" x="114" y="36" xlink:href="#bale-1-edge-alt-45x22x16"/>
+        <text y="90.545685" x="57" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="94.545685" x="58.839844" sodipodi:role="line">Flat</tspan></text>
+        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="159" y="90.545685"><tspan sodipodi:role="line" x="167.27669" y="94.545685">On Edge</tspan></text>
       </g>
-      <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="106" y="20.020302"><tspan sodipodi:role="line" x="111.14974" y="20.020302">Three-string Bales</tspan></text>
-      <rect style="opacity:0.68699999;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="212" height="98" x="0" y="0" rx="12" ry="12"/>
+      <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="108" y="20.020302"><tspan sodipodi:role="line" x="111.14974" y="20.020302">Three-string Bales</tspan></text>
+      <rect style="opacity:0.68699999;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="216" height="98" x="0" y="0" rx="12" ry="12"/>
     </symbol>
-    <symbol id="bale-1-anchor-edge-alt-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Anchor Bale, on edge (alt), 44x22x16</title>
-      <rect height="32" width="88" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" x="0" y="0"/>
-      <rect style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none" y="0" x="0" height="32" width="88"/>
+    <symbol id="bale-1-anchor-edge-alt-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Anchor Bale, on edge (alt), 45x22x16</title>
+      <rect height="32" width="90" style="opacity:1;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" x="0" y="0"/>
+      <rect style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none" y="0" x="0" height="32" width="90"/>
     </symbol>
-    <symbol id="bale-1-with-strings-alt-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Three-string bale with strings (alt), 44x22x16</title>
-      <rect y="0" x="0" height="44" width="88" style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"/>
-      <path inkscape:connector-curvature="0" id="string-alt-44x22x16" d="M 0,8 H 88" style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4"/>
-      <use height="100%" width="100%" transform="translate(0,14)" xlink:href="#string-alt-44x22x16" y="0" x="0"/>
-      <use height="100%" width="100%" transform="translate(0,28)" xlink:href="#string-alt-44x22x16" y="0" x="0"/>
+    <symbol id="bale-1-with-strings-alt-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Three-string bale with strings (alt), 45x22x16</title>
+      <rect y="0" x="0" height="44" width="90" style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"/>
+      <path inkscape:connector-curvature="0" id="string-alt-45x22x16" d="M 0,8 H 90" style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4"/>
+      <use height="100%" width="100%" transform="translate(0,14)" xlink:href="#string-alt-45x22x16" y="0" x="0"/>
+      <use height="100%" width="100%" transform="translate(0,28)" xlink:href="#string-alt-45x22x16" y="0" x="0"/>
     </symbol>
-    <symbol id="bale-1-leaner-alt-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, leaner (alt), 44x22x16</title>
-      <rect style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" width="94" height="44" x="0" y="0"/>
+    <symbol id="bale-1-leaner-alt-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, leaner (alt), 45x22x16</title>
+      <rect style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" width="96" height="44" x="0" y="0"/>
       <path style="fill:none;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:0.55294118" d="M 12,0 V 44" inkscape:connector-curvature="0"/>
-      <path inkscape:connector-curvature="0" d="M 82,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"/>
+      <path inkscape:connector-curvature="0" d="M 84,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"/>
     </symbol>
-    <symbol id="bale-2-alt-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, level 2 (alt), 44x22x16</title>
-      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" width="88" height="44"/>
+    <symbol id="bale-2-alt-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, level 2 (alt), 45x22x16</title>
+      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" width="90" height="44"/>
     </symbol>
-    <symbol id="bale-2-edge-alt-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale. 2nd level, on edge (alt), 44x22x16</title>
-      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" width="88" height="32"/>
-      <rect width="88" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
+    <symbol id="bale-2-edge-alt-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale. 2nd level, on edge (alt), 45x22x16</title>
+      <rect y="0" x="0" style="opacity:1;fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" width="90" height="32"/>
+      <rect width="90" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
-    <symbol id="bale-2-leaner-alt-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, 2nd level, leaner (alt), 44x22x16</title>
-      <rect y="0" x="0" height="44" width="94" style="fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"/>
+    <symbol id="bale-2-leaner-alt-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, 2nd level, leaner (alt), 45x22x16</title>
+      <rect y="0" x="0" height="44" width="96" style="fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"/>
       <path inkscape:connector-curvature="0" d="M 12,0 V 44" style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118"/>
-      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 82,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" inkscape:connector-curvature="0"/>
+      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 84,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" inkscape:connector-curvature="0"/>
     </symbol>
-    <symbol id="bale-3-alt-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, level 3 (alt), 44x22x16</title>
-      <rect height="44" width="88" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" x="0" y="0"/>
+    <symbol id="bale-3-alt-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, level 3 (alt), 45x22x16</title>
+      <rect height="44" width="90" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" x="0" y="0"/>
     </symbol>
-    <symbol id="bale-3-edge-alt-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, 3rd level, on edge (alt), 44x22x16</title>
-      <rect height="32" width="88" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" x="0" y="0"/>
-      <rect width="88" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
+    <symbol id="bale-3-edge-alt-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, 3rd level, on edge (alt), 45x22x16</title>
+      <rect height="32" width="90" style="opacity:1;fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" x="0" y="0"/>
+      <rect width="90" height="32" x="0" y="0" style="fill:url(#bh-edge-bale-stipple);fill-opacity:0.7;stroke:none"/>
     </symbol>
-    <symbol id="bale-3-leaner-alt-44x22x16" bh:count-as="bale-44x22x16">
-      <title>Bale, 3rd level, leaner (alt), 44x22x16</title>
-      <rect style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" width="94" height="44" x="0" y="0"/>
+    <symbol id="bale-3-leaner-alt-45x22x16" bh:count-as="bale-45x22x16">
+      <title>Bale, 3rd level, leaner (alt), 45x22x16</title>
+      <rect style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" width="96" height="44" x="0" y="0"/>
       <path style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118" d="M 12,0 V 44" inkscape:connector-curvature="0"/>
-      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 82,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" inkscape:connector-curvature="0"/>
+      <path style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" d="M 84,22 H 28 v -3.3 l -6,3.3 6,3.3 V 22" inkscape:connector-curvature="0"/>
     </symbol>
-    <symbol id="bale-1-end-44x22x16">
-      <title>Bale on end 44x22x16</title>
+    <symbol id="bale-1-end-45x22x16">
+      <title>Bale on end 45x22x16</title>
       <rect y="0" x="0" style="opacity:1;fill:#f6ec94;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="44" height="32"/>
       <rect y="0" x="0" height="32" width="44" style="fill:url(#bh-end-bale-stipple);fill-opacity:1;stroke:none"/>
     </symbol>
@@ -229,7 +229,7 @@
       <cc:Work rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-        <dc:title>Three-string Bales 44x22x16</dc:title>
+        <dc:title>Three-string Bales 45x22x16</dc:title>
         <dc:creator>
           <cc:Agent>
             <dc:title>Jeff Dairiki &lt;dairiki@dairiki.org&gt;</dc:title>
@@ -247,32 +247,32 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
-  <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:125%;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="408.97916" y="66.949242"><tspan sodipodi:role="line" x="408.97916" y="66.949242">Three-string Bales,  44x22x16</tspan></text>
-  <use xlink:href="#bale-1-44x22x16" x="0" y="0" width="100%" height="100%" transform="translate(252,96)"/>
-  <use xlink:href="#bale-1-edge-44x22x16" transform="translate(360,96)" x="0" y="0" width="100%" height="100%" style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"/>
-  <use xlink:href="#bale-1-leaner-44x22x16" x="0" y="0" width="100%" height="100%" transform="translate(468,96)"/>
-  <use xlink:href="#bale-2-44x22x16" transform="translate(252,156)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-2-edge-44x22x16" transform="translate(360,156)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-2-leaner-44x22x16" transform="translate(468,156)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-3-44x22x16" transform="translate(252,216)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-3-edge-44x22x16" transform="translate(360,216)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-3-leaner-44x22x16" transform="translate(468,216)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-1-anchor-44x22x16" transform="translate(252,276)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-1-anchor-edge-44x22x16" transform="translate(360,276)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-1-with-strings-44x22x16" transform="translate(468,276)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#legend-1-44x22x16" transform="translate(240,360)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#legend-2-44x22x16" transform="translate(240,474)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#legend-3-44x22x16" transform="translate(240,588)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-1-edge-alt-44x22x16" transform="translate(486,762)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#legend-1-alt-44x22x16" transform="translate(240,708)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-1-anchor-edge-alt-44x22x16" transform="translate(486,720)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-1-with-strings-alt-44x22x16" transform="translate(594,720)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-1-end-44x22x16" transform="translate(582,96)" x="0" y="0" width="100%" height="100%"/>
-  <use xlink:href="#bale-1-leaner-alt-44x22x16" x="0" y="0" width="100%" height="100%" transform="translate(594,774)"/>
-  <use xlink:href="#bale-2-alt-44x22x16" x="0" y="0" width="100%" height="100%" transform="translate(486,846)"/>
-  <use xlink:href="#bale-2-edge-alt-44x22x16" x="0" y="0" width="100%" height="100%" transform="translate(486,804)"/>
-  <use xlink:href="#bale-2-leaner-alt-44x22x16" x="0" y="0" width="100%" height="100%" transform="translate(594,828)"/>
-  <use xlink:href="#bale-3-edge-alt-44x22x16" x="0" y="0" width="100%" height="100%" transform="translate(486,900)"/>
-  <use xlink:href="#bale-3-alt-44x22x16" x="0" y="0" width="100%" height="100%" transform="translate(486,942)"/>
-  <use xlink:href="#bale-3-leaner-alt-44x22x16" x="0" y="0" width="100%" height="100%" transform="translate(594,882)"/>
+  <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:125%;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="408.97916" y="66.949242"><tspan sodipodi:role="line" x="408.97916" y="66.949242">Three-string Bales,  45x22x16</tspan></text>
+  <use xlink:href="#bale-1-45x22x16" x="0" y="0" width="100%" height="100%" transform="translate(252,96)"/>
+  <use xlink:href="#bale-1-edge-45x22x16" transform="translate(360,96)" x="0" y="0" width="100%" height="100%" style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"/>
+  <use xlink:href="#bale-1-leaner-45x22x16" x="0" y="0" width="100%" height="100%" transform="translate(468,96)"/>
+  <use xlink:href="#bale-2-45x22x16" transform="translate(252,156)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-2-edge-45x22x16" transform="translate(360,156)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-2-leaner-45x22x16" transform="translate(468,156)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-3-45x22x16" transform="translate(252,216)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-3-edge-45x22x16" transform="translate(360,216)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-3-leaner-45x22x16" transform="translate(468,216)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-1-anchor-45x22x16" transform="translate(252,276)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-1-anchor-edge-45x22x16" transform="translate(360,276)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-1-with-strings-45x22x16" transform="translate(468,276)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#legend-1-45x22x16" transform="translate(240,360)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#legend-2-45x22x16" transform="translate(240,474)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#legend-3-45x22x16" transform="translate(240,588)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-1-edge-alt-45x22x16" transform="translate(486,762)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#legend-1-alt-45x22x16" transform="translate(240,708)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-1-anchor-edge-alt-45x22x16" transform="translate(486,720)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-1-with-strings-alt-45x22x16" transform="translate(594,720)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-1-end-45x22x16" transform="translate(582,96)" x="0" y="0" width="100%" height="100%"/>
+  <use xlink:href="#bale-1-leaner-alt-45x22x16" x="0" y="0" width="100%" height="100%" transform="translate(594,774)"/>
+  <use xlink:href="#bale-2-alt-45x22x16" x="0" y="0" width="100%" height="100%" transform="translate(486,846)"/>
+  <use xlink:href="#bale-2-edge-alt-45x22x16" x="0" y="0" width="100%" height="100%" transform="translate(486,804)"/>
+  <use xlink:href="#bale-2-leaner-alt-45x22x16" x="0" y="0" width="100%" height="100%" transform="translate(594,828)"/>
+  <use xlink:href="#bale-3-edge-alt-45x22x16" x="0" y="0" width="100%" height="100%" transform="translate(486,900)"/>
+  <use xlink:href="#bale-3-alt-45x22x16" x="0" y="0" width="100%" height="100%" transform="translate(486,942)"/>
+  <use xlink:href="#bale-3-leaner-alt-45x22x16" x="0" y="0" width="100%" height="100%" transform="translate(594,882)"/>
 </svg>
