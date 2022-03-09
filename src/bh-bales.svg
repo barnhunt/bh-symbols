@@ -366,7 +366,7 @@
       <title
          id="title170">Bale, leaner, LLxWWxHH</title>
       <rect
-         style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
          bale:height="$bale-width * $inches"
          bale:width="($bale-length + 3) * $inches"
          width="102"
@@ -438,13 +438,13 @@
          bale:width="($bale-length + 3) * $inches"
          height="48"
          width="102"
-         style="fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#b9e1ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect120" />
       <path
          inkscape:connector-curvature="0"
          bale:d="concat('M 12,0 V ', $bale-width * $inches)"
          d="M 12,0 V 48"
-         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55294118"
          id="path122" />
       <path
          style="fill:#ffffff;fill-opacity:0.69803922;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
@@ -498,7 +498,7 @@
       <title
          id="title139">Bale, 3rd level, leaner, LLxWWxHH</title>
       <rect
-         style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#f9c8ff;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          bale:height="$bale-width * $inches"
          bale:width="($bale-length + 3) * $inches"
          width="102"
@@ -564,7 +564,7 @@
       <title
          id="title160">NN-string bale with strings, LLxWWxHH</title>
       <rect
-         style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
          bale:height="$bale-width * $inches"
          bale:width="$bale-length * $inches"
          width="96"
@@ -960,7 +960,7 @@
          width="96"
          bale:width="$bale-length * $inches"
          bale:height="$bale-width * $inches"
-         style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" />
+         style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1" />
       <path
          inkscape:connector-curvature="0"
          id="string-alt-LLxWWxHH"
@@ -993,7 +993,7 @@
       <title
          id="title166">Bale, leaner (alt), LLxWWxHH</title>
       <rect
-         style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
+         style="fill:#fffbb8;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
          bale:height="$bale-width * $inches"
          bale:width="($bale-length + 3) * $inches"
          width="102"
@@ -1147,7 +1147,8 @@
          id="path86982" />
     </symbol>
     <symbol
-       id="bale-1-end-LLxWWxHH">
+       id="bale-1-end-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
       <title
          id="title193">Bale on end LLxWWxHH</title>
       <rect
@@ -1169,6 +1170,46 @@
          bale:height="$bale-height * $inches"
          style="fill:url(#bh-end-bale-stipple);fill-opacity:1;stroke:none" />
     </symbol>
+    <symbol
+       id="bale-1-anchor-with-strings-alt-LLxWWxHH"
+       bh:count-as="bale-LLxWWxHH">
+      <title
+         id="title88130">NN-string anchor bale with strings (alt), LLxWWxHH</title>
+      <rect
+         style="display:inline;fill:#fbf7d1;fill-opacity:1;stroke:#d20312;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:10;stroke-opacity:1"
+         bale:height="$bale-width * $inches"
+         bale:width="$bale-length * $inches"
+         width="96"
+         height="48"
+         x="0"
+         y="0"
+         id="rect88132" />
+      <path
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4"
+         bale:d="concat('M 0,8 H ', $bale-length * $inches)"
+         d="M 0,8 H 96"
+         id="path88134"
+         inkscape:connector-curvature="0" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#string-alt-LLxWWxHH"
+         bale:condition="$bale-strings &gt; 2"
+         bale:transform="concat('translate(0,', 0.5 * ($bale-width - 8) * $inches,')')"
+         transform="translate(0,16)"
+         width="100%"
+         height="100%"
+         id="use88136" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#string-alt-LLxWWxHH"
+         bale:transform="concat('translate(0,', ($bale-width - 8) * $inches,')')"
+         transform="translate(0,32)"
+         width="100%"
+         height="100%"
+         id="use88138" />
+    </symbol>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -1176,9 +1217,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="485.49779"
-     inkscape:cy="214.71028"
+     inkscape:zoom="1.4"
+     inkscape:cx="629.96232"
+     inkscape:cy="400.3339"
      inkscape:document-units="px"
      inkscape:current-layer="svg219"
      showgrid="true"
@@ -1491,4 +1532,12 @@
      width="100%"
      height="100%"
      transform="translate(594,882)" />
+  <use
+     xlink:href="#bale-1-anchor-with-strings-alt-LLxWWxHH"
+     id="use89031"
+     transform="translate(594,936)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
 </svg>
