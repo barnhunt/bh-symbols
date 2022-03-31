@@ -36,6 +36,10 @@ symbols: symbols/bh-bales-48x18x16.svg
 symbols/bh-bales-48x18x16.svg: bh-bales.svg bh-bales.xslt
 	$(call make_bales, 48, 18, 16, 2) > $@
 
+symbols: symbols/bh-bales-52x18x16.svg
+symbols/bh-bales-52x18x16.svg: bh-bales.svg bh-bales.xslt
+	$(call make_bales, 52, 18, 16, 2) > $@
+
 symbols: symbols/bh-bales-48x24x18.svg
 symbols/bh-bales-48x24x18.svg: bh-bales.svg bh-bales.xslt
 	$(call make_bales, 48, 24, 18, 3) > $@
