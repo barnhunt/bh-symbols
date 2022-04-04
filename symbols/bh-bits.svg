@@ -16,7 +16,7 @@
    viewBox="0 0 816 1056"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="bh-bits.svg">
   <sodipodi:namedview
      id="base"
@@ -26,14 +26,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="103.57627"
-     inkscape:cy="899.31541"
+     inkscape:cx="272.95594"
+     inkscape:cy="713.63452"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
      units="in"
      inkscape:window-width="1920"
-     inkscape:window-height="1134"
+     inkscape:window-height="1145"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -41,7 +41,7 @@
      inkscape:snap-to-guides="false"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:snap-grids="true"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:measure-start="100.875,1027.62"
@@ -966,6 +966,53 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.14999998;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:1.06666672"
            id="tspan10626">Mat</tspan></text>
     </symbol>
+    <symbol
+       id="added-bale-mark"
+       style="fill:#000000;stroke:none">
+      <title
+         id="title91200">Added Bale</title>
+      <rect
+         transform="scale(1,-1)"
+         y="-18.710587"
+         x="-8.0491169e-16"
+         height="18.505043"
+         width="18.505039"
+         id="rect91202"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.13900003;fill:none;stroke:none;stroke-width:0.41108823;stroke-opacity:1;marker:none;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path91204"
+         d="M 9.8749686,5.7570683 H 8.630075 V 8.8356284 H 5.5515129 V 10.080524 H 8.630075 v 3.07856 h 1.2448936 v -3.07856 H 12.953531 V 8.8356284 H 9.8749686 Z"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#1db900;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41108823;marker:none;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path91206"
+         d="m 7.1964053,2.672895 c -2.4673366,0 -4.7290657,0 -4.7290657,4.4467508 v 4.6768502 c 0,4.446761 2.2617291,4.446761 4.7290657,4.446761 h 4.1122307 c 2.467339,0 4.729064,0 4.729064,-4.446761 V 7.1196458 c 0,-4.4467508 -2.261725,-4.4467508 -4.729064,-4.4467508 z m 0.3839158,1.2336693 h 3.3443969 c 2.440034,0 3.879313,0 3.879313,3.7403641 v 3.6222976 c 0,3.740362 -1.439279,3.740362 -3.879313,3.740362 H 7.5803211 c -2.4400293,0 -3.8793122,0 -3.8793122,-3.740362 V 7.6469284 c 0,-3.7403641 1.4392829,-3.7403641 3.8793122,-3.7403641 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#1db900;fill-opacity:1;stroke:none;stroke-width:0.20554411" />
+    </symbol>
+    <symbol
+       id="removed-bale-mark">
+      <title
+         id="title93901">Removed Bale</title>
+      <rect
+         transform="scale(1,-1)"
+         y="-18.698111"
+         x="0.11428567"
+         height="18.625002"
+         width="18.625"
+         id="rect93903"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.05;fill:none;stroke:none;stroke-width:0.41375312;marker:none;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path93905"
+         d="M 5.7017856,8.7591281 V 10.012094 H 13.151786 V 8.7591281 Z"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#c20000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41375312;marker:none;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path93907"
+         d="m 7.3573411,2.5564445 c -2.4833322,0 -4.7597233,0 -4.7597233,4.475577 V 11.7392 c 0,4.475577 2.2763911,4.475577 4.7597233,4.475577 h 4.1388879 c 2.483334,0 4.759721,0 4.759721,-4.475577 V 7.0320215 c 0,-4.475577 -2.276387,-4.475577 -4.759721,-4.475577 z m 0.3864034,1.2416666 h 3.3660785 c 2.455852,0 3.90446,0 3.90446,3.7646112 V 11.2085 c 0,3.764611 -1.448608,3.764611 -3.90446,3.764611 H 7.7437445 c -2.4558472,0 -3.9044595,0 -3.9044595,-3.764611 V 7.5627223 c 0,-3.7646112 1.4486123,-3.7646112 3.9044595,-3.7646112 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#c20000;fill-opacity:1;stroke:none;stroke-width:0.20687656" />
+    </symbol>
   </defs>
   <metadata
      id="metadata5">
@@ -1263,6 +1310,22 @@
      xlink:href="#dc-mat-24x12"
      id="use11144"
      transform="translate(252,282)"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#added-bale-mark"
+     id="use92225"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(482.85714,388.57143)" />
+  <use
+     xlink:href="#removed-bale-mark"
+     id="use94137"
+     transform="translate(460,388.57143)"
      x="0"
      y="0"
      width="100%"
