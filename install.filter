@@ -1,6 +1,0 @@
-exclude .*
-exclude #*
-hide *~
-risk bh-*
-risk *~
-protect *

@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<!-- Copyright (C) 2017-2022 Geoffrey T. Dairiki -->
 <xsl:transform version="1.0"
                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                xmlns:svg="http://www.w3.org/2000/svg"
@@ -142,6 +143,10 @@
 
   <xsl:template match="text()">
     <xsl:call-template name="fixup-text"/>
+  </xsl:template>
+
+  <xsl:template match="/comment()">
+    <xsl:copy />
   </xsl:template>
 
 </xsl:transform>
