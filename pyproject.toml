@@ -1,0 +1,73 @@
+[build-system]
+requires = [
+  "hatchling",
+  "hatch-vcs",
+  "hatch-zipped-directory",
+  "lxml",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "bh-symbols"
+description = 'Inkscape symbol sets for drawing Barn Hunt maps'
+readme = "README.md"
+# requires-python = ">=3.7"
+license = "CC-BY-NC-SA-4.0"
+keywords = ["barn hunt", "inkscape", "symbols", "bales", "rats"]
+authors = [
+  { name = "Jeff Dairiki", email = "dairiki@dairiki.org" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Plugins",
+  "License :: Free for non-commercial use",
+  "Topic :: Multimedia :: Graphics",
+  "Topic :: Other/Nonlisted Topic",
+]
+dependencies = [
+  "lxml",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/barnhunt/bh-symbols"
+
+[tool.hatch.build.targets.zipped-directory]
+install-name = "org.dairiki.bh_symbols"
+include = [
+  "/bh_symbols",
+  "/CHANGES.md",
+  "/README.md",
+]
+sources = ["bh_symbols"]
+
+[tool.hatch.build.hooks.custom]
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "flake8",
+  "flake8-bugbear",
+  "mypy",
+  "types-lxml",
+]
+
+################################################################
+#
+# mypy
+#
+[tool.mypy]
+# files = "$MYPY_CONFIG_FILE_DIR/inkex_bh"
+
+show_error_codes = true
+error_summary = true
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+
+strict = true
+
+[[tool.mypy.overrides]]
+module = ["hatchling.*"]
+ignore_missing_imports = true
