@@ -19,6 +19,29 @@ set of bales drawn to a 1:60 (five feet per inch) scale.
 
 ## Installation
 
+The easiest way to install these symbol sets is using the new `install`
+sub-command of my [`barnhunt`
+script](https://github.com/barnhunt/barnhunt):
+
+First install [Inkscape](https://inkscape.org),
+[python](https://python.org), and, then,
+my [barnhunt script](https://github.com/barnhunt/barnhunt#installation).
+Finally, run:
+
+```sh
+barnhunt install
+```
+
+to install both these symbol sets and my [inkscape
+extensions](https://github.com/barnhunt/inkex-bh) into your Inkscape
+configuration.
+
+### Manual Installation
+
+It is now recommended to use the `barnhunt install` sub-command to
+install these extensions (see above).  However, they may still be
+installed manually.
+
 If your using Inkscape 1.0 or later, you should be able to just copy or symlink the `bh_symbols` directory to the `symbols` subdirectory of your Inkscape _user data directory_.
 
 You can discover the location of your user data directory by running `inkscape --user-data-directory` (Inkscape >= 1.0 only).  Generally, the user data directory is `~/.config/inkscape` on Linux, and `%userprofile%\Application Data\Inkscape` on Windows.
