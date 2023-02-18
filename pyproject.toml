@@ -46,12 +46,17 @@ sources = ["bh_symbols"]
 source = "vcs"
 
 [tool.hatch.envs.default]
+detached = true
 dependencies = [
   "flake8",
   "flake8-bugbear",
   "mypy",
   "types-lxml",
 ]
+[tool.hatch.envs.default.scripts]
+# Run inkscape with symbols installed
+inkscape = "python run_inkscape.py"
+
 
 ################################################################
 #

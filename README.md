@@ -64,6 +64,21 @@ On Windows, you're on your own.  (I use Linux.)
 
 If you are using Inkscape < 1.0, the symbol `.svg` files must be placed directly in the `symbols` subdirectory of the user data directory.  Inkscape 1.0 and later will find symbol files in a subdirectories of `symbols`, but Inkscape 0.9x will not.
 
+## Development
+
+### Testing
+
+The `run_inkscape.py` script can be used to run Inkscape with symbols installed from
+the source code.  Equivalently and maybe even easier, you can do:
+
+```sh
+hatch run inkscape <args>
+```
+
+To use a non-standard Inkscape, set the `INKSCAPE_COMMAND` environment
+variable to point to the executable.
+
+
 ## License
 
 [![Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)][cc a-nc-sa]
