@@ -2,6 +2,11 @@
 
 ### 1.0.0rc2 (unreleased)
 
+- Rename the bale symbol sets from, e.g., *“Two-String Bales,
+  39x18x15”* to *“Bales, Two-String, 39x18x15”*.  This makes Inkscape
+  list them closer to the top of its list of symbol sets, thus
+  minimizing the need to scroll.
+  
 #### Bugs
 
 - Fix vertical alignment of text in bale legends.
