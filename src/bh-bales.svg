@@ -639,6 +639,8 @@
            id="text10214"><tspan
              sodipodi:role="line"
              id="tspan10212"
+             bale:x="(6 + 0.5 * $bale-length) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
              x="58.839844"
              y="94.545685">Flat</tspan></text>
         <text
@@ -649,6 +651,8 @@
            x="167.27669"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
+             bale:x="(1.5 * $bale-length + 12) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
              y="94.545685"
              x="167.27669"
              id="tspan10363"
@@ -663,6 +667,8 @@
            id="text10516"><tspan
              sodipodi:role="line"
              id="tspan10514"
+             bale:x="(2 * $bale-length + 18 + 0.5 * ($bale-length + 3)) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
              x="277.98166"
              y="94.545685">Leaner</tspan></text>
       </g>
@@ -673,6 +679,7 @@
          x="168.88307"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
+           bale:x="(24 + 3 * $bale-length + 3) * 0.5 * $inches"
            y="20.020302"
            x="168.88307"
            id="tspan10823"
@@ -703,6 +710,8 @@
            x="58.839844"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
+             bale:x="(6 + 0.5 * $bale-length) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
              y="94.545685"
              x="58.839844"
              id="tspan9976"
@@ -715,6 +724,8 @@
            x="169.98166"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
+             bale:x="(12 + $bale-length + 0.5 * ($bale-length + 3)) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
              y="94.545685"
              x="169.98166"
              id="tspan9984"
@@ -745,6 +756,7 @@
          id="text9992"><tspan
            sodipodi:role="line"
            id="tspan9990"
+           bale:x="(18 + 2 * $bale-length + 3) * 0.5 * $inches"
            x="115.39584"
            y="20.020302">Second Layer</tspan></text>
       <rect
@@ -775,6 +787,8 @@
            id="text10945"><tspan
              sodipodi:role="line"
              id="tspan10943"
+             bale:x="(6 + 0.5 * $bale-length) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
              x="58.839844"
              y="94.545685">Flat</tspan></text>
         <text
@@ -787,6 +801,8 @@
            id="text10949"><tspan
              sodipodi:role="line"
              id="tspan10947"
+             bale:x="(12 + $bale-length + 0.5 * ($bale-length + 3)) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
              x="169.98166"
              y="94.545685">Leaner</tspan></text>
         <use
@@ -814,6 +830,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="20.020302"
+           bale:x="0.5 * (18 + 2 * $bale-length + 3) * $inches"
            x="115.39584"
            id="tspan10957"
            sodipodi:role="line">Third Layer</tspan></text>
@@ -884,6 +901,8 @@
            x="58.839844"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
+             bale:x="(6 + 0.5 * $bale-length) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
              y="94.545685"
              x="58.839844"
              id="tspan18527"
@@ -898,6 +917,8 @@
            id="text18533"><tspan
              sodipodi:role="line"
              id="tspan18531"
+             bale:x="(12 + 1.5 * $bale-length) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
              x="167.27669"
              y="94.545685">On Edge</tspan></text>
       </g>
@@ -910,6 +931,7 @@
          id="text18543"><tspan
            sodipodi:role="line"
            id="tspan18541"
+           bale:x="0.5 * (18 + 2 * $bale-length) * $inches"
            x="111.14974"
            y="20.020302">NN-string Bales</tspan></text>
       <rect
