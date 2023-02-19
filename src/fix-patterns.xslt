@@ -8,17 +8,28 @@
                xmlns:func="http://exslt.org/functions"
                xmlns:regexp="http://exslt.org/regular-expressions"
                xmlns:set="http://exslt.org/sets"
+               xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
                xmlns:bh="http://dairiki.org/barnhunt/inkscape-extensions"
                extension-element-prefixes="exsl func regexp set">
 
   <xsl:output method="xml"
               indent="yes" />
 
+  <xsl:variable name="newline"><xsl:text>
+  </xsl:text></xsl:variable>
+
   <xsl:variable name="root" select="/*"/>
+  <xsl:key name="defs" match="/*/svg:defs/*[@id]" use="@id"/>
+
+  <!-- get def by id -->
+  <func:function name="bh:get-def">
+    <xsl:param name="id" select="."/>
+    <xsl:for-each select="$root"><!-- reset current node to main document -->
+      <func:result select="key('defs', $id)"/>
+    </xsl:for-each>
+  </func:function>
 
   <xsl:variable name="pat-ref-re" select="'(.*: *url\(#)([^)]+)(\).*)'"/>
-
-  <xsl:key name="defs" match="svg:defs/*[@id]" use="@id"/>
 
   <!-- extract target ids of url()-style references from, eg. @style attribute -->
   <func:function name="bh:extract-ref">
@@ -37,93 +48,151 @@
     </func:result>
   </func:function>
 
+  <!-- ================================================================
+      mode: top-level
+  ================================================================ -->
+
   <xsl:template match="@* | node()">
-    <xsl:param name="defs" select="/.."/>
     <xsl:copy>
-      <xsl:apply-templates select="@* | node()">
-        <xsl:with-param name="defs" select="$defs"/>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="@* | node()"/>
     </xsl:copy>
   </xsl:template>
 
-  <!-- copy referenced patterns into the symbol -->
-  <xsl:template match="svg:symbol[.//@style[bh:extract-ref(.)]]">
-    <xsl:variable name="find-refs">
-      <xsl:apply-templates select="*" mode="gather-refs"/>
-    </xsl:variable>
-    <!-- clone defs referenced by this symbol -->
-    <xsl:variable name="clone-defs">
-      <xsl:for-each select="set:distinct(exsl:node-set($find-refs)/*)">
-        <xsl:variable name="ref" select="."/>
-        <xsl:for-each select="$root">
-          <xsl:copy-of select="key('defs', $ref)"/>
-        </xsl:for-each>
-      </xsl:for-each>
-    </xsl:variable>
-    <xsl:variable name="defs" select="exsl:node-set($clone-defs)"/>
+  <!-- strip out non-symbol defs  -->
+  <xsl:template match="/*/svg:defs/*"/>
 
-    <xsl:copy>
-      <xsl:apply-templates select="@* | node()">
-        <xsl:with-param name="defs" select="$defs"/>
-      </xsl:apply-templates>
-
-      <xsl:for-each select="$defs/*">
-        <xsl:copy>
-          <xsl:attribute name="id">
-            <xsl:value-of select="generate-id(.)"/>
-          </xsl:attribute>
-          <xsl:apply-templates select="@* | node()" mode="copy-def"/>
-        </xsl:copy>
-      </xsl:for-each>
-    </xsl:copy>
-  </xsl:template>
-
-  <!-- mangle pattern references to point to copies -->
-  <xsl:template match="@style[./ancestor::svg:symbol][bh:extract-ref(.)]">
-    <xsl:param name="defs" select="/.."/>
-    <xsl:variable name="def" select="($defs/*[@id = bh:extract-ref(current())])"/>
-    <xsl:if test="not($def)">
-      <xsl:copy/>
-    </xsl:if>
-    <xsl:if test="$def">
-      <xsl:attribute name="{name()}">
-        <xsl:value-of select="bh:update-ref(generate-id($def))"/>
-      </xsl:attribute>
-    </xsl:if>
-  </xsl:template>
-
-  <!-- strip out patterns -->
-  <xsl:template match="svg:pattern[parent::svg:defs]"/>
-
-  <!-- Strip out most id attributes -->
+  <!-- Strip out id attributes -->
   <xsl:template match="@id" />
-  <xsl:template match="svg:defs/*/@id | @id[//@xlink:href = concat('#', .)]">
-    <xsl:copy />
+
+  <xsl:template match="/*/svg:defs/svg:symbol[@id]">
+    <xsl:variable name="id-prefix" select="concat(@id, ':')"/>
+
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" mode="copy-symbol">
+        <xsl:with-param name="id-prefix" select="$id-prefix"/>
+      </xsl:apply-templates>
+
+      <!-- copy referenced patterns and symbols into the symbol -->
+      <xsl:variable name="refs">
+        <xsl:apply-templates select="*" mode="gather-refs"/>
+      </xsl:variable>
+      <xsl:variable name="distinct-refs" select="set:distinct(exsl:node-set($refs)/*)"/>
+      <xsl:if test="$distinct-refs">
+        <svg:defs>
+          <xsl:apply-templates select="$distinct-refs" mode="copy-def">
+            <xsl:with-param name="id-prefix" select="$id-prefix"/>
+          </xsl:apply-templates>
+        </svg:defs>
+      </xsl:if>
+    </xsl:copy>
   </xsl:template>
 
   <!-- ================================================================
-      mode: gather-defs
+      mode: gather-refs
   ================================================================ -->
   <xsl:template match="*" mode="gather-refs">
     <xsl:apply-templates select="* | @*" mode="gather-refs"/>
   </xsl:template>
 
   <xsl:template match="@*" mode="gather-refs"/>
+
+  <xsl:template match="/*/svg:defs/*[@id]" mode="gather-refs">
+    <match><xsl:value-of select="@id"/></match>
+    <xsl:apply-templates select="*" mode="gather-refs"/>
+  </xsl:template>
+  
   <xsl:template match="@style" mode="gather-refs">
-    <xsl:if test="key('defs', bh:extract-ref())">
-      <xsl:copy-of select="bh:extract-ref()"/>
-    </xsl:if>
+    <xsl:apply-templates select="bh:get-def(bh:extract-ref())" mode="gather-refs"/>
+  </xsl:template>
+  
+  <xsl:template match="@xlink:href[starts-with(., '#')]" mode="gather-refs">
+    <xsl:apply-templates select="bh:get-def(substring(., 2))" mode="gather-refs"/>
+  </xsl:template>
+
+  <!-- ================================================================
+      mode: copy-symbol
+      ================================================================ -->
+
+  <xsl:template match="@* | node()" mode="copy-symbol">
+    <xsl:param name="id-prefix"/>
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" mode="copy-symbol">
+        <xsl:with-param name="id-prefix" select="$id-prefix"/>
+      </xsl:apply-templates>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Strip out most id attributes -->
+  <xsl:template match="@id" mode="copy-symbol"/>
+
+  <!-- mangle internal target ids -->
+  <xsl:template match="@id[//@xlink:href = concat('#', .)]" mode="copy-symbol">
+    <xsl:param name="id-prefix"/>
+    <xsl:attribute name="{name()}">
+      <xsl:value-of select="concat($id-prefix, .)"/>
+    </xsl:attribute>
+  </xsl:template>
+
+  <!-- preserve top-level symbol ids -->
+  <xsl:template match="/*/svg:defs/*/@id" mode="copy-symbol">
+    <xsl:copy />
+  </xsl:template>
+
+  <!-- mangle pattern references -->
+  <xsl:template match="@style[bh:get-def(bh:extract-ref(.))]" mode="copy-symbol">
+    <xsl:param name="id-prefix"/>
+    <xsl:attribute name="{name()}">
+      <xsl:value-of select="bh:update-ref(concat($id-prefix, bh:extract-ref()))"/>
+    </xsl:attribute>
+  </xsl:template>
+
+  <!-- mangle <use> references  -->
+  <xsl:template match="@xlink:href[starts-with(., '#')]" mode="copy-symbol">
+    <xsl:param name="id-prefix"/>
+    <xsl:attribute name="{name()}">
+      <xsl:value-of select="concat('#', $id-prefix, substring(., 2))"/>
+    </xsl:attribute>
   </xsl:template>
 
   <!-- ================================================================
       mode: copy-def
   ================================================================ -->
   <xsl:template match="@* | node()" mode="copy-def">
+    <xsl:param name="id-prefix"/>
+    <xsl:apply-templates select="." mode="copy-symbol">
+      <xsl:with-param name="id-prefix" select="$id-prefix"/>
+    </xsl:apply-templates>
+  </xsl:template>
+
+  <!-- dereference the <match> nodes in $distinct-refs -->
+  <xsl:template match="/match" mode="copy-def">
+    <xsl:param name="id-prefix"/>
+    <xsl:apply-templates select="bh:get-def(.)" mode="copy-def">
+      <xsl:with-param name="id-prefix" select="$id-prefix"/>
+    </xsl:apply-templates>
+  </xsl:template>
+
+  <xsl:template match="/*/svg:defs/*" mode="copy-def">
+    <xsl:param name="id-prefix"/>
+
+    <xsl:value-of select="$newline"/>
     <xsl:copy>
-      <xsl:apply-templates select="@* | node()" mode="copy-def"/>
+      <xsl:apply-templates select="@* | *" mode="copy-def">
+        <xsl:with-param name="id-prefix" select="$id-prefix"/>
+      </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="@collect | @id" mode="copy-def"/>
+  <xsl:template match="/*/svg:defs/*/@id" mode="copy-def">
+    <xsl:param name="id-prefix"/>
+    <xsl:attribute name="{name()}">
+      <xsl:value-of select="concat($id-prefix, .)"/>
+    </xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="/*/svg:defs/*/svg:title
+                       | /*/svg:defs/*/@inkscape:collect
+                       | /*/svg:defs/*/@bh:count-as"
+                mode="copy-def"/>
 
 </xsl:transform>

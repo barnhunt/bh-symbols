@@ -9,9 +9,9 @@
   
 #### Bugs
 
-- Copy patterns into each bale symbol. This fixes the issue where the
-  bale stipple patterns were not making it into the referencing
-  documents.
+- Copy patterns and referenced symbols into each bale symbol. This
+  fixes the issue where the bale stipple patterns were not making it
+  into the referencing documents.
 
 - Fix vertical alignment of text in bale legends.
 
