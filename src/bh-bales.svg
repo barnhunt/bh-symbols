@@ -23,14 +23,8 @@
   <defs
      id="defs179">
     <pattern
-       inkscape:collect="always"
-       xlink:href="#Strips1_5"
        id="bh-end-bale-stipple"
-       patternTransform="matrix(0.60940591,0.6668921,-22.161511,20.251186,0,0)" />
-    <pattern
-       inkscape:stockid="Stripes 1:5"
-       id="Strips1_5"
-       patternTransform="translate(0,0) scale(10,10)"
+       patternTransform="matrix(0.60940591,0.6668921,-22.161511,20.251186,0,0)"
        height="1"
        width="6"
        patternUnits="userSpaceOnUse"
@@ -44,15 +38,8 @@
          style="fill:black;stroke:none" />
     </pattern>
     <pattern
-       inkscape:collect="always"
-       xlink:href="#Polkadots-med"
        id="bh-edge-bale-stipple"
-       patternTransform="scale(3.4)" />
-    <pattern
-       inkscape:isstock="true"
-       inkscape:stockid="Polka dots, medium"
-       id="Polkadots-med"
-       patternTransform="translate(0,0) scale(10,10)"
+       patternTransform="scale(3.4)"
        height="10"
        width="10"
        patternUnits="userSpaceOnUse"
