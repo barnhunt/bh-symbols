@@ -183,6 +183,17 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template match="/*/svg:defs/svg:symbol" mode="copy-def">
+    <xsl:param name="id-prefix"/>
+
+    <xsl:value-of select="$newline"/>
+    <svg:g>
+      <xsl:apply-templates select="@* | *" mode="copy-def">
+        <xsl:with-param name="id-prefix" select="$id-prefix"/>
+      </xsl:apply-templates>
+    </svg:g>
+  </xsl:template>
+
   <xsl:template match="/*/svg:defs/*/@id" mode="copy-def">
     <xsl:param name="id-prefix"/>
     <xsl:attribute name="{name()}">
