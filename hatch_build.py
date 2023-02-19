@@ -7,7 +7,7 @@ from typing import Iterable
 
 from hatchling.builders.hooks.plugin.interface import BuildHookInterface
 
-from build_bales import BaleGenerator
+from build_bales import BaleGenerator, BALE_SIZES
 
 
 class CustomBuildHook(BuildHookInterface):  # type: ignore[misc]
@@ -25,4 +25,4 @@ class CustomBuildHook(BuildHookInterface):  # type: ignore[misc]
         artifacts = build_data.setdefault("artifacts", [])
 
         generate_bales = BaleGenerator(root_path=self.root)
-        artifacts.extend(generate_bales())
+        artifacts.extend(generate_bales(bale_size) for bale_size in BALE_SIZES)

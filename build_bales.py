@@ -4,10 +4,8 @@ import os
 from dataclasses import asdict
 from dataclasses import dataclass
 from pathlib import Path
-from typing import ClassVar
 from typing import Final
 from typing import IO
-from typing import Iterator
 from typing import Literal
 from typing import TYPE_CHECKING
 
@@ -19,6 +17,7 @@ if TYPE_CHECKING:
 
 
 ROOT_PATH: Final = Path(__file__).parent
+SRC_PATH: Final = ROOT_PATH / "src"
 
 
 @dataclass
@@ -50,9 +49,29 @@ BALE_SIZES = [
 ]
 
 
-class BaleGenerator:
-    src_path: ClassVar = ROOT_PATH / "src"
+class XSLTransform:
+    def __init__(self, xslt_path: StrPath):
+        with Path(SRC_PATH, xslt_path).open("rb") as fp:
+            xslt_doc = etree.parse(fp)
+        self.set_output_encoding(xslt_doc, "utf-8")
+        self.xslt = etree.XSLT(xslt_doc)
 
+    def __call__(
+        self, doc: etree._ElementOrXMLTree, **params: str
+    ) -> etree._XSLTResultTree:
+        return self.xslt(doc, **params)  # type: ignore[arg-type]
+
+    @staticmethod
+    def set_output_encoding(doc: _ElementOrXMLTree, encoding: str) -> None:
+        output = doc.find("{http://www.w3.org/1999/XSL/Transform}output")
+        assert output is not None
+        output.attrib["encoding"] = encoding
+
+
+fix_patterns = XSLTransform("fix-patterns.xslt")
+
+
+class BaleGenerator:
     def __init__(
         self,
         root_path: StrPath = ROOT_PATH,
@@ -60,13 +79,8 @@ class BaleGenerator:
         svg_path: StrPath = "bh-bales.svg",
     ) -> None:
         self.root_path = Path(root_path)
-
-        with Path(self.src_path, xslt_path).open("rb") as fp:
-            xslt_doc = etree.parse(fp)
-            _set_output_encoding(xslt_doc, "utf-8")
-            self.transform = etree.XSLT(xslt_doc)
-
-        with Path(self.src_path, svg_path).open("rb") as fp:
+        self.transform = XSLTransform(xslt_path)
+        with Path(SRC_PATH, svg_path).open("rb") as fp:
             self.template = etree.parse(fp)
 
     def generate(self, fp: IO[bytes], bale_params: BaleParams) -> None:
@@ -74,23 +88,15 @@ class BaleGenerator:
             f"bale-{attr}": f"{value:d}"
             for attr, value in asdict(bale_params).items()
         }
-        result = self.transform(
-            self.template, **params  # type: ignore[arg-type]
-        )
+        result = self.transform(self.template, **params)
+        result = fix_patterns(result)
         result.write_output(fp)  # type: ignore[attr-defined]
 
-    def __call__(self) -> Iterator[str]:
-        for bale in BALE_SIZES:
-            output_fn = Path("bh_symbols", output_name(bale))
-            with open(self.root_path / output_fn, "wb") as fp:
-                self.generate(fp, bale)
-            yield os.fspath(output_fn)
-
-
-def _set_output_encoding(doc: _ElementOrXMLTree, encoding: str) -> None:
-    output = doc.find("{http://www.w3.org/1999/XSL/Transform}output")
-    assert output is not None
-    output.attrib["encoding"] = "utf-8"
+    def __call__(self, bale_params: BaleParams) -> str:
+        output_fn = Path("bh_symbols", output_name(bale_params))
+        with open(self.root_path / output_fn, "wb") as fp:
+            self.generate(fp, bale_params)
+        return os.fspath(output_fn)
 
 
 def output_name(bale_params: BaleParams) -> str:
@@ -105,8 +111,8 @@ def output_name(bale_params: BaleParams) -> str:
 
 def main() -> None:
     generator = BaleGenerator()
-    for fn in generator():
-        print(fn)
+    for bale in BALE_SIZES:
+        print(generator(bale))
 
 
 if __name__ == "__main__":

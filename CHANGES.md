@@ -9,6 +9,10 @@
   
 #### Bugs
 
+- Copy patterns into each bale symbol. This fixes the issue where the
+  bale stipple patterns were not making it into the referencing
+  documents.
+
 - Fix vertical alignment of text in bale legends.
 
 ### 1.0.0rc1 (2022-10-17)
