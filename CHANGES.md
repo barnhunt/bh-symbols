@@ -2,11 +2,13 @@
 
 ### 1.0.0rc2 (unreleased)
 
+- Add a bunch of new bale legend variations.
+
 - Rename the bale symbol sets from, e.g., *“Two-String Bales,
   39x18x15”* to *“Bales, Two-String, 39x18x15”*.  This makes Inkscape
   list them closer to the top of its list of symbol sets, thus
   minimizing the need to scroll.
-  
+
 #### Bugs
 
 - Copy patterns and referenced symbols into each bale symbol. This
