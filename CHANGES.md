@@ -1,5 +1,9 @@
 ## Changes
 
+### 1.0.0rc3 (2022-02-20)
+
+- More alt (dashed) bale legend variations (for Sandra).
+
 ### 1.0.0rc2 (2022-02-19)
 
 - Add a bunch of new bale legend variations.

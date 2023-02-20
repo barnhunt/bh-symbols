@@ -1940,6 +1940,236 @@
          rx="12"
          ry="12" />
     </symbol>
+    <symbol
+       id="legend-1-alt-w-anchor-LLxWWxHH">
+      <title
+         id="title1646">Base-layer legend (alt), w/anchor LLxWWxHH</title>
+      <g
+         id="g1660">
+        <use
+           height="100%"
+           width="100%"
+           bale:x="6 * $inches"
+           x="12"
+           y="30"
+           xlink:href="#bale-1-with-strings-alt-LLxWWxHH"
+           id="use1648" />
+        <use
+           height="100%"
+           width="100%"
+           bale:x="(12 + $bale-length) * $inches"
+           bale:y="30 + 0.5 * ($bale-width - $bale-height) * $inches"
+           x="120"
+           y="36"
+           xlink:href="#bale-1-edge-alt-LLxWWxHH"
+           id="use1650" />
+        <text
+           id="text1654"
+           bale:x="(6 + 0.5 * $bale-length) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
+           y="94.545685"
+           x="58.839844"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             bale:x="(6 + 0.5 * $bale-length) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
+             y="94.545685"
+             x="58.839844"
+             id="tspan1652"
+             sodipodi:role="line">Flat</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           bale:x="(12 + 1.5 * $bale-length) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
+           x="167.27669"
+           y="94.545685"
+           id="text1658"><tspan
+             sodipodi:role="line"
+             id="tspan1656"
+             bale:x="(12 + 1.5 * $bale-length) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
+             x="167.27669"
+             y="94.545685">On Edge</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           bale:x="(18 + 2.5 * $bale-length) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
+           x="276.12695"
+           y="94.545685"
+           id="text2207"><tspan
+             sodipodi:role="line"
+             id="tspan2205"
+             bale:x="(18 + 2.5 * $bale-length) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
+             x="276.12695"
+             y="94.545685">Anchor</tspan></text>
+        <use
+           height="100%"
+           width="100%"
+           bale:x="(18 + 2 * $bale-length) * $inches"
+           bale:y="30 + 0.5 * ($bale-width - $bale-height) * $inches"
+           x="228"
+           y="36"
+           xlink:href="#bale-1-anchor-edge-alt-LLxWWxHH"
+           id="use2917" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         bale:x="0.5 * (24 + 3 * $bale-length) * $inches"
+         x="168.60742"
+         y="20.020302"
+         id="text1664"><tspan
+           sodipodi:role="line"
+           id="tspan1662"
+           bale:x="0.5 * (18 + 2 * $bale-length) * $inches"
+           x="168.60742"
+           y="20.020302">NN-string Bales</tspan></text>
+      <rect
+         style="opacity:0.687;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1666"
+         width="336"
+         height="102"
+         bale:width="(24 + 3 * $bale-length) * $inches"
+         bale:height="54 + $bale-width * $inches"
+         x="0"
+         y="0"
+         rx="12"
+         ry="12" />
+    </symbol>
+    <symbol
+       id="legend-1-alt-edge-anchor-LLxWWxHH">
+      <title
+         id="title4066">Base-layer legend (alt), no flat w/anchor LLxWWxHH</title>
+      <g
+         id="g4086">
+        <use
+           height="100%"
+           width="100%"
+           bale:x="6 * $inches"
+           bale:y="30 + 0.5 * ($bale-width - $bale-height) * $inches"
+           x="12"
+           y="36"
+           xlink:href="#bale-1-edge-alt-LLxWWxHH"
+           id="use4070" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           bale:x="(6 + 0.5 * $bale-length) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
+           x="59.402344"
+           y="94.545685"
+           id="text4078"><tspan
+             sodipodi:role="line"
+             id="tspan4076"
+             bale:x="(6 + 0.5 * $bale-length) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
+             x="59.402344"
+             y="94.545685">On Edge</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           bale:x="(12 + 1.5 * $bale-length) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
+           x="167.12695"
+           y="94.545685"
+           id="text4082"><tspan
+             sodipodi:role="line"
+             id="tspan4080"
+             bale:x="(12 + 1.5 * $bale-length) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
+             x="167.12695"
+             y="94.545685">Anchor</tspan></text>
+        <use
+           height="100%"
+           width="100%"
+           bale:x="(12 + $bale-length) * $inches"
+           bale:y="30 + 0.5 * ($bale-width - $bale-height) * $inches"
+           x="120"
+           y="36"
+           xlink:href="#bale-1-anchor-edge-alt-LLxWWxHH"
+           id="use4084" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         bale:x="0.5 * (18 + 2 * $bale-length) * $inches"
+         x="114.10742"
+         y="20.020302"
+         id="text4090"><tspan
+           sodipodi:role="line"
+           id="tspan4088"
+           bale:x="0.5 * (18 + 2 * $bale-length) * $inches"
+           x="114.10742"
+           y="20.020302">NN-string Bales</tspan></text>
+      <rect
+         style="opacity:0.687;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4092"
+         width="228"
+         height="102"
+         bale:width="(18 + 2 * $bale-length) * $inches"
+         bale:height="54 + $bale-width * $inches"
+         x="0"
+         y="0"
+         rx="12"
+         ry="12" />
+    </symbol>
+    <symbol
+       id="legend-1-alt-no-flat-LLxWWxHH">
+      <title
+         id="title6821">Base-layer legend (alt), no flat bale LLxWWxHH</title>
+      <g
+         id="g6835">
+        <use
+           height="100%"
+           width="100%"
+           bale:x="18 * $inches"
+           bale:y="30 + 0.5 * ($bale-width - $bale-height) * $inches"
+           x="36"
+           y="36"
+           xlink:href="#bale-1-edge-alt-LLxWWxHH"
+           id="use6825" />
+        <text
+           id="text6829"
+           bale:x="(18 + 0.5 * $bale-length) * $inches"
+           bale:y="$bale-width * $inches + 94.545685 - 48"
+           y="94.545685"
+           x="83.402344"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             bale:x="(18 + 0.5 * $bale-length) * $inches"
+             bale:y="$bale-width * $inches + 94.545685 - 48"
+             y="94.545685"
+             x="83.402344"
+             id="tspan6827"
+             sodipodi:role="line">On Edge</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         bale:x="0.5 * (36 + $bale-length) * $inches"
+         x="84.107422"
+         y="20.020302"
+         id="text6839"><tspan
+           sodipodi:role="line"
+           id="tspan6837"
+           bale:x="0.5 * (36 + $bale-length) * $inches"
+           x="84.107422"
+           y="20.020302">NN-string Bales</tspan></text>
+      <rect
+         style="opacity:0.687;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect6841"
+         width="168"
+         height="102"
+         bale:width="(36 + $bale-length) * $inches"
+         bale:height="54 + $bale-width * $inches"
+         x="0"
+         y="0"
+         rx="12"
+         ry="12" />
+    </symbol>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -1947,9 +2177,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="184.85792"
-     inkscape:cy="654.57885"
+     inkscape:zoom="1.4"
+     inkscape:cx="292.14286"
+     inkscape:cy="898.57143"
      inkscape:document-units="px"
      inkscape:current-layer="svg219"
      showgrid="true"
@@ -2172,7 +2402,7 @@
   <use
      xlink:href="#bale-1-edge-alt-LLxWWxHH"
      id="use16755"
-     transform="translate(486,762)"
+     transform="translate(594,120)"
      x="0"
      y="0"
      width="100%"
@@ -2188,7 +2418,7 @@
   <use
      xlink:href="#bale-1-anchor-edge-alt-LLxWWxHH"
      id="use13298"
-     transform="translate(486,720)"
+     transform="translate(594,78)"
      x="0"
      y="0"
      width="100%"
@@ -2196,7 +2426,7 @@
   <use
      xlink:href="#bale-1-with-strings-alt-LLxWWxHH"
      id="use11636"
-     transform="translate(594,720)"
+     transform="translate(702,78)"
      x="0"
      y="0"
      width="100%"
@@ -2208,7 +2438,7 @@
      y="0"
      width="100%"
      height="100%"
-     transform="translate(594,774)" />
+     transform="translate(702,132)" />
   <use
      id="use87324"
      xlink:href="#bale-2-alt-LLxWWxHH"
@@ -2216,7 +2446,7 @@
      y="0"
      width="100%"
      height="100%"
-     transform="translate(486,846)" />
+     transform="translate(594,204)" />
   <use
      id="use87347"
      xlink:href="#bale-2-edge-alt-LLxWWxHH"
@@ -2224,7 +2454,7 @@
      y="0"
      width="100%"
      height="100%"
-     transform="translate(486,804)" />
+     transform="translate(594,162)" />
   <use
      id="use87372"
      xlink:href="#bale-2-leaner-alt-LLxWWxHH"
@@ -2232,7 +2462,7 @@
      y="0"
      width="100%"
      height="100%"
-     transform="translate(594,828)" />
+     transform="translate(702,186)" />
   <use
      id="use87397"
      xlink:href="#bale-3-edge-alt-LLxWWxHH"
@@ -2240,7 +2470,7 @@
      y="0"
      width="100%"
      height="100%"
-     transform="translate(486,900)" />
+     transform="translate(594,258)" />
   <use
      id="use87420"
      xlink:href="#bale-3-alt-LLxWWxHH"
@@ -2248,7 +2478,7 @@
      y="0"
      width="100%"
      height="100%"
-     transform="translate(486,942)" />
+     transform="translate(594,300)" />
   <use
      id="use87444"
      xlink:href="#bale-3-leaner-alt-LLxWWxHH"
@@ -2256,11 +2486,11 @@
      y="0"
      width="100%"
      height="100%"
-     transform="translate(594,882)" />
+     transform="translate(702,240)" />
   <use
      xlink:href="#bale-1-anchor-with-strings-alt-LLxWWxHH"
      id="use89031"
-     transform="translate(594,936)"
+     transform="translate(702,294)"
      x="0"
      y="0"
      width="100%"
@@ -2301,4 +2531,16 @@
      xlink:href="#legend-1-no-leaner-LLxWWxHH"
      id="use20229"
      transform="translate(0,357)" />
+  <use
+     xlink:href="#legend-1-alt-w-anchor-LLxWWxHH"
+     id="use3006"
+     transform="translate(480,708)" />
+  <use
+     xlink:href="#legend-1-alt-edge-anchor-LLxWWxHH"
+     id="use5168"
+     transform="translate(0,708)" />
+  <use
+     xlink:href="#legend-1-alt-no-flat-LLxWWxHH"
+     id="use7407"
+     transform="translate(480.59766,823.45432)" />
 </svg>
