@@ -29,7 +29,7 @@
     </xsl:for-each>
   </func:function>
 
-  <xsl:variable name="pat-ref-re" select="'(.*: *url\(#)([^)]+)(\).*)'"/>
+  <xsl:variable name="pat-ref-re" select="'(.*\burl\(#)([^)]+)(\).*)'"/>
 
   <!-- extract target ids of url()-style references from, eg. @style attribute -->
   <func:function name="bh:extract-ref">
@@ -96,12 +96,11 @@
 
   <xsl:template match="@*" mode="gather-refs"/>
 
-  <xsl:template match="/*/svg:defs/*[@id]" mode="gather-refs">
-    <match><xsl:value-of select="@id"/></match>
-    <xsl:apply-templates select="*" mode="gather-refs"/>
+  <xsl:template match="/*/svg:defs/*/@id" mode="gather-refs">
+    <match><xsl:value-of select="."/></match>
   </xsl:template>
   
-  <xsl:template match="@style" mode="gather-refs">
+  <xsl:template match="@style|@clip-path" mode="gather-refs">
     <xsl:apply-templates select="bh:get-def(bh:extract-ref())" mode="gather-refs"/>
   </xsl:template>
   
@@ -139,7 +138,9 @@
   </xsl:template>
 
   <!-- mangle pattern references -->
-  <xsl:template match="@style[bh:get-def(bh:extract-ref(.))]" mode="copy-symbol">
+  <xsl:template match="@style[bh:get-def(bh:extract-ref(.))]
+                       |@clip-path[bh:get-def(bh:extract-ref(.))]"
+                mode="copy-symbol">
     <xsl:param name="id-prefix"/>
     <xsl:attribute name="{name()}">
       <xsl:value-of select="bh:update-ref(concat($id-prefix, bh:extract-ref()))"/>
