@@ -17,6 +17,9 @@
 
 - Fix vertical alignment of text in bale legends.
 
+- Remove `id` attributes from the symbol document `<title>` element.
+  The `id` attribute was causing recent Inkscapes to fail to recognize the title.
+  
 ### 1.0.0rc1 (2022-10-17)
 
 First tagged release.

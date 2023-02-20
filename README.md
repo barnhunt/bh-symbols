@@ -10,8 +10,14 @@ Currently these include:
 
 - One collection of generally useful bits: start box, boards, rat tube
   markers, etc.
+
 - A number of collections each containing symbols for a distinct size
   of bales.
+
+- A symbol set with a ring outline and grid and a back wall.
+
+  > **Note** At present this ring and wall symbol set is probably not
+  > particularly useful.
 
 These symbols generally use a 1:48 scale — one inch on paper
 represents four feet of reality.  Additionally, there is currently one

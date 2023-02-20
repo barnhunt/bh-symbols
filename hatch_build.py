@@ -7,13 +7,16 @@ from typing import Iterable
 
 from hatchling.builders.hooks.plugin.interface import BuildHookInterface
 
-from build_bales import BaleGenerator, BALE_SIZES
+from build_symbols import SYMBOL_SETS
 
 
 class CustomBuildHook(BuildHookInterface):  # type: ignore[misc]
     def clean(self, versions: Iterable[str]) -> None:
-        for file in Path(self.root, "bh_symbols").iterdir():
-            if file.name.startswith("bh-bales-") and file.is_file():
+        bh_symbols = Path(self.root, "bh_symbols")
+        if not bh_symbols.exists():
+            return
+        for file in bh_symbols.iterdir():
+            if file.is_file():
                 os.unlink(file)
 
     def initialize(self, version: str, build_data: dict[str, Any]) -> None:
@@ -24,5 +27,6 @@ class CustomBuildHook(BuildHookInterface):  # type: ignore[misc]
 
         artifacts = build_data.setdefault("artifacts", [])
 
-        generate_bales = BaleGenerator(root_path=self.root)
-        artifacts.extend(generate_bales(bale_size) for bale_size in BALE_SIZES)
+        artifacts.extend(
+            symbol_set.generate(self.root) for symbol_set in SYMBOL_SETS
+        )
