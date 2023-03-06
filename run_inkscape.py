@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+import random
 import subprocess
 import sys
 import weakref
@@ -52,11 +53,16 @@ class InkscapeRunner:
         env = os.environ.copy()
         env["INKSCAPE_PROFILE_DIR"] = os.fspath(self.profile_path)
         inkscape = os.environ.get("INKSCAPE_COMMAND", "inkscape")
-        subprocess.run((inkscape, *args), env=env)
+        cmd = (inkscape, "--app-id-tag", _random_app_id(), *args)
+        subprocess.run(cmd, env=env)
 
     def __call__(self, args: Iterable[str]) -> None:
         self.install_symbols()
         self.run_inkscape(args)
+
+
+def _random_app_id(len: int = 7):
+    return f"t{random.randrange(16 ** len):0{len}x}"
 
 
 if __name__ == "__main__":
