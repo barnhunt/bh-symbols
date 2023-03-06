@@ -1,5 +1,14 @@
 ## Changes
 
+### 1.0.0rc4 (unreleased)
+
+#### Bugs
+
+- Inkscape’s “cleanup document” command was deleting the component symbols that
+  are copied into each symbol.  Here we switch to hiding the patterns and referenced
+  symbols in an <svg:g style="display:none;"> rather than in a nested <svg:defs>
+  element. That seems to prevent the carnage.
+
 ### 1.0.0rc3 (2022-02-20)
 
 - More alt (dashed) bale legend variations (for Sandra).

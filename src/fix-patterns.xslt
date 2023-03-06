@@ -78,11 +78,11 @@
       </xsl:variable>
       <xsl:variable name="distinct-refs" select="set:distinct(exsl:node-set($refs)/*)"/>
       <xsl:if test="$distinct-refs">
-        <svg:defs>
+        <svg:g style="display:none;">
           <xsl:apply-templates select="$distinct-refs" mode="copy-def">
             <xsl:with-param name="id-prefix" select="$id-prefix"/>
           </xsl:apply-templates>
-        </svg:defs>
+        </svg:g>
       </xsl:if>
     </xsl:copy>
   </xsl:template>
