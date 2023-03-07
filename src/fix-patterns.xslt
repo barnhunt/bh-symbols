@@ -12,6 +12,9 @@
                xmlns:bh="http://dairiki.org/barnhunt/inkscape-extensions"
                extension-element-prefixes="exsl func regexp set">
 
+  <xsl:param name="package-name">bh-symbols</xsl:param>
+  <xsl:param name="package-version">dev</xsl:param>
+
   <xsl:output method="xml"
               indent="yes" />
 
@@ -67,7 +70,9 @@
   <xsl:template match="/*/svg:defs/svg:symbol[@id]">
     <xsl:variable name="id-prefix" select="concat(@id, ':')"/>
 
-    <xsl:copy>
+    <svg:symbol
+        bh:package-name="{$package-name}"
+        bh:package-version="{$package-version}">
       <xsl:apply-templates select="@* | node()" mode="copy-symbol">
         <xsl:with-param name="id-prefix" select="$id-prefix"/>
       </xsl:apply-templates>
@@ -84,7 +89,7 @@
           </xsl:apply-templates>
         </svg:g>
       </xsl:if>
-    </xsl:copy>
+    </svg:symbol>
   </xsl:template>
 
   <!-- ================================================================

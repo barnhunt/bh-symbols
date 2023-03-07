@@ -13,6 +13,7 @@ from lxml import etree
 if TYPE_CHECKING:
     from _typeshed import StrPath
     from lxml.etree import _ElementOrXMLTree
+    from lxml.etree import _XSLTQuotedStringParam
     _ETree: TypeAlias = etree._ElementTree[etree._Element]
 else:
     _ETree = None
@@ -30,7 +31,9 @@ class XSLTransform:
         self.xslt = etree.XSLT(xslt_doc)
 
     def __call__(
-        self, doc: etree._ElementOrXMLTree, **params: str
+        self,
+        doc: etree._ElementOrXMLTree,
+        **params: str | _XSLTQuotedStringParam,
     ) -> etree._XSLTResultTree:
         return self.xslt(doc, **params)  # type: ignore[arg-type]
 
@@ -55,10 +58,21 @@ class SymbolSet:
     def etree(self) -> _ETree:
         return etree.parse(self.src_path / self.src_file)
 
-    def generate(self, root_path: Path = ROOT_PATH) -> str:
+    def generate(
+        self,
+        root_path: Path = ROOT_PATH,
+        package_name: str = "",
+        package_version: str = "",
+    ) -> str:
+        strparam = etree.XSLT.strparam
+        xslt_params = {
+            "package-name": strparam(package_name),
+            "package-version": strparam(package_version),
+        }
+
         svg = self.etree()
         fixer = XSLTransform(self.src_path / self.fixer_xslt)
-        result = fixer(svg)
+        result = fixer(svg, **xslt_params)
 
         output_path = self.output_base / self.output_name
         output_file = root_path / output_path

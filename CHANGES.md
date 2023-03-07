@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.0.0rc5 (unreleased)
+
+- Add `bh:package-name` and `bh:package-version` attributes to all symbols.
+  This allows for determining which version of each symbol one has in ones drawing.
+
 ### 1.0.0rc4 (2023-03-05)
 
 #### Bugs

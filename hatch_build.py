@@ -25,8 +25,16 @@ class CustomBuildHook(BuildHookInterface):  # type: ignore[misc]
                 "This project only supports the 'zipped-directory' target"
             )
 
-        artifacts = build_data.setdefault("artifacts", [])
+        meta_params = {
+            "package_name": self.metadata.name,
+            "package_version": self.metadata.version,
+        }
+        assert all(
+            isinstance(v, str) and v != "" for v in meta_params.values()
+        )
 
+        artifacts = build_data.setdefault("artifacts", [])
         artifacts.extend(
-            symbol_set.generate(self.root) for symbol_set in SYMBOL_SETS
+            symbol_set.generate(self.root, **meta_params)
+            for symbol_set in SYMBOL_SETS
         )
