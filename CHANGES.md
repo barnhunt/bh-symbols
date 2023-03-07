@@ -9,6 +9,9 @@
 - Add `bh:package-name` and `bh:package-version` attributes to all symbols.
   This allows for determining which version of each symbol one has in ones drawing.
 
+- Add tests for dangling `xlink:href` and `url()` references, and check
+  the the `id` attributes of our symbols are globally unique.
+
 ### 1.0.0rc4 (2023-03-05)
 
 #### Bugs

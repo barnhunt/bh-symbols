@@ -52,10 +52,13 @@ dependencies = [
   "flake8-bugbear",
   "mypy",
   "types-lxml",
+  "pytest",
 ]
 [tool.hatch.envs.default.scripts]
 # Run inkscape with symbols installed
 inkscape = "python run_inkscape.py"
+# Run tests
+tests = "pytest tests.py -ra"
 
 
 ################################################################
