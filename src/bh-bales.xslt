@@ -40,29 +40,10 @@
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template name="fixup-scale">
-    <xsl:param name="text" select="."/>
-    <xsl:choose>
-      <xsl:when test="$bale-scale = 48">
-        <xsl:value-of select="str:replace($text, '{SCALE}', '')"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="str:replace(
-                              $text, '{SCALE}',
-                              concat(' (', $bale-scale, ':1)')
-                              )"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
   <xsl:template name="fixup-text">
     <xsl:param name="text" select="."/>
-    <xsl:call-template name="fixup-scale">
-      <xsl:with-param name="text">
-        <xsl:call-template name="fixup-number-of-strings">
-          <xsl:with-param name="text" select="str:replace(., 'LLxWWxHH', $bale-dims)"/>
-        </xsl:call-template>
-      </xsl:with-param>
+    <xsl:call-template name="fixup-number-of-strings">
+      <xsl:with-param name="text" select="str:replace(., 'LLxWWxHH', $bale-dims)"/>
     </xsl:call-template>
   </xsl:template>
 
@@ -141,12 +122,35 @@
     </xsl:attribute>
   </xsl:template>
 
+  <!-- Add non-standard scale to symbol-ids -->
+  <xsl:key name="symbol-ids" match="svg:defs/svg:symbol[@id]" use="@id"/>
+  <xsl:template
+      match="svg:defs/svg:symbol/@id
+             | @xlink:href[
+                 starts-with(., '#') and key('symbol-ids', substring(., 2))
+             ]">
+    <xsl:attribute name="{name()}">
+      <xsl:call-template name="fixup-text"/>
+      <xsl:if test="$bale-scale != 48">
+        <xsl:value-of select="concat('-', $bale-scale, 'to1')"/>
+      </xsl:if>
+    </xsl:attribute>
+  </xsl:template>
+
   <xsl:template match="text()">
     <xsl:call-template name="fixup-text"/>
   </xsl:template>
 
   <xsl:template match="/comment()">
     <xsl:copy />
+  </xsl:template>
+
+  <!-- Add non-standard scale to document title -->
+  <xsl:template match="/*/svg:title/text()">
+    <xsl:call-template name="fixup-text"/>
+    <xsl:if test="$bale-scale != 48">
+      <xsl:value-of select="concat(' (', $bale-scale, ':1)')"/>
+    </xsl:if>
   </xsl:template>
 
 </xsl:transform>

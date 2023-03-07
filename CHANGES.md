@@ -2,6 +2,10 @@
 
 ### 1.0.0rc5 (unreleased)
 
+- Append scale (e.g. `-60to1`) to the id attributes of symbols with
+  scale other than 48:1. This *should* make symbol names universally unique
+  across all symbol in *bh-symbols*.
+
 - Add `bh:package-name` and `bh:package-version` attributes to all symbols.
   This allows for determining which version of each symbol one has in ones drawing.
 
