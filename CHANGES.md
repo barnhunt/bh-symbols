@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.0.0rc5 (unreleased)
+### 1.0.0rc5 (2023-03-08)
 
 - Append scale (e.g. `-60to1`) to the id attributes of symbols with
   scale other than 48:1. This *should* make symbol names universally unique
