@@ -1199,12 +1199,12 @@
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-opacity:0.4"
          bale:d="concat('M 0,8 H ', $bale-length * $inches)"
          d="M 0,8 H 96"
-         id="path88134"
+         id="string-alt-anchor-LLxWWxHH"
          inkscape:connector-curvature="0" />
       <use
          x="0"
          y="0"
-         xlink:href="#string-alt-LLxWWxHH"
+         xlink:href="#string-alt-anchor-LLxWWxHH"
          bale:condition="$bale-strings &gt; 2"
          bale:transform="concat('translate(0,', 0.5 * ($bale-width - 8) * $inches,')')"
          transform="translate(0,16)"
@@ -1214,7 +1214,7 @@
       <use
          x="0"
          y="0"
-         xlink:href="#string-alt-LLxWWxHH"
+         xlink:href="#string-alt-anchor-LLxWWxHH"
          bale:transform="concat('translate(0,', ($bale-width - 8) * $inches,')')"
          transform="translate(0,32)"
          width="100%"

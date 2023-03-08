@@ -12,6 +12,11 @@
 - Add tests for dangling `xlink:href` and `url()` references, and check
   the the `id` attributes of our symbols are globally unique.
 
+#### Bugs Fixed
+
+- Fix missing strings in the flat alt anchor bales (the ones with the
+  red dashed outlines.)
+
 ### 1.0.0rc4 (2023-03-05)
 
 #### Bugs
