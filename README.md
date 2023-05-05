@@ -2,6 +2,7 @@
 
 [![Inkscape Versions](https://img.shields.io/badge/Inkscape-0.9x%E2%80%931.2-blue.svg?logo=inkscape)](https://inkscape.org/)
 [![CC A-NC-SA 4.0 License](https://img.shields.io/badge/license-A--NC--SA%204.0-blue?logo=creativecommons)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Trackgit Views](https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/lhaq9r12vj406yj9rrlh)](https://trackgit.com)
 
 Herein are some [symbol libraries][] that I find useful for drawing
 [Barn Hunt][] maps using [Inkscape][].
