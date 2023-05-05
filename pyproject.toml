@@ -46,13 +46,10 @@ sources = ["bh_symbols"]
 source = "vcs"
 
 [tool.hatch.envs.default]
-detached = true
+skip-install = true
 dependencies = [
-  "flake8",
-  "flake8-bugbear",
-  "mypy",
-  "types-lxml",
   "pytest",
+  "lxml",
 ]
 [tool.hatch.envs.default.scripts]
 # Run inkscape with symbols installed
@@ -60,6 +57,17 @@ inkscape = "python run_inkscape.py"
 # Run tests
 tests = "pytest tests.py -ra"
 
+[tool.hatch.envs.dev]
+# Dev environment.
+#
+# Usage e.g.:  `hatch run dev:emacs tests.py`
+#
+extra-dependencies = [
+  "flake8",
+  "flake8-bugbear",
+  "mypy",
+  "types-lxml",
+]
 
 ################################################################
 #
