@@ -1135,6 +1135,7 @@
      y="0"
      x="0"
      xlink:href="#ramp-36x24"
+     bale:condition="$bale-scale = 48"
      id="use10811" />
   <use
      transform="translate(335.74107,201)"
@@ -1291,6 +1292,7 @@
   <use
      xlink:href="#no-dix-sign"
      id="use14737"
+     bale:condition="$bale-scale = 48"
      transform="translate(292.25893,428)"
      x="0"
      y="0"
@@ -1299,6 +1301,7 @@
   <use
      xlink:href="#ramp-48x24"
      id="use9394"
+     bale:condition="$bale-scale = 48"
      transform="translate(144,96)"
      x="0"
      y="0"
@@ -1307,6 +1310,7 @@
   <use
      xlink:href="#ramp-36x18"
      id="use11560"
+     bale:condition="$bale-scale = 48"
      transform="translate(252,156)"
      x="0"
      y="0"
@@ -1315,6 +1319,7 @@
   <use
      xlink:href="#ramp-48x18"
      id="use13765"
+     bale:condition="$bale-scale = 48"
      transform="translate(144,156)"
      x="0"
      y="0"
