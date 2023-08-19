@@ -21,8 +21,8 @@ Currently these include:
   > particularly useful.
 
 These symbols generally use a 1:48 scale — one inch on paper
-represents four feet of reality.  Additionally, there is currently one
-set of bales drawn to a 1:60 (five feet per inch) scale.
+represents four feet of reality.  Additionally, there are currently two
+sets of bales drawn to a 1:60 (five feet per inch) scale.
 
 ## Installation
 

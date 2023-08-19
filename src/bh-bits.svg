@@ -2,6 +2,7 @@
 <!-- Copyright (C) 2017-2022 Geoffrey T. Dairiki -->
 <svg
    xmlns:bh="http://dairiki.org/barnhunt/inkscape-extensions"
+   xmlns:bale="http://dairiki.org/barnhunt/bale-scaling"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -82,8 +83,9 @@
   <defs
      id="defs2">
     <symbol
-       id="ramp-48x24"
-       style="display:inline">
+      id="ramp-48x24"
+      bale:condition="$bale-scale = 48"
+      style="display:inline">
       <title
          id="title26">Ramp, 48x24</title>
       <rect
@@ -138,7 +140,8 @@
       </g>
     </symbol>
     <symbol
-       id="ramp-36x24">
+       id="ramp-36x24"
+       bale:condition="$bale-scale = 48">
       <title
          id="title9520">Ramp, 36x24</title>
       <rect
@@ -193,7 +196,8 @@
       </g>
     </symbol>
     <symbol
-       id="ramp-48x18">
+       id="ramp-48x18"
+       bale:condition="$bale-scale = 48">
       <title
          id="title13053">Ramp, 48x18</title>
       <rect
@@ -248,7 +252,8 @@
       </g>
     </symbol>
     <symbol
-       id="ramp-36x18">
+       id="ramp-36x18"
+       bale:condition="$bale-scale = 48">
       <title
          id="title10667">Ramp, 36x18</title>
       <rect
@@ -300,12 +305,15 @@
          y="0"
          x="0"
          style="fill:#f1d4d4;fill-opacity:1;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         bale:width="18 * $inches"
+         bale:height="12 * $inches"
          width="36"
          height="24" />
       <text
          id="text7016"
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          x="17.904167"
          y="16.558334"><tspan
            id="tspan7014"
@@ -320,6 +328,8 @@
       <title
          id="title5549">Step, 24x18</title>
       <rect
+         bale:width="24 * $inches"
+         bale:height="18 * $inches"
          height="36"
          width="48"
          style="fill:#f1d4d4;fill-opacity:1;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -330,6 +340,7 @@
          ry="2.2"
          bh:rat-placement="exclude" />
       <text
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="22.558334"
          x="23.904167"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
@@ -351,20 +362,27 @@
          y="0"
          x="0"
          style="fill:#c0f7b1;fill-opacity:1;stroke:#60a04f;stroke-width:1.17333329;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         bale:width="48 * $inches"
+         bale:height="48 * $inches"
          width="96"
          height="96"
          ry="3.2"
          rx="3.2" />
       <rect
          bh:rat-placement="exclude"
+         bale:x="-24 * $inches"
+         bale:y="-24 * $inches"
          y="-48"
          x="-48"
          style="display:none;fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4"
+         bale:width="96 * $inches"
+         bale:height="96 * $inches"
          width="192"
          height="192"
          id="rect50" />
       <text
          id="text84"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
          x="48"
@@ -385,6 +403,8 @@
       <title
          id="title10058">Board, 48x48</title>
       <rect
+         bale:width="48 * $inches"
+         bale:height="48 * $inches"
          width="96"
          height="96"
          x="0"
@@ -405,6 +425,8 @@
          rx="6"
          y="0"
          x="0"
+         bale:width="48 * $inches"
+         bale:height="36 * $inches"
          height="72"
          width="96" />
     </symbol>
@@ -419,6 +441,8 @@
          rx="6"
          y="0"
          x="0"
+         bale:width="48 * $inches"
+         bale:height="33 * $inches"
          height="66"
          width="96" />
     </symbol>
@@ -428,6 +452,8 @@
          id="title56">Board, 48x24</title>
       <rect
          id="rect58"
+         bale:width="48 * $inches"
+         bale:height="24 * $inches"
          width="96"
          height="48"
          x="0"
@@ -442,6 +468,8 @@
          id="title92">Board, 36x36</title>
       <rect
          id="rect94"
+         bale:width="36 * $inches"
+         bale:height="36 * $inches"
          width="72"
          height="72"
          x="0"
@@ -460,6 +488,8 @@
          rx="6"
          y="0"
          x="0"
+         bale:width="36 * $inches"
+         bale:height="30 * $inches"
          height="60"
          width="72"
          id="rect11384" />
@@ -470,6 +500,8 @@
          id="title13372">Board, 36x24</title>
       <rect
          id="rect13374"
+         bale:width="36 * $inches"
+         bale:height="24 * $inches"
          width="72"
          height="48"
          x="0"
@@ -489,6 +521,8 @@
          rx="6"
          y="0"
          x="0"
+         bale:width="72 * $inches"
+         bale:height="36 * $inches"
          height="72"
          width="144" />
     </symbol>
@@ -500,6 +534,10 @@
          id="title61">Rat Wrangler</title>
       <ellipse
          id="ellipse63"
+         bale:ry="6 * $inches"
+         bale:rx="12 * $inches"
+         bale:cy="6 * $inches"
+         bale:cx="12 * $inches"
          ry="12"
          rx="24"
          cy="12"
@@ -507,6 +545,7 @@
          style="display:inline;fill:#d2fff9;fill-opacity:1;stroke:#000000;stroke-width:2.1329999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text67"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
          x="24"
@@ -522,6 +561,8 @@
       <title
          id="title10724">Gate, 48 inches</title>
       <path
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         bale:style="concat('display:inline;opacity:1;fill:#ffffff;fill-opacity:0.50196078;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-width:', 2 * $inches div 3)"
          style="display:inline;opacity:1;fill:#ffffff;fill-opacity:0.50196078;stroke:#000000;stroke-width:1.33333337;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path19937"
          sodipodi:type="arc"
@@ -538,6 +579,8 @@
       <title
          id="title11479">Duff Pile, 36x18</title>
       <path
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         bale:style="concat('display:inline;fill:#faf2c9;fill-opacity:1;stroke:#ddbfca;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-width:', $inches div 3)"
          style="display:inline;fill:#faf2c9;fill-opacity:1;stroke:#ddbfca;stroke-width:0.66666669;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M 0,20 6,8 20,0 36,8 52,0 72,8 68.67,15.9 72,26 60,32 44,28 28,36 10.1,29.5 v -7.2 z"
          id="path13153-9"
@@ -551,6 +594,8 @@
       <title
          id="title12518">Duff Pile, 48x24</title>
       <path
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         bale:style="concat('display:inline;fill:#faf2c9;fill-opacity:1;stroke:#ddbfca;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-width:', $inches div 3)"
          style="display:inline;fill:#faf2c9;fill-opacity:1;stroke:#ddbf6a;stroke-width:0.67199999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M 0,24 8,16 16,0 32,8 48,0 72,8 h 16 l 8,8 -8,8 8,8 -8,8 L 64,48 40,40 24,48 8,40 v -8 z"
          id="path13153"
@@ -563,6 +608,7 @@
       <title
          id="title79">Rat Tube</title>
       <circle
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          id="circle81"
          style="display:inline;fill:#ff9b95;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.13333344;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          cx="12"
@@ -576,12 +622,14 @@
          id="title84">Rat Tube #1</title>
       <circle
          id="circle86"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          style="display:inline;fill:#ff9b95;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.13333344;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          cx="12"
          cy="12"
          r="12" />
       <text
          id="text90"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="18"
          x="12"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-opacity:1"
@@ -599,12 +647,14 @@
          id="title93">Rat Tube #2</title>
       <circle
          id="circle95"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          style="display:inline;fill:#ff9b95;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.13333344;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          cx="12"
          cy="12"
          r="12" />
       <text
          id="text99"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="18"
          x="12"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-opacity:1"
@@ -622,12 +672,14 @@
          id="title103">Rat Tube #3</title>
       <circle
          id="circle105"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          style="display:inline;fill:#ff9b95;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.13333344;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          cx="12"
          cy="12"
          r="12" />
       <text
          id="text109"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="18"
          x="12"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-opacity:1"
@@ -645,12 +697,14 @@
          id="title14695">Rat Tube #4</title>
       <circle
          id="circle14697"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          style="display:inline;fill:#ff9b95;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.13333344;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          cx="12"
          cy="12"
          r="12" />
       <text
          id="text14701"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="18"
          x="12"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-opacity:1"
@@ -667,12 +721,14 @@
       <title
          id="title14158">Rat Tube #5</title>
       <circle
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          r="12"
          cy="12"
          cx="12"
          style="display:inline;fill:#ff9b95;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.13333344;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path7497-3-3" />
       <text
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-opacity:1"
          x="12"
@@ -691,6 +747,7 @@
          id="title12899">Dummy Tube</title>
       <circle
          id="circle12901"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          style="display:inline;fill:#ffffff;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.1329999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          cx="12"
          cy="12"
@@ -702,12 +759,14 @@
       <title
          id="title11933">Empty Tube</title>
       <circle
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          r="12"
          cy="12"
          cx="12"
          style="display:inline;fill:#ffffff;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.1329999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path7497-3-0-9" />
       <text
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
          x="12"
@@ -726,12 +785,14 @@
          id="title12133">Litter Tube</title>
       <circle
          id="circle12135"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          style="display:inline;fill:#ffffff;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.1329999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          cx="12"
          cy="12"
          r="12" />
       <text
          id="text12139"
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="18"
          x="12"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
@@ -743,7 +804,8 @@
            style="font-size:17.06666756px;line-height:1.25;stroke-width:1.06666672">L</tspan></text>
     </symbol>
     <symbol
-       id="no-dix-sign">
+       id="no-dix-sign"
+       bale:condition="$bale-scale = 48">
       <title
          id="title14727">No Dix Sign</title>
       <text
@@ -778,6 +840,7 @@
        id="bh-instinct-cradle">
       <title
          id="title14664">Instinct Cradle</title>
+      <g bale:transform="concat('scale(', 0.5 * $inches, ')')">
       <rect
          y="14"
          x="0"
@@ -939,6 +1002,7 @@
          width="3"
          id="rect12267-2-7-0-9-3"
          style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
     </symbol>
     <symbol
        id="dc-mat-24x12">
@@ -947,6 +1011,8 @@
       <rect
          rx="3.2"
          ry="3.2"
+         bale:height="12 * $inches"
+         bale:width="24 * $inches"
          height="24"
          width="48"
          style="fill:#fcdfd2;fill-opacity:1;stroke:#ff9802;stroke-width:1.17333329;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -954,6 +1020,7 @@
          y="0"
          id="rect10620" />
       <text
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="17.71875"
          x="23.410156"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
@@ -969,7 +1036,8 @@
        id="added-bale-mark"
        style="fill:#000000;stroke:none">
       <title
-         id="title91200">Added Bale</title>
+          id="title91200">Added Bale</title>
+      <g bale:transform="concat('scale(', 0.5 * $inches, ')')">
       <rect
          transform="scale(1,-1)"
          y="-18.710587"
@@ -988,11 +1056,13 @@
          id="path91206"
          d="m 7.1964053,2.672895 c -2.4673366,0 -4.7290657,0 -4.7290657,4.4467508 v 4.6768502 c 0,4.446761 2.2617291,4.446761 4.7290657,4.446761 h 4.1122307 c 2.467339,0 4.729064,0 4.729064,-4.446761 V 7.1196458 c 0,-4.4467508 -2.261725,-4.4467508 -4.729064,-4.4467508 z m 0.3839158,1.2336693 h 3.3443969 c 2.440034,0 3.879313,0 3.879313,3.7403641 v 3.6222976 c 0,3.740362 -1.439279,3.740362 -3.879313,3.740362 H 7.5803211 c -2.4400293,0 -3.8793122,0 -3.8793122,-3.740362 V 7.6469284 c 0,-3.7403641 1.4392829,-3.7403641 3.8793122,-3.7403641 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#1db900;fill-opacity:1;stroke:none;stroke-width:0.20554411" />
+      </g>
     </symbol>
     <symbol
        id="removed-bale-mark">
       <title
          id="title93901">Removed Bale</title>
+      <g bale:transform="concat('scale(', 0.5 * $inches, ')')">
       <rect
          transform="scale(1,-1)"
          y="-18.698111"
@@ -1011,6 +1081,7 @@
          id="path93907"
          d="m 7.3573411,2.5564445 c -2.4833322,0 -4.7597233,0 -4.7597233,4.475577 V 11.7392 c 0,4.475577 2.2763911,4.475577 4.7597233,4.475577 h 4.1388879 c 2.483334,0 4.759721,0 4.759721,-4.475577 V 7.0320215 c 0,-4.475577 -2.276387,-4.475577 -4.759721,-4.475577 z m 0.3864034,1.2416666 h 3.3660785 c 2.455852,0 3.90446,0 3.90446,3.7646112 V 11.2085 c 0,3.764611 -1.448608,3.764611 -3.90446,3.764611 H 7.7437445 c -2.4558472,0 -3.9044595,0 -3.9044595,-3.764611 V 7.5627223 c 0,-3.7646112 1.4486123,-3.7646112 3.9044595,-3.7646112 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#c20000;fill-opacity:1;stroke:none;stroke-width:0.20687656" />
+      </g>
     </symbol>
   </defs>
   <metadata

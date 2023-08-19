@@ -78,6 +78,31 @@
         <xsl:value-of select="dyn:evaluate(@bale:y)"/>
       </xsl:attribute>
     </xsl:if>
+    <xsl:if test="@bale:cx">
+      <xsl:attribute name="cx">
+        <xsl:value-of select="dyn:evaluate(@bale:cx)"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:if test="@bale:cy">
+      <xsl:attribute name="cy">
+        <xsl:value-of select="dyn:evaluate(@bale:cy)"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:if test="@bale:rx">
+      <xsl:attribute name="rx">
+        <xsl:value-of select="dyn:evaluate(@bale:rx)"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:if test="@bale:ry">
+      <xsl:attribute name="ry">
+        <xsl:value-of select="dyn:evaluate(@bale:ry)"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:if test="@bale:style">
+      <xsl:attribute name="style">
+        <xsl:value-of select="dyn:evaluate(@bale:style)"/>
+      </xsl:attribute>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="*" name="expand-elem">

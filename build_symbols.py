@@ -47,16 +47,28 @@ class XSLTransform:
 @dataclass
 class SymbolSet:
     src_file: str
+    scale: int = 48
+
+    transform_xslt: str = "bh-bales.xslt"
     fixer_xslt: str = "fix-patterns.xslt"
+
     src_path: Path = SRC_PATH
     output_base: Path = OUTPUT_BASE
 
     @property
     def output_name(self) -> str:
-        return self.src_file
+        path = Path(self.src_file)
+        if self.scale != 48:
+            path = path.with_stem(f"{path.stem}-{self.scale:d}to1")
+        return str(path)
+
+    def xslt_params(self) -> dict[str, str]:
+        return {"bale-scale": f"{self.scale:d}"}
 
     def etree(self) -> _ETree:
-        return etree.parse(self.src_path / self.src_file)
+        doc = etree.parse(self.src_path / self.src_file)
+        xslt = XSLTransform(self.src_path / self.transform_xslt)
+        return xslt(doc, **self.xslt_params())
 
     def generate(
         self,
@@ -65,20 +77,20 @@ class SymbolSet:
         package_version: str = "",
     ) -> str:
         strparam = etree.XSLT.strparam
-        xslt_params = {
+        fixer_params = {
             "package-name": strparam(package_name),
             "package-version": strparam(package_version),
         }
 
         svg = self.etree()
         fixer = XSLTransform(self.src_path / self.fixer_xslt)
-        result = fixer(svg, **xslt_params)
+        result = fixer(svg, **fixer_params)
 
         output_path = self.output_base / self.output_name
         output_file = root_path / output_path
         output_file.parent.mkdir(parents=True, exist_ok=True)
         with open(output_file, "wb") as fp:
-            result.write_output(fp)  # type: ignore[attr-defined]
+            result.write_output(fp)
         return os.fspath(output_path)
 
 
@@ -88,10 +100,8 @@ class BaleSet(SymbolSet):
     width: int = 18
     height: int = 15
     strings: Literal[2, 3] = 2
-    scale: int = 48
 
     src_file: str = "bh-bales.svg"
-    xslt_file: str = "bh-bales.xslt"
 
     def xslt_params(self) -> dict[str, str]:
         return {
@@ -106,15 +116,11 @@ class BaleSet(SymbolSet):
             dimensions += f"-{self.scale:d}to1"
         return f"bh-bales-{dimensions}.svg"
 
-    def etree(self) -> _ETree:
-        doc = super().etree()
-        xslt = XSLTransform(self.src_path / self.xslt_file)
-        return xslt(doc, **self.xslt_params())
-
 
 # Non-templated (non-bale) symbol sets
 SYMBOL_SETS = [
     SymbolSet("bh-bits.svg"),
+    SymbolSet("bh-bits.svg", scale=60),
     SymbolSet("bh-rings.svg"),
 
     BaleSet(length=36, width=18, height=15),
@@ -126,6 +132,7 @@ SYMBOL_SETS = [
     BaleSet(length=48, width=24, height=18, strings=3),
     BaleSet(length=45, width=22, height=16, strings=3),
 
+    BaleSet(length=39, width=18, height=15, scale=60),
     BaleSet(length=42, width=18, height=16, scale=60),
 ]
 

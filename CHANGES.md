@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.1.0rc1 (unreleased)
+
+- Add a set of 39x18x15 bales in 60:1 scale.
+- Generate bh-bits symbols in 60:1 scale.
+
 ### 1.0.0rc5 (2023-03-08)
 
 - Append scale (e.g. `-60to1`) to the id attributes of symbols with
