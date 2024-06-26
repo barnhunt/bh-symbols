@@ -3,6 +3,7 @@
 ### 1.2.0rc1 (unreleased)
 
 - Generate all bale sizes in 60:1 scale (as well as the default 48:1 scale).
+- Add rat tubes #6 through #8
 
 ### 1.1.0rc1 (2023-08-19)
 

@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Copyright (C) 2017-2022 Geoffrey T. Dairiki -->
+
 <svg
-   xmlns:bh="http://dairiki.org/barnhunt/inkscape-extensions"
-   xmlns:bale="http://dairiki.org/barnhunt/bale-scaling"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="8.5in"
    height="11in"
    viewBox="0 0 816 1056"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="bh-bits.svg">
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   sodipodi:docname="bh-bits.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:bale="http://dairiki.org/barnhunt/bale-scaling"
+   xmlns:bh="http://dairiki.org/barnhunt/inkscape-extensions">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,17 +26,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="272.95594"
-     inkscape:cy="713.63452"
+     inkscape:zoom="1.4"
+     inkscape:cx="392.85714"
+     inkscape:cy="310"
      inkscape:document-units="px"
      inkscape:current-layer="svg8"
      showgrid="true"
      units="in"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
+     inkscape:window-height="1136"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      scale-x="1"
      inkscape:snap-to-guides="false"
@@ -47,7 +48,10 @@
      inkscape:measure-start="100.875,1027.62"
      inkscape:measure-end="135.108,1027.96"
      inkscape:bbox-nodes="true"
-     inkscape:snap-object-midpoints="true">
+     inkscape:snap-object-midpoints="true"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        opacity="0.1254902"
        color="#00e0ff"
@@ -57,7 +61,9 @@
        spacingx="24"
        units="px"
        id="grid:one-foot"
-       type="xygrid" />
+       type="xygrid"
+       originx="0"
+       visible="true" />
     <inkscape:grid
        opacity="0.1254902"
        color="#00baff"
@@ -66,7 +72,10 @@
        spacingx="2"
        units="px"
        id="grid:one-inch"
-       type="xygrid" />
+       type="xygrid"
+       originx="0"
+       originy="0"
+       visible="true" />
     <inkscape:grid
        opacity="0.1254902"
        color="#00e0ff"
@@ -76,16 +85,19 @@
        spacingx="6"
        units="px"
        id="grid:three-inch"
-       type="xygrid" />
+       type="xygrid"
+       originx="0"
+       originy="0"
+       visible="true" />
   </sodipodi:namedview>
   <title
      id="title8910">Barn Hunt Bits</title>
   <defs
      id="defs2">
     <symbol
-      id="ramp-48x24"
-      bale:condition="$bale-scale = 48"
-      style="display:inline">
+       id="ramp-48x24"
+       bale:condition="$bale-scale = 48"
+       style="display:inline">
       <title
          id="title26">Ramp, 48x24</title>
       <rect
@@ -101,11 +113,11 @@
       <text
          id="text32"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667"
          x="48"
          y="30"><tspan
            id="tspan30"
-           style="font-size:17.06666756px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
+           style="font-size:17.0667px;line-height:1.25;font-family:sans-serif;stroke-width:1.06667"
            sodipodi:role="line"
            x="48"
            y="30">Ramp</tspan></text>
@@ -157,13 +169,13 @@
       <text
          y="30"
          x="36"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667"
          xml:space="preserve"
          id="text9526"><tspan
            y="30"
            x="36"
            sodipodi:role="line"
-           style="font-size:17.06666756px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
+           style="font-size:17.0667px;line-height:1.25;font-family:sans-serif;stroke-width:1.06667"
            id="tspan9524">Ramp</tspan></text>
       <g
          id="g9532">
@@ -213,13 +225,13 @@
       <text
          y="23.5"
          x="48"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667"
          xml:space="preserve"
          id="text13059"><tspan
            y="23.5"
            x="48"
            sodipodi:role="line"
-           style="font-size:17.06666756px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
+           style="font-size:17.0667px;line-height:1.25;font-family:sans-serif;stroke-width:1.06667"
            id="tspan13057">Ramp</tspan></text>
       <g
          id="g13065">
@@ -269,11 +281,11 @@
       <text
          id="text10673"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667"
          x="36"
          y="19"><tspan
            id="tspan10671"
-           style="font-size:17.06666756px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
+           style="font-size:17.0667px;line-height:1.25;font-family:sans-serif;stroke-width:1.06667"
            sodipodi:role="line"
            x="36"
            y="19">Ramp</tspan></text>
@@ -312,12 +324,12 @@
       <text
          id="text7016"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667"
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          x="17.904167"
          y="16.558334"><tspan
            id="tspan7014"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:-0.72511792px;writing-mode:lr-tb;text-anchor:middle;stroke-width:1.06666672"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:-0.725118px;writing-mode:lr-tb;text-anchor:middle;stroke-width:1.06667"
            sodipodi:role="line"
            x="17.541609"
            y="16.558334"
@@ -343,13 +355,13 @@
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="22.558334"
          x="23.904167"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667"
          xml:space="preserve"
          id="text5555"><tspan
            y="22.558334"
            x="23.904167"
            sodipodi:role="line"
-           style="font-size:17.06666756px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
+           style="font-size:17.0667px;line-height:1.25;font-family:sans-serif;stroke-width:1.06667"
            id="tspan5553">Step</tspan></text>
     </symbol>
     <symbol
@@ -384,16 +396,16 @@
          id="text84"
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667"
          x="48"
          y="42"><tspan
            id="tspan80"
-           style="font-size:21.33333397px;line-height:1.14999998;font-family:sans-serif;stroke-width:1.06666672"
+           style="font-size:21.3333px;line-height:1.15;font-family:sans-serif;stroke-width:1.06667"
            sodipodi:role="line"
            x="48"
            y="42">Start</tspan><tspan
            id="tspan82"
-           style="font-size:21.33333397px;line-height:1.14999998;font-family:sans-serif;stroke-width:1.06666672"
+           style="font-size:21.3333px;line-height:1.15;font-family:sans-serif;stroke-width:1.06667"
            sodipodi:role="line"
            x="48"
            y="66.533333">Box</tspan></text>
@@ -547,11 +559,11 @@
          id="text67"
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667"
          x="24"
          y="18"><tspan
            id="tspan65"
-           style="font-size:17.06666756px;line-height:1.25;stroke-width:1.06666672"
+           style="font-size:17.0667px;line-height:1.25;stroke-width:1.06667"
            sodipodi:role="line"
            x="24"
            y="18">RW</tspan></text>
@@ -632,13 +644,13 @@
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="18"
          x="12"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06667;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan88"
            y="18"
            x="12"
            sodipodi:role="line"
-           style="font-size:17.06666756px;line-height:1.25;stroke-width:1.06666672">1</tspan></text>
+           style="font-size:17.0667px;line-height:1.25;stroke-width:1.06667">1</tspan></text>
     </symbol>
     <symbol
        id="rat-tube-2"
@@ -657,13 +669,13 @@
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="18"
          x="12"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06667;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan97"
            y="18"
            x="12"
            sodipodi:role="line"
-           style="font-size:17.06666756px;line-height:1.25;stroke-width:1.06666672">2</tspan></text>
+           style="font-size:17.0667px;line-height:1.25;stroke-width:1.06667">2</tspan></text>
     </symbol>
     <symbol
        id="rat-tube-3"
@@ -682,13 +694,13 @@
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="18"
          x="12"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06667;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan107"
            y="18"
            x="12"
            sodipodi:role="line"
-           style="font-size:17.06666756px;line-height:1.25;stroke-width:1.06666672">3</tspan></text>
+           style="font-size:17.0667px;line-height:1.25;stroke-width:1.06667">3</tspan></text>
     </symbol>
     <symbol
        id="rat-tube-4"
@@ -707,13 +719,13 @@
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="18"
          x="12"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06667;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="18"
            x="12"
            id="tspan14699"
            sodipodi:role="line"
-           style="font-size:17.06666756px;line-height:1.25;stroke-width:1.06666672">4</tspan></text>
+           style="font-size:17.0667px;line-height:1.25;stroke-width:1.06667">4</tspan></text>
     </symbol>
     <symbol
        style="display:inline"
@@ -730,15 +742,90 @@
       <text
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06666672;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06667;stroke-opacity:1"
          x="12"
          y="18"
          id="text8837-6"><tspan
-           style="font-size:17.06666756px;line-height:1.25;stroke-width:1.06666672"
+           style="font-size:17.0667px;line-height:1.25;stroke-width:1.06667"
            sodipodi:role="line"
            id="tspan8839-0"
            x="12"
            y="18">5</tspan></text>
+    </symbol>
+    <symbol
+       style="display:inline"
+       id="rat-tube-6">
+      <title
+         id="title1">Rat Tube #6</title>
+      <circle
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         r="12"
+         cy="12"
+         cx="12"
+         style="display:inline;fill:#ff9b95;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.13333344;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle1" />
+      <text
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06667;stroke-opacity:1"
+         x="12"
+         y="18"
+         id="text1"><tspan
+           style="font-size:17.0667px;line-height:1.25;stroke-width:1.06667"
+           sodipodi:role="line"
+           id="tspan1"
+           x="12"
+           y="18">6</tspan></text>
+    </symbol>
+    <symbol
+       style="display:inline"
+       id="rat-tube-7">
+      <title
+         id="title2">Rat Tube #7</title>
+      <circle
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         r="12"
+         cy="12"
+         cx="12"
+         style="display:inline;fill:#ff9b95;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.13333344;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2" />
+      <text
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06667;stroke-opacity:1"
+         x="12"
+         y="18"
+         id="text2"><tspan
+           style="font-size:17.0667px;line-height:1.25;stroke-width:1.06667"
+           sodipodi:role="line"
+           id="tspan2"
+           x="12"
+           y="18">7</tspan></text>
+    </symbol>
+    <symbol
+       style="display:inline"
+       id="rat-tube-8">
+      <title
+         id="title3">Rat Tube #8</title>
+      <circle
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         r="12"
+         cy="12"
+         cx="12"
+         style="display:inline;fill:#ff9b95;fill-opacity:0.76999996;stroke:#000000;stroke-width:2.13333344;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle3" />
+      <text
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06667;stroke-opacity:1"
+         x="12"
+         y="18"
+         id="text3"><tspan
+           style="font-size:17.0667px;line-height:1.25;stroke-width:1.06667"
+           sodipodi:role="line"
+           id="tspan3"
+           x="12"
+           y="18">8</tspan></text>
     </symbol>
     <symbol
        id="dummy-tube"
@@ -768,11 +855,11 @@
       <text
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667"
          x="12"
          y="18"
          id="text8837-23-2"><tspan
-           style="font-size:17.06666756px;line-height:1.25;stroke-width:1.06666672"
+           style="font-size:17.0667px;line-height:1.25;stroke-width:1.06667"
            sodipodi:role="line"
            id="tspan8839-7-2"
            x="12"
@@ -795,13 +882,13 @@
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="18"
          x="12"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.8px;line-height:0%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667"
          xml:space="preserve"><tspan
            y="18"
            x="12"
            id="tspan12137"
            sodipodi:role="line"
-           style="font-size:17.06666756px;line-height:1.25;stroke-width:1.06666672">L</tspan></text>
+           style="font-size:17.0667px;line-height:1.25;stroke-width:1.06667">L</tspan></text>
     </symbol>
     <symbol
        id="no-dix-sign"
@@ -811,7 +898,7 @@
       <text
          transform="translate(-0.791503,-0.704602)"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.0019989px;line-height:125%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41439021;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.002px;line-height:125%;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41439;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="0.69999999"
          y="6"
          id="text9185-9"><tspan
@@ -819,7 +906,7 @@
            id="tspan9183-1"
            x="0.70000058"
            y="6"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.0019989px;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';stroke-width:1.41439021">Dix</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.002px;font-family:'Luxi Sans';-inkscape-font-specification:'Luxi Sans Bold';stroke-width:1.41439">Dix</tspan></text>
       <g
          id="g14725"
          style="opacity:0.75">
@@ -840,168 +927,170 @@
        id="bh-instinct-cradle">
       <title
          id="title14664">Instinct Cradle</title>
-      <g bale:transform="concat('scale(', 0.5 * $inches, ')')">
-      <rect
-         y="14"
-         x="0"
-         height="3"
-         width="112"
-         id="rect12267-2"
-         style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="0"
-         x="0"
-         height="3"
-         width="112"
-         id="rect12267"
-         style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         transform="rotate(90,101.81188,2.188126)"
-         id="g11636">
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         id="g3">
         <rect
-           style="opacity:1;fill:#ffffff;fill-opacity:0.99695123;fill-rule:nonzero;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect9555"
-           width="16"
-           height="9"
-           x="104"
-           y="43.5" />
+           y="14"
+           x="0"
+           height="3"
+           width="112"
+           id="rect12267-2"
+           style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <rect
-           style="opacity:1;fill:#ffffff;fill-opacity:0.99695123;fill-rule:nonzero;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect9807"
-           width="7.4400001"
-           height="10.06"
-           x="96.559998"
-           y="42.970001" />
+           y="0"
+           x="0"
+           height="3"
+           width="112"
+           id="rect12267"
+           style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <g
+           transform="rotate(90,101.81188,2.188126)"
+           id="g11636">
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:0.99695123;fill-rule:nonzero;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect9555"
+             width="16"
+             height="9"
+             x="104"
+             y="43.5" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:0.99695123;fill-rule:nonzero;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect9807"
+             width="7.4400001"
+             height="10.06"
+             x="96.559998"
+             y="42.970001" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:0.99695123;fill-rule:nonzero;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect10309"
+             width="1.2232121"
+             height="7.2832074"
+             x="95.247498"
+             y="44.358395" />
+          <circle
+             style="opacity:1;fill:#171717;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="path10689-3"
+             cx="118"
+             cy="50"
+             r="0.3125" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#path10689-3"
+             id="use9789"
+             transform="translate(0,-4)"
+             width="100%"
+             height="100%" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#path10689-3"
+             id="use9791"
+             transform="translate(-4)"
+             width="100%"
+             height="100%" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#path10689-3"
+             id="use9793"
+             transform="translate(-4,-4)"
+             width="100%"
+             height="100%" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#path10689-3"
+             id="use9791-3"
+             transform="translate(-8)"
+             width="100%"
+             height="100%" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#path10689-3"
+             id="use9793-6"
+             transform="translate(-8,-4)"
+             width="100%"
+             height="100%" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#path10689-3"
+             id="use9791-7"
+             transform="translate(-12)"
+             width="100%"
+             height="100%" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#path10689-3"
+             id="use9793-5"
+             transform="translate(-12,-4)"
+             width="100%"
+             height="100%" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#path10689-3"
+             id="use9791-35"
+             transform="translate(-15.56932)"
+             width="100%"
+             height="100%" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#path10689-3"
+             id="use9793-62"
+             transform="translate(-15.56932,-4)"
+             width="100%"
+             height="100%" />
+        </g>
+        <use
+           height="100%"
+           width="100%"
+           transform="translate(43)"
+           id="use11763"
+           xlink:href="#g11636"
+           y="0"
+           x="0" />
+        <use
+           height="100%"
+           width="100%"
+           transform="translate(-43)"
+           id="use12015"
+           xlink:href="#g11636"
+           y="0"
+           x="0" />
         <rect
-           style="opacity:1;fill:#ffffff;fill-opacity:0.99695123;fill-rule:nonzero;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect10309"
-           width="1.2232121"
-           height="7.2832074"
-           x="95.247498"
-           y="44.358395" />
-        <circle
-           style="opacity:1;fill:#171717;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="path10689-3"
-           cx="118"
-           cy="50"
-           r="0.3125" />
-        <use
+           y="3"
+           x="109"
+           height="11"
+           width="3"
+           id="rect12267-2-7"
+           style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           y="3"
            x="0"
-           y="0"
-           xlink:href="#path10689-3"
-           id="use9789"
-           transform="translate(0,-4)"
-           width="100%"
-           height="100%" />
-        <use
-           x="0"
-           y="0"
-           xlink:href="#path10689-3"
-           id="use9791"
-           transform="translate(-4)"
-           width="100%"
-           height="100%" />
-        <use
-           x="0"
-           y="0"
-           xlink:href="#path10689-3"
-           id="use9793"
-           transform="translate(-4,-4)"
-           width="100%"
-           height="100%" />
-        <use
-           x="0"
-           y="0"
-           xlink:href="#path10689-3"
-           id="use9791-3"
-           transform="translate(-8)"
-           width="100%"
-           height="100%" />
-        <use
-           x="0"
-           y="0"
-           xlink:href="#path10689-3"
-           id="use9793-6"
-           transform="translate(-8,-4)"
-           width="100%"
-           height="100%" />
-        <use
-           x="0"
-           y="0"
-           xlink:href="#path10689-3"
-           id="use9791-7"
-           transform="translate(-12)"
-           width="100%"
-           height="100%" />
-        <use
-           x="0"
-           y="0"
-           xlink:href="#path10689-3"
-           id="use9793-5"
-           transform="translate(-12,-4)"
-           width="100%"
-           height="100%" />
-        <use
-           x="0"
-           y="0"
-           xlink:href="#path10689-3"
-           id="use9791-35"
-           transform="translate(-15.56932)"
-           width="100%"
-           height="100%" />
-        <use
-           x="0"
-           y="0"
-           xlink:href="#path10689-3"
-           id="use9793-62"
-           transform="translate(-15.56932,-4)"
-           width="100%"
-           height="100%" />
-      </g>
-      <use
-         height="100%"
-         width="100%"
-         transform="translate(43)"
-         id="use11763"
-         xlink:href="#g11636"
-         y="0"
-         x="0" />
-      <use
-         height="100%"
-         width="100%"
-         transform="translate(-43)"
-         id="use12015"
-         xlink:href="#g11636"
-         y="0"
-         x="0" />
-      <rect
-         y="3"
-         x="109"
-         height="11"
-         width="3"
-         id="rect12267-2-7"
-         style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="3"
-         x="0"
-         height="11"
-         width="3"
-         id="rect12267-2-7-0"
-         style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="3"
-         x="37"
-         height="11"
-         width="3"
-         id="rect12267-2-7-0-9"
-         style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="3"
-         x="72.5"
-         height="11"
-         width="3"
-         id="rect12267-2-7-0-9-3"
-         style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+           height="11"
+           width="3"
+           id="rect12267-2-7-0"
+           style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           y="3"
+           x="37"
+           height="11"
+           width="3"
+           id="rect12267-2-7-0-9"
+           style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           y="3"
+           x="72.5"
+           height="11"
+           width="3"
+           id="rect12267-2-7-0-9-3"
+           style="opacity:1;fill:#e8e5c7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       </g>
     </symbol>
     <symbol
@@ -1023,64 +1112,68 @@
          bale:transform="concat('scale(', 0.5 * $inches, ')')"
          y="17.71875"
          x="23.410156"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667"
          xml:space="preserve"
          id="text10628"><tspan
            y="17.71875"
            x="23.410156"
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.14999998;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:1.06666672"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:1.06667"
            id="tspan10626">Mat</tspan></text>
     </symbol>
     <symbol
        id="added-bale-mark"
        style="fill:#000000;stroke:none">
       <title
-          id="title91200">Added Bale</title>
-      <g bale:transform="concat('scale(', 0.5 * $inches, ')')">
-      <rect
-         transform="scale(1,-1)"
-         y="-18.710587"
-         x="-8.0491169e-16"
-         height="18.505043"
-         width="18.505039"
-         id="rect91202"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.13900003;fill:none;stroke:none;stroke-width:0.41108823;stroke-opacity:1;marker:none;enable-background:accumulate" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path91204"
-         d="M 9.8749686,5.7570683 H 8.630075 V 8.8356284 H 5.5515129 V 10.080524 H 8.630075 v 3.07856 h 1.2448936 v -3.07856 H 12.953531 V 8.8356284 H 9.8749686 Z"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#1db900;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41108823;marker:none;enable-background:accumulate" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path91206"
-         d="m 7.1964053,2.672895 c -2.4673366,0 -4.7290657,0 -4.7290657,4.4467508 v 4.6768502 c 0,4.446761 2.2617291,4.446761 4.7290657,4.446761 h 4.1122307 c 2.467339,0 4.729064,0 4.729064,-4.446761 V 7.1196458 c 0,-4.4467508 -2.261725,-4.4467508 -4.729064,-4.4467508 z m 0.3839158,1.2336693 h 3.3443969 c 2.440034,0 3.879313,0 3.879313,3.7403641 v 3.6222976 c 0,3.740362 -1.439279,3.740362 -3.879313,3.740362 H 7.5803211 c -2.4400293,0 -3.8793122,0 -3.8793122,-3.740362 V 7.6469284 c 0,-3.7403641 1.4392829,-3.7403641 3.8793122,-3.7403641 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#1db900;fill-opacity:1;stroke:none;stroke-width:0.20554411" />
+         id="title91200">Added Bale</title>
+      <g
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         id="g4">
+        <rect
+           transform="scale(1,-1)"
+           y="-18.710587"
+           x="-8.0491169e-16"
+           height="18.505043"
+           width="18.505039"
+           id="rect91202"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.13900003;fill:none;stroke:none;stroke-width:0.41108823;stroke-opacity:1;marker:none;enable-background:accumulate" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path91204"
+           d="M 9.8749686,5.7570683 H 8.630075 V 8.8356284 H 5.5515129 V 10.080524 H 8.630075 v 3.07856 h 1.2448936 v -3.07856 H 12.953531 V 8.8356284 H 9.8749686 Z"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#1db900;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41108823;marker:none;enable-background:accumulate" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path91206"
+           d="m 7.1964053,2.672895 c -2.4673366,0 -4.7290657,0 -4.7290657,4.4467508 v 4.6768502 c 0,4.446761 2.2617291,4.446761 4.7290657,4.446761 h 4.1122307 c 2.467339,0 4.729064,0 4.729064,-4.446761 V 7.1196458 c 0,-4.4467508 -2.261725,-4.4467508 -4.729064,-4.4467508 z m 0.3839158,1.2336693 h 3.3443969 c 2.440034,0 3.879313,0 3.879313,3.7403641 v 3.6222976 c 0,3.740362 -1.439279,3.740362 -3.879313,3.740362 H 7.5803211 c -2.4400293,0 -3.8793122,0 -3.8793122,-3.740362 V 7.6469284 c 0,-3.7403641 1.4392829,-3.7403641 3.8793122,-3.7403641 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#1db900;fill-opacity:1;stroke:none;stroke-width:0.20554411" />
       </g>
     </symbol>
     <symbol
        id="removed-bale-mark">
       <title
          id="title93901">Removed Bale</title>
-      <g bale:transform="concat('scale(', 0.5 * $inches, ')')">
-      <rect
-         transform="scale(1,-1)"
-         y="-18.698111"
-         x="0.11428567"
-         height="18.625002"
-         width="18.625"
-         id="rect93903"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.05;fill:none;stroke:none;stroke-width:0.41375312;marker:none;enable-background:accumulate" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path93905"
-         d="M 5.7017856,8.7591281 V 10.012094 H 13.151786 V 8.7591281 Z"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#c20000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41375312;marker:none;enable-background:accumulate" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path93907"
-         d="m 7.3573411,2.5564445 c -2.4833322,0 -4.7597233,0 -4.7597233,4.475577 V 11.7392 c 0,4.475577 2.2763911,4.475577 4.7597233,4.475577 h 4.1388879 c 2.483334,0 4.759721,0 4.759721,-4.475577 V 7.0320215 c 0,-4.475577 -2.276387,-4.475577 -4.759721,-4.475577 z m 0.3864034,1.2416666 h 3.3660785 c 2.455852,0 3.90446,0 3.90446,3.7646112 V 11.2085 c 0,3.764611 -1.448608,3.764611 -3.90446,3.764611 H 7.7437445 c -2.4558472,0 -3.9044595,0 -3.9044595,-3.764611 V 7.5627223 c 0,-3.7646112 1.4486123,-3.7646112 3.9044595,-3.7646112 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#c20000;fill-opacity:1;stroke:none;stroke-width:0.20687656" />
+      <g
+         bale:transform="concat('scale(', 0.5 * $inches, ')')"
+         id="g5">
+        <rect
+           transform="scale(1,-1)"
+           y="-18.698111"
+           x="0.11428567"
+           height="18.625002"
+           width="18.625"
+           id="rect93903"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.05;fill:none;stroke:none;stroke-width:0.41375312;marker:none;enable-background:accumulate" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path93905"
+           d="M 5.7017856,8.7591281 V 10.012094 H 13.151786 V 8.7591281 Z"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#c20000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41375312;marker:none;enable-background:accumulate" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path93907"
+           d="m 7.3573411,2.5564445 c -2.4833322,0 -4.7597233,0 -4.7597233,4.475577 V 11.7392 c 0,4.475577 2.2763911,4.475577 4.7597233,4.475577 h 4.1388879 c 2.483334,0 4.759721,0 4.759721,-4.475577 V 7.0320215 c 0,-4.475577 -2.276387,-4.475577 -4.759721,-4.475577 z m 0.3864034,1.2416666 h 3.3660785 c 2.455852,0 3.90446,0 3.90446,3.7646112 V 11.2085 c 0,3.764611 -1.448608,3.764611 -3.90446,3.764611 H 7.7437445 c -2.4558472,0 -3.9044595,0 -3.9044595,-3.764611 V 7.5627223 c 0,-3.7646112 1.4486123,-3.7646112 3.9044595,-3.7646112 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#c20000;fill-opacity:1;stroke:none;stroke-width:0.20687656" />
       </g>
     </symbol>
   </defs>
@@ -1122,7 +1215,7 @@
      id="text8675"
      y="66.949242"
      x="408.97916"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.3333px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      xml:space="preserve"><tspan
        y="66.949242"
        x="408.97916"
@@ -1397,4 +1490,16 @@
      y="0"
      width="100%"
      height="100%" />
+  <use
+     xlink:href="#rat-tube-6"
+     id="use1"
+     transform="translate(552,354)" />
+  <use
+     xlink:href="#rat-tube-7"
+     id="use1-9"
+     transform="translate(582,354)" />
+  <use
+     xlink:href="#rat-tube-8"
+     id="use1-93"
+     transform="translate(612,354)" />
 </svg>
