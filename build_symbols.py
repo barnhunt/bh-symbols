@@ -117,23 +117,26 @@ class BaleSet(SymbolSet):
         return f"bh-bales-{dimensions}.svg"
 
 
-# Non-templated (non-bale) symbol sets
+BALE_SIZES = [
+    {"length": 36, "width": 18, "height": 15},
+    {"length": 39, "width": 18, "height": 15},
+    {"length": 42, "width": 18, "height": 16},
+    {"length": 48, "width": 18, "height": 16},
+    {"length": 52, "width": 18, "height": 16},
+    {"length": 48, "width": 24, "height": 18, "strings": 3},
+    {"length": 45, "width": 22, "height": 16, "strings": 3},
+]
+
+
 SYMBOL_SETS = [
+    SymbolSet("bh-rings.svg"),
     SymbolSet("bh-bits.svg"),
     SymbolSet("bh-bits.svg", scale=60),
-    SymbolSet("bh-rings.svg"),
-
-    BaleSet(length=36, width=18, height=15),
-    BaleSet(length=39, width=18, height=15),
-    BaleSet(length=42, width=18, height=16),
-    BaleSet(length=48, width=18, height=16),
-    BaleSet(length=52, width=18, height=16),
-
-    BaleSet(length=48, width=24, height=18, strings=3),
-    BaleSet(length=45, width=22, height=16, strings=3),
-
-    BaleSet(length=39, width=18, height=15, scale=60),
-    BaleSet(length=42, width=18, height=16, scale=60),
+    *(
+        BaleSet(**size, **scale)
+        for size in BALE_SIZES
+        for scale in ({}, {"scale": 60})
+    ),
 ]
 
 

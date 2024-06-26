@@ -1,6 +1,10 @@
 ## Changes
 
-### 1.1.0rc1 (unreleased)
+### 1.2.0rc1 (unreleased)
+
+- Generate all bale sizes in 60:1 scale (as well as the default 48:1 scale).
+
+### 1.1.0rc1 (2023-08-19)
 
 - Add a set of 39x18x15 bales in 60:1 scale.
 - Generate bh-bits symbols in 60:1 scale.
