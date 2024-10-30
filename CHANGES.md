@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.3.0rc1 (unreleased)
+### 1.3.0rc1 (2024-10-30)
 
 - Add a set of 45x18x15 bales
 
