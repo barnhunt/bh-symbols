@@ -1,5 +1,9 @@
 ## Changes
 
+### 1.3.0rc2 (unreleased)
+
+- Update workflow actions to latest versions
+
 ### 1.3.0rc1 (2024-10-30)
 
 - Add a set of 45x18x15 bales
