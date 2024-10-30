@@ -121,6 +121,7 @@ BALE_SIZES = [
     {"length": 36, "width": 18, "height": 15},
     {"length": 39, "width": 18, "height": 15},
     {"length": 42, "width": 18, "height": 16},
+    {"length": 45, "width": 18, "height": 16},
     {"length": 48, "width": 18, "height": 16},
     {"length": 52, "width": 18, "height": 16},
     {"length": 48, "width": 24, "height": 18, "strings": 3},

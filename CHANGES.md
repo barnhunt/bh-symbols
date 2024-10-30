@@ -1,5 +1,9 @@
 ## Changes
 
+### 1.3.0rc1 (unreleased)
+
+- Add a set of 45x18x15 bales
+
 ### 1.2.0rc1 (2024-06-26)
 
 - Generate all bale sizes in 60:1 scale (as well as the default 48:1 scale).
